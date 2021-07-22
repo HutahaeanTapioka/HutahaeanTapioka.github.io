@@ -101,13 +101,13 @@ body {
   padding: 50px;
 }
 
-h2, h4 {
+.kop-kecil h2, h4 {
   font-family: "Rasa";
   text-align: center;
   letter-spacing: 1.5px;
 }
 
-.bg-kotak{
+.side-img{
   background-color: rgba(3, 99, 56, 0.69);
   width: 614px;
   height: 504px;
@@ -116,13 +116,174 @@ h2, h4 {
   float: left;
 }
 
-.sejarah img {
+.side-img img {
   position: relative;
-  left: -36%;
-  margin-top: 7%;
+  left: 10%;
+  margin-top: -11%;
 }
+
 .text-sejarah {
+  float: left;
+  padding: 5px;
+  width: 45% ;
+  height: 700px;
+  margin-top: 7.5%;
+  margin-left: 10%;
+}
+
+.text-sejarah h1 {
+  font-family: "Rasa";
+  font-size: 50px;
+}
+
+.text-sejarah p {
+  font-family: "Rasa";
+  font-size: 30px;
+}
+
+
+.judul-profil {
+  background-color: #752D2D;
+  padding-top: 40px;
+  padding-left: 90px;
+  margin-left: -8%;
+  margin-right: 40%;
+  position:relative;
+  top: -130px;
+}
+
+.judul-profil h1{
+  font-family: "Rasa";
+}
+
+.kotak-bg {
+  background-color: #992727;
+  height: 100px;
+  width: 70%;
+}
+
+.text-profil {
+  width: 40%;
+  margin-left: 10%;
+  padding-top: 6%;
+  float: left;
+}
+
+.text-profil p {
+  font-family: "Rasa";
+  font-size: 30px;
+}
+
+.judul-profil h1 {
+  font-family: "Rasa";
+  font-size: 50px;
+  color: #fff;
+}
+
+.profil img {
   float: right;
+  position: relative;
+  margin-top: -8%;
+  margin-right: 15%;;
+}
+
+.visi-misi img {
+  padding-top: 10%;
+  float: left;
+}
+
+.text-visi-misi {
+  font-family: "Rasa";
+  color: #fff;
+  position: relative;
+  padding-top: 9.2%;
+  left: -25%;
+  font-size: xx-large;
+  width: max-content;
+}
+
+.text-visi-misi span {
+  color: #000;
+}
+
+.text-visi-misi h1 {
+  text-align: center;
+  color: #000;
+  font-size: 50px;
+}
+
+.hutahaean-group a {
+  color: #000;
+  font-weight: bold;
+  font-size: larger;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.hutahaean-group img {
+  margin-top: 10%;
+  width: 100%;
+}
+
+.hutahaean-group ul {
+  margin : 2% 0;
+  text-align: center;
+  padding-left: 10%;
+}
+
+.hutahaean-group ul li {
+  display: inline-block;
+  margin: 1px 1.8%;
+  text-align: center;
+  padding-right: 17%;
+}
+
+.footer {
+  background-color: #066338;
+  height: 400px;
+}
+
+.description, .link, .contact-information {
+  display: inline;
+  width: 27%;
+  margin: 3%;
+  padding: 0 2.7%;
+  float: left;
+  color: #fff;
+  font-family: "Rasa";
+}
+
+.description {
+  width: 35%;
+}
+
+.link {
+  width: 20%;
+}
+
+.contact-information {
+width: 27%;
+}
+
+.description p, .link p, .contact-information p{
+  font-size: x-large;
+}
+
+.description h1, .link h1, .contact-information h1{
+  font-weight: normal;
+  font: sans-serif;
+}
+
+.link a {
+  color: #fff;
+  font-size: x-large;
+  text-decoration: none;
+  font-family: "Rasa";
+}
+
+.link ul li {
+  display: block;
 }
 
 hr {
