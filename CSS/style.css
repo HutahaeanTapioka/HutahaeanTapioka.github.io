@@ -70,6 +70,7 @@ body {
 .judul {
   color: #036338;
   text-align: center;
+  letter-spacing: 1px;
 }
 
 .navigasi a {
@@ -78,6 +79,7 @@ body {
   font-size: larger;
   text-decoration: none;
   text-transform: uppercase;
+  letter-spacing: 1.5px;
 }
 
 .navigasi ul {
@@ -93,6 +95,34 @@ body {
 .button-slider {
   margin: 25%;
   text-align: center;
+}
+
+.kop-kecil {
+  padding: 50px;
+}
+
+h2, h4 {
+  font-family: "Rasa";
+  text-align: center;
+  letter-spacing: 1.5px;
+}
+
+.bg-kotak{
+  background-color: rgba(3, 99, 56, 0.69);
+  width: 614px;
+  height: 504px;
+  margin-left: 5%;
+  margin-top: 12%;
+  float: left;
+}
+
+.sejarah img {
+  position: relative;
+  left: -36%;
+  margin-top: 7%;
+}
+.text-sejarah {
+  float: right;
 }
 
 hr {
