@@ -64,23 +64,18 @@ body {
 
 .indonesia img {
   position: relative;
-  width: 50px;
-  height: 50px;
-  left: 1300px;
+  left: 82%;
   top: 60px;
 }
 
 .english img {
   position: relative;
-  width: 50px;
-  height: 50px;
-  left: 1314px;
+  left: 84%;
   top: 60px;
-
 }
 
 .img-logo{
-  margin: 1% 47%;
+  margin: 0.3% 47%;
 
 }
 
@@ -88,6 +83,7 @@ body {
   color: #036338;
   text-align: center;
   letter-spacing: 1px;
+  font-size: 150%;
 }
 
 .navigasi a {
@@ -97,6 +93,7 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 1.5px;
+  font-size: 100%;
 }
 
 .navigasi ul {
@@ -126,17 +123,21 @@ body {
 
 .side-img{
   background-color: rgba(3, 99, 56, 0.69);
-  width: 614px;
-  height: 504px;
+  width: 40%;
+  height: 400px;
   margin-left: 5%;
   margin-top: 12%;
   float: left;
+  box-sizing: border-box;
 }
 
 .side-img img {
   position: relative;
+  width: 100%;
+  height: 400px;
   left: 10%;
   margin-top: -11%;
+  box-sizing: border-box;
 }
 
 .text-sejarah {
@@ -146,6 +147,7 @@ body {
   height: 700px;
   margin-top: 7.5%;
   margin-left: 10%;
+  box-sizing: border-box;
 }
 
 .text-sejarah h1 {
@@ -155,9 +157,8 @@ body {
 
 .text-sejarah p {
   font-family: "Rasa";
-  font-size: 30px;
+  font-size: 27px;
 }
-
 
 .judul-profil {
   background-color: #752D2D;
@@ -180,10 +181,12 @@ body {
 }
 
 .text-profil {
-  width: 40%;
+  width: 50%;
+  margin-top: -10%;
   margin-left: 10%;
   padding-top: 6%;
   float: left;
+  box-sizing: border-box;
 }
 
 .text-profil p {
@@ -198,10 +201,13 @@ body {
 }
 
 .profil img {
+  width: 25%;
+  height: 90%;
   float: right;
   position: relative;
-  margin-top: -8%;
-  margin-right: 15%;;
+  margin-top: -10%;
+  margin-right: 15%;
+  box-sizing: border-box;
 }
 
 .visi-misi img {
@@ -213,10 +219,11 @@ body {
   font-family: "Rasa";
   color: #fff;
   position: relative;
-  padding-top: 9.2%;
-  left: -25%;
-  font-size: xx-large;
-  width: max-content;
+  padding-top: 10%;
+  left: -32%;
+  font-size: x-large;
+  width: 122%;
+  box-sizing: border-box;
 }
 
 .text-visi-misi span {
@@ -232,7 +239,7 @@ body {
 .hutahaean-group a {
   color: #000;
   font-weight: bold;
-  font-size: larger;
+  font-size: 100%;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 1.5px;
@@ -258,13 +265,13 @@ body {
 
 .footer {
   background-color: #066338;
-  height: 400px;
+  height: 320px;
 }
 
 .description, .link, .contact-information {
   display: inline;
   width: 27%;
-  margin: 3%;
+  margin: 5% 3%;
   padding: 0 2.7%;
   float: left;
   color: #fff;
@@ -284,17 +291,18 @@ width: 27%;
 }
 
 .description p, .link p, .contact-information p{
-  font-size: x-large;
+  font-size: 100%;
 }
 
 .description h1, .link h1, .contact-information h1{
   font-weight: normal;
+  font-size: 150%;
   font: sans-serif;
 }
 
 .link a {
   color: #fff;
-  font-size: x-large;
+  font-size: 100%;
   text-decoration: none;
   font-family: "Rasa";
 }
