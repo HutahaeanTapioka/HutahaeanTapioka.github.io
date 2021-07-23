@@ -219,9 +219,9 @@ body {
   font-family: "Rasa";
   color: #fff;
   position: relative;
-  padding-top: 10%;
-  left: -32%;
-  font-size: x-large;
+  padding-top: 15%;
+  left: -26%;
+  font-size: 20px ;
   width: 122%;
   box-sizing: border-box;
 }
@@ -233,7 +233,7 @@ body {
 .text-visi-misi h1 {
   text-align: center;
   color: #000;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .hutahaean-group a {
