@@ -874,6 +874,455 @@ width: 27%;
   font-size: 60px;
 }
  /*------------------*/
+/*-----Produk--------*/
+
+.produk {
+  color: #fff;
+  margin-top: 25%;
+  margin-left: 10%;
+  font-size: 60px;
+}
+
+.bg-produk {
+  background-image: url(../assets/background-produk.jpg);
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.bulat {
+  border-radius: 250px;
+  background: #066239;
+  width: 300px;
+  height: 250px;
+  left: 0px;
+  margin-top: 30px;
+  padding-top: 100px;
+  margin: 20px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.kotak {
+  background-color: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  padding: 10px;
+  width: 1030px;
+  height: auto;
+  margin-top: -130px;
+  margin-left: 300px;
+}
+
+.kotak h1 {
+  font-family: "Rasa";
+  font-size: 50px;
+  text-align: justify;
+
+}
+
+.kotak p {
+  font-family: "Rasa";
+  font-size: 30px;
+  text-align: justify;
+}
+
+.bg-second {
+  background-image: url(../assets/bg-second.jpg);
+  position: absolute;
+  width: 1350px;
+  height: 496px;
+  left: 0px;
+  top: 1300px;
+
+}
+
+.merah h1 {
+  background-color: #F31A41;
+  position: absolute;
+  width: 360px;
+  height: 70px;
+  left: 212px;
+  top: 10%;
+  margin: auto;
+  text-align: center;
+}
+
+.merah p {
+  position: absolute;
+  width: 295px;
+  height: 142px;
+  left: 212px;
+  top: 125px;
+
+  font-family: "Rasa";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 37px;
+}
+
+.kuning h1 {
+  background-color: #EBE31E;
+  position: absolute;
+  width: 360px;
+  height: 70px;
+  left: 550px;
+  top: 25%;
+  margin: auto;
+  text-align: center;
+
+}
+
+.kuning p {
+  position: absolute;
+  width: 295px;
+  height: 142px;
+  left: 550px;
+  top: 190px;
+
+  font-family: "Rasa";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 37px;
+}
+
+.hijau-muda h1 {
+  background-color: #4ADF9D;
+  position: absolute;
+  width: 360px;
+  height: 70px;
+  left: 880px;
+  top: 40%;
+  margin: auto;
+  text-align: center;
+}
+
+.hijau-muda p {
+  position: absolute;
+  width: 295px;
+  height: 142px;
+  left: 880px;
+  top: 265px;
+
+  font-family: "Rasa";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 37px;
+}
+
+.komposisi {
+  color: #000000;
+  position: absolute;
+  width: 306px;
+  height: 88px;
+  left: 0px;
+  top: 1870px;
+
+  font-family: "Rasa";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 88px;
+}
+
+.kotak-hijau {
+  background-color: #066239;
+  position: absolute;
+  width: 194px;
+  height: 420px;
+  left: -6px;
+  top: 1920px;
+}
+
+.kotak-merah {
+  background-color: #992727;
+  position: absolute;
+  width: 208px;
+  height: 340px;
+  left: 44px;
+  top: 50px;
+}
+
+.kotak-abu {
+  background-color: #615F5F;
+  position: absolute;
+  width: 190px;
+  height: 286px;
+  left: 134px;
+  top: 35px;
+}
+
+.kotak-abu p {
+  position: absolute;
+  width: 900px;
+  height: 468px;
+  left: 220px;
+  top: -100px;
+
+  font-family: "Rasa";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: justify;
+
+  color: #000000;
+}
+
+.kadaluarsa {
+  position: absolute;
+  width: 872px;
+  height: 194px;
+  left: 0px;
+  top: 2600px;
+
+  background: #8CAECD;
+}
+
+.kadaluarsa p {
+  position: absolute;
+  width: 713px;
+  height: 132px;
+  left: 13px;
+  top: 50px;
+
+  font-family: "Rasa";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: justify;
+
+  color: #000000;
+}
+
+.masa {
+  position: absolute;
+  width: 576px;
+  height: 164px;
+  left: 760px;
+  top: -20px;
+
+  background: #7B6B6B;
+}
+
+.masa p {
+  position: absolute;
+  width: 497px;
+  height: 88px;
+  left: 50px;
+  top: 50px;
+  font-family: "Rasa";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 88px;
+
+  color: #000000;
+}
+
+.dd {
+  position: absolute;
+  border-radius: 100px;
+  width: 212px;
+  height: 158px;
+  left: 53px;
+  top: 2890px;
+
+  background: #066239;
+}
+
+.dd h1 {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  left: 90px;
+  top: 65px;
+
+  font-family: "Rasa";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 44px;
+
+  text-align: justify;
+
+  color: #000000;
+}
+
+.dd p {
+  position: absolute;
+  background-color: #C4C4C4;
+  width: 1000px;
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  top: 20px;
+  left: 250px;
+
+  font-family: "Rasa";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 37px;
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.mm {
+  position: absolute;
+  border-radius: 100px;
+  width: 212px;
+  height: 158px;
+  left: 53px;
+  top: 3100px;
+
+  background: #066239;
+}
+
+.mm h1 {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  left: 90px;
+  top: 65px;
+
+  font-family: "Rasa";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 44px;
+
+  text-align: justify;
+
+  color: #000000;
+}
+
+.mm p {
+  position: absolute;
+  background-color: #C4C4C4;
+  width: 1000px;
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  top: 20px;
+  left: 250px;
+
+  font-family: "Rasa";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 37px;
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.yyy {
+  position: absolute;
+  border-radius: 100px;
+  width: 212px;
+  height: 158px;
+  left: 53px;
+  top: 3310px;
+
+  background: #066239;
+}
+
+.yyy h1 {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  left: 90px;
+  top: 65px;
+
+  font-family: "Rasa";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 44px;
+
+  text-align: justify;
+
+  color: #000000;
+}
+
+.yyy p {
+  position: absolute;
+  background-color: #C4C4C4;
+  width: 1000px;
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  top: 20px;
+  left: 250px;
+
+  font-family: "Rasa";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 37px;
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.bg-third {
+  background-image: url(../assets/bg-third.jpg);
+  position: absolute;
+  width: 1350px;
+  height: 422px;
+  left: 0px;
+  top: 3600px;
+}
+
+.bg-third h1 {
+  position: absolute;
+  width: 1294px;
+  height: 163px;
+  left: auto;
+  right: auto;
+  top: 150px;
+
+  font-family: "Oranienbaum";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 83px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.bg-third p {
+  position: absolute;
+  width: auto;
+  height: auto;
+  left: 1100px;
+  right: 0px;
+  top: 370px;
+
+  font-family: "Oranienbaum";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #000000;
+}
+
+.footer-1 {
+  background-color: #066338;
+  height: 400px;
+  margin-top: 220%;
+}
+
+/*-------------------*/
 
 hr {
   margin: 1rem 0;
