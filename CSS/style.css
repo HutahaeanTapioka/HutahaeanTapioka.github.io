@@ -60,6 +60,14 @@ body {
   background-image: url(../assets/Main-Screen.jpg);
   background-size: cover;
   min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.bg-sejarah {
+  background-image: url(../assets/sejarah.png);
+  background-size: cover;
+  min-height: 100vh;
+  box-sizing: border-box;
 }
 
 .indonesia img {
@@ -111,6 +119,11 @@ body {
   text-align: center;
 }
 
+.bg-sejarah h3 {
+  padding: 10%;
+  margin-top: 25%;
+}
+
 .kop-kecil {
   padding: 50px;
 }
@@ -125,7 +138,7 @@ body {
   background-color: rgba(3, 99, 56, 0.69);
   width: 40%;
   height: 400px;
-  margin-left: 5%;
+  margin-left: 3%;
   margin-top: 12%;
   float: left;
   box-sizing: border-box;
@@ -146,7 +159,7 @@ body {
   width: 45% ;
   height: 700px;
   margin-top: 7.5%;
-  margin-left: 10%;
+  margin-left: 7%;
   box-sizing: border-box;
 }
 
@@ -160,24 +173,27 @@ body {
   font-size: 27px;
 }
 
-.judul-profil {
+.judul-profil h1 {
   background-color: #752D2D;
+  width: 96%;
   padding-top: 40px;
   padding-left: 90px;
   margin-left: -8%;
   margin-right: 40%;
   position:relative;
-  top: -130px;
-}
-
-.judul-profil h1{
+  top: -27%;
   font-family: "Rasa";
+  font-size: 50px;
+  color: #fff;
+  box-sizing: border-box;
 }
 
-.kotak-bg {
+
+.judul-profil {
   background-color: #992727;
   height: 100px;
   width: 70%;
+  box-sizing: border-box;
 }
 
 .text-profil {
@@ -192,12 +208,6 @@ body {
 .text-profil p {
   font-family: "Rasa";
   font-size: 30px;
-}
-
-.judul-profil h1 {
-  font-family: "Rasa";
-  font-size: 50px;
-  color: #fff;
 }
 
 .profil img {
@@ -248,6 +258,7 @@ body {
 .hutahaean-group img {
   margin-top: 10%;
   width: 100%;
+  box-sizing: border-box;
 }
 
 .hutahaean-group ul {
@@ -276,6 +287,7 @@ body {
   float: left;
   color: #fff;
   font-family: "Rasa";
+  box-sizing: border-box;
 }
 
 .description {
