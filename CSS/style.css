@@ -889,16 +889,59 @@ width: 27%;
 
  /* Grup*/
 .bg-grup {
-  background-image: url(../assets/grup.png);
+  background-image: url(../assets/hutahaean-group.png);
   background-size: cover;
   min-height: 100vh;
 }
 
-.hthgrup {
-  color: #fff;
-  margin-top: 23%;
-  margin-left: 10%;
+.bg-grup h3 {  
+  font-family: "Rasa";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 78px;
+  color: #FFFFFF;
+  padding: 50px;
+  margin-top: 30%;
+}
+
+.hutahaean-grup-1 {
+  color: black;
+  margin-left: 8%;
   font-size: 60px;
+  padding: 4%;
+}
+
+.hutahaean-grup-1 h3{
+  font-weight: normal;
+}
+
+.hutahaean-grup-1 a {
+  color: black;
+  text-decoration: none;
+}
+
+.hutahaean-grup-2 {
+  color: black;
+  margin-left: 8%;
+  font-size: 60px;
+  padding: 4%;
+}
+
+.hutahaean-grup-2 h3{
+  font-weight: normal;
+}
+
+.hutahaean-grup-3 {
+  color: black;
+  margin-left: 8%;
+  font-size: 60px;
+  padding: 4%;
+  margin-bottom: 100px;
+}
+
+.hutahaean-grup-3 h3{
+  font-weight: normal;
 }
 
  /*------------------*/
