@@ -60,6 +60,14 @@ body {
   background-image: url(../assets/Main-Screen.jpg);
   background-size: cover;
   min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.bg-sejarah {
+  background-image: url(../assets/sejarah.png);
+  background-size: cover;
+  min-height: 100vh;
+  box-sizing: border-box;
 }
 
 .bgvisimisi-main {
@@ -117,6 +125,11 @@ body {
   text-align: center;
 }
 
+.bg-sejarah h3 {
+  padding: 10%;
+  margin-top: 25%;
+}
+
 .kop-kecil {
   padding: 50px;
 }
@@ -131,7 +144,7 @@ body {
   background-color: rgba(3, 99, 56, 0.69);
   width: 40%;
   height: 400px;
-  margin-left: 5%;
+  margin-left: 3%;
   margin-top: 12%;
   float: left;
   box-sizing: border-box;
@@ -152,7 +165,7 @@ body {
   width: 45% ;
   height: 700px;
   margin-top: 7.5%;
-  margin-left: 10%;
+  margin-left: 7%;
   box-sizing: border-box;
 }
 
@@ -166,24 +179,27 @@ body {
   font-size: 27px;
 }
 
-.judul-profil {
+.judul-profil h1 {
   background-color: #752D2D;
+  width: 96%;
   padding-top: 40px;
   padding-left: 90px;
   margin-left: -8%;
   margin-right: 40%;
   position:relative;
-  top: -130px;
-}
-
-.judul-profil h1{
+  top: -27%;
   font-family: "Rasa";
+  font-size: 50px;
+  color: #fff;
+  box-sizing: border-box;
 }
 
-.kotak-bg {
+
+.judul-profil {
   background-color: #992727;
   height: 100px;
   width: 70%;
+  box-sizing: border-box;
 }
 
 .text-profil {
@@ -198,12 +214,6 @@ body {
 .text-profil p {
   font-family: "Rasa";
   font-size: 30px;
-}
-
-.judul-profil h1 {
-  font-family: "Rasa";
-  font-size: 50px;
-  color: #fff;
 }
 
 .profil img {
@@ -254,6 +264,7 @@ body {
 .hutahaean-group img {
   margin-top: 10%;
   width: 100%;
+  box-sizing: border-box;
 }
 
 .hutahaean-group ul {
@@ -282,6 +293,7 @@ body {
   float: left;
   color: #fff;
   font-family: "Rasa";
+  box-sizing: border-box;
 }
 
 .description {
@@ -536,7 +548,7 @@ width: 27%;
   font-size: 36px;
   line-height: 75px;
   color: #FFFFFF;
-  padding: 15px;
+  padding: 10px;
 }
 
 .deskripsi5 {
@@ -658,7 +670,7 @@ width: 27%;
   font-size: 36px;
   line-height: 65px;
   color: #FFFFFF;
-  padding: 15px;
+  padding: 10px;
 }
 
 .deskripsi8 {
@@ -699,7 +711,7 @@ width: 27%;
   font-size: 36px;
   line-height: 65px;
   color: #FFFFFF;
-  padding: 15px;
+  padding: 10px;
 }
 
 .deskripsi9 {
@@ -740,7 +752,7 @@ width: 27%;
   font-size: 36px;
   line-height: 75px;
   color: #FFFFFF;
-  padding: 15px;
+  padding: 10px;
 }
 
 .deskripsi10 {
@@ -781,7 +793,7 @@ width: 27%;
   font-size: 36px;
   line-height: 65px;
   color: #FFFFFF;
-  padding: 15px;
+  padding: 10px;
 }
 
 .deskripsi11 {
@@ -822,7 +834,7 @@ width: 27%;
   font-size: 36px;
   line-height: 75px;
   color: #FFFFFF;
-  padding: 15px;
+  padding: 20px;
 }
 
 .deskripsi12 {
@@ -876,6 +888,7 @@ width: 27%;
  /*------------------*/
 /*-----Produk--------*/
 
+<<<<<<< HEAD
 .produk {
   color: #fff;
   margin-top: 25%;
@@ -885,10 +898,16 @@ width: 27%;
 
 .bg-produk {
   background-image: url(../assets/background-produk.jpg);
+=======
+ /* Grup*/
+.bg-grup {
+  background-image: url(../assets/hutahaean-group.png);
+>>>>>>> b7bcffd15b221fc7d4aec03c04d6a2e4ca6f0f7d
   background-size: cover;
   min-height: 100vh;
 }
 
+<<<<<<< HEAD
 .bulat {
   border-radius: 250px;
   background: #066239;
@@ -1329,6 +1348,60 @@ width: 27%;
 
 
 /*------------------*/
+=======
+.bg-grup h3 {  
+  font-family: "Rasa";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 78px;
+  color: #FFFFFF;
+  padding: 50px;
+  margin-top: 30%;
+}
+
+.hutahaean-grup-1 {
+  color: black;
+  margin-left: 8%;
+  font-size: 60px;
+  padding: 4%;
+}
+
+.hutahaean-grup-1 h3{
+  font-weight: normal;
+}
+
+.hutahaean-grup-1 a {
+  color: black;
+  text-decoration: none;
+}
+
+.hutahaean-grup-2 {
+  color: black;
+  margin-left: 8%;
+  font-size: 60px;
+  padding: 4%;
+}
+
+.hutahaean-grup-2 h3{
+  font-weight: normal;
+}
+
+.hutahaean-grup-3 {
+  color: black;
+  margin-left: 8%;
+  font-size: 60px;
+  padding: 4%;
+  margin-bottom: 100px;
+}
+
+.hutahaean-grup-3 h3{
+  font-weight: normal;
+}
+
+ /*------------------*/
+
+>>>>>>> b7bcffd15b221fc7d4aec03c04d6a2e4ca6f0f7d
 hr {
   margin: 1rem 0;
   color: inherit;
