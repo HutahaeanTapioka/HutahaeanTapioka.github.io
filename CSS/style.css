@@ -1319,11 +1319,16 @@ width: 27%;
 .footer-1 {
   background-color: #066338;
   height: 400px;
-  margin-top: 220%;
+  margin-top: 215%;
 }
 
 /*-------------------*/
 
+
+
+
+
+/*------------------*/
 hr {
   margin: 1rem 0;
   color: inherit;
