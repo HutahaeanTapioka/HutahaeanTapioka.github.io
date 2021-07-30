@@ -57,17 +57,17 @@ body {
 }
 
 .bg-main {
+  width: 100%;
+  min-height: 100vh;
   background-image: url(../assets/Main-Screen.jpg);
   background-size: cover;
-  min-height: 100vh;
-  box-sizing: border-box;
+  background-position: center center;
 }
 
 .bg-sejarah {
   background-image: url(../assets/sejarah.png);
   background-size: cover;
   min-height: 100vh;
-  box-sizing: border-box;
 }
 
 .bgvisimisi-main {
@@ -886,6 +886,46 @@ width: 27%;
   font-size: 60px;
 }
  /*------------------*/
+ /*---Sejarah-------*/
+ .bg-sejarah h3 {
+   color: #fff;
+   font-size: 50px;
+ }
+ 
+ .sejarah-content h1 {
+  background-color: #066239;
+  width: 40%;
+  padding: 2%;
+  font-family: "Rasa";
+  font-size: 50px;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+.top-sejarah img {
+  width: 100%;
+}
+
+.sejarah-content p {
+  padding: 10px;
+  font-size: larger;
+  text-indent: 3%;
+}
+
+.side-img-sejarah img {
+  float: left;
+  width: 20%;
+  margin: 20px;
+  margin-bottom: 0px;
+}
+
+.bottom-sejarah img{
+  width: 30%;
+  margin: 2% 35%;
+}
+
+ /*-----------------*/
+
 
 hr {
   margin: 1rem 0;
