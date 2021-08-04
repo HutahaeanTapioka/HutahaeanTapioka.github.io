@@ -65,9 +65,12 @@ body {
 }
 
 .bg-sejarah {
+  width: 100%;
+  max-height: 100vh;
   background-image: url(../assets/sejarah.png);
   background-size: cover;
-  min-height: 100vh;
+  background-position: center center;
+  box-sizing: border-box;
 }
 
 .bgvisimisi-main {
@@ -90,7 +93,6 @@ body {
 
 .img-logo{
   margin: 0.3% 47%;
-
 }
 
 .judul {
@@ -126,8 +128,8 @@ body {
 }
 
 .bg-sejarah h3 {
-  padding: 10%;
-  margin-top: 25%;
+  padding: 4%;
+  margin-top: 17%;
 }
 
 .kop-kecil {
@@ -349,6 +351,34 @@ width: 27%;
   font-family: "Rasa";
   text-align: center;
   padding-bottom: 75px;
+}
+
+li.dropdown {
+  display: inline-block;
+  width: 15.5%;
+}
+
+.dropdown:hover .isi-dropdown {
+  display: block;
+}
+
+.isi-dropdown {
+  position: absolute;
+  display: none;
+  box-shadow: 0px 8px 16px 0px rgba(39, 36, 36, 0.2);
+  z-index: 1;
+  background-color: #000;
+  opacity: 0.7;
+}
+
+.isi-dropdown a {
+  color: #fff !important;
+  text-transform: capitalize;
+  letter-spacing: 0;
+}
+
+.isi-dropdown a:hover {
+  color: #036338 !important;
 }
 
 /* Proses Produksi*/
@@ -886,7 +916,6 @@ width: 27%;
   font-size: 60px;
 }
  /*------------------*/
-<<<<<<< HEAD
  /*---Sejarah-------*/
  .bg-sejarah h3 {
    color: #fff;
@@ -926,8 +955,6 @@ width: 27%;
 }
 
  /*-----------------*/
-
-=======
 /*-----Produk--------*/
 .produk {
   color: #fff;
@@ -1501,7 +1528,6 @@ width: 27%;
   margin-top: 25%;
   margin-left: 35%;
 /* identical to box height */
->>>>>>> c255dff99d60751035b782f571dafb8d459a33e3
 
   display: flex;
   align-items: center;
