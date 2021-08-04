@@ -1723,6 +1723,90 @@ li.dropdown {
 }
 
  /*------------------*/
+
+ /*KONTAK*/
+
+.bg-kontak {
+  background-image: url(../assets/bg-kontak.png);
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.kontak {
+  color: #fff;
+  margin-top: 23%;
+  margin-left: 10%;
+  font-size: 60px;
+}
+
+.kontak-kami {
+  position: absolute;
+  width: 1345px;
+  height: 104px;
+  left: 2px;
+  top: 900px;
+
+  background: #036338;
+}
+
+.kontak-kami h1 {
+  position: absolute;
+  width: 1442px;
+  height: 73px;
+  left: 2px;
+  top: 20px;
+
+  font-family: Rasa;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 78px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.kontak-1 {
+  position: absolute;
+  left: 6.25%;
+  right: 87.36%;
+  top: 180%;
+  bottom: 51.4%;
+}
+
+.kontak-2 {
+  position: absolute;
+  left: 6.6%;
+  right: 87.71%;
+  top: 205%;
+  bottom: 46.87%;
+}
+
+.kontak-3 {
+  position: absolute;
+  left: 6.6%;
+  right: 86.32%;
+  top: 230%;
+  bottom: 42.4%;
+}
+
+.bg-kontak2 {
+  background-image: url(../assets/kontak-second.png);
+  margin-top: 900px;
+  height: 691px;
+}
+
+.footer-3 {
+  background-color: #066338;
+  height: 400px;
+  margin-top: 100px;
+}
+
+
+ /*------------------*/
+
+
+
 hr {
   margin: 1rem 0;
   color: inherit;
