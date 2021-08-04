@@ -982,25 +982,33 @@ li.dropdown {
 
 .kotak {
   background-color: rgba(0, 0, 0, 0.1);
-  position: absolute;
   padding: 10px;
   width: 1030px;
-  height: auto;
   margin-top: -130px;
   margin-left: 300px;
 }
 
 .kotak h1 {
   font-family: "Rasa";
-  font-size: 50px;
+  font-size: 20px;
   text-align: justify;
 
 }
 
 .kotak p {
-  font-family: "Rasa";
+  width: 830px;
+  height: 148px;
+  left: 535px;
+  top: 1300px;
+
+  font-family: Rasa;
+  font-style: normal;
+  font-weight: normal;
   font-size: 30px;
+  line-height: 37px;
   text-align: justify;
+
+  color: #000000;
 }
 
 .bg-second {
