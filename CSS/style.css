@@ -368,7 +368,6 @@ h4 {
   padding-bottom: 75px;
 }
 
-<<<<<<< HEAD
 .poligon{
 position: absolute;
 width: 1271px;
@@ -379,8 +378,9 @@ top: 1290px;
 background: rgba(6, 98, 57, 0.34);
 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 218px;
-=======
-li.dropdown {
+}
+
+.li.dropdown {
   display: inline-block;
   width: 15.5%;
 }
@@ -406,7 +406,6 @@ li.dropdown {
 
 .isi-dropdown a:hover {
   color: #036338 !important;
->>>>>>> b8f735c9e0161690c531770ed3c32271ad3122e3
 }
 
 /* Proses Produksi*/
@@ -2040,9 +2039,9 @@ li.dropdown {
   height: 400px;
   margin-top: 100px;
 }
-<<<<<<< HEAD
- /*Bahan Baku*/
- .bgbahanbaku-main {
+
+/*Bahan Baku*/
+.bgbahanbaku-main {
   background-image: url(../assets/bahanbaku.png);
   background-size: cover;
   min-height: 100vh;
@@ -2191,14 +2190,9 @@ li.dropdown {
   margin-top: -20%;
   margin-left: 2%;
 }
-=======
 
 
 /*------------------*/
-
->>>>>>> b8f735c9e0161690c531770ed3c32271ad3122e3
-
-
 hr {
   margin: 1rem 0;
   color: inherit;
