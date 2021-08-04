@@ -919,22 +919,20 @@ li.dropdown {
   margin-left: 10%;
   font-size: 60px;
 }
-<<<<<<< HEAD
 
 /*------------------*/
 
 /* Grup*/
-=======
- /*------------------*/
- /*---Sejarah-------*/
- .bg-sejarah h3 {
+/*------------------*/
+/*---Sejarah-------*/
+.bg-sejarah h3 {
   color: #fff;
   margin-top: 23%;
   margin-left: 10%;
   font-size: 40px;
- }
- 
- .sejarah-content h1 {
+}
+
+.sejarah-content h1 {
   background-color: #066239;
   width: 40%;
   padding: 2%;
@@ -961,12 +959,12 @@ li.dropdown {
   margin-bottom: 0px;
 }
 
-.bottom-sejarah img{
+.bottom-sejarah img {
   width: 30%;
   margin: 2% 35%;
 }
 
- /*-----------------*/
+/*-----------------*/
 /*-----Produk--------*/
 .produk {
   color: #fff;
@@ -1413,6 +1411,7 @@ li.dropdown {
   height: 400px;
   margin-top: 215%;
 }
+
 /*-------------------*/
 /*Pengolahan Limbah*/
 .pengolahanlimbah {
@@ -1539,7 +1538,7 @@ li.dropdown {
   line-height: 40px;
   margin-top: 25%;
   margin-left: 35%;
-/* identical to box height */
+  /* identical to box height */
 
   display: flex;
   align-items: center;
@@ -1549,7 +1548,7 @@ li.dropdown {
   color: #000000;
 }
 
-.garis-limbah img{
+.garis-limbah img {
   position: absolute;
   width: 583px;
   height: 0px;
@@ -1560,7 +1559,7 @@ li.dropdown {
   transform: rotate(90.1deg)
 }
 
-.limbah-1 img{
+.limbah-1 img {
   position: absolute;
   left: 150px;
   top: 1850px;
@@ -1599,7 +1598,7 @@ li.dropdown {
 
 }
 
-.limbah-2 img{
+.limbah-2 img {
   position: absolute;
   left: 150px;
   top: 2150px;
@@ -1635,7 +1634,8 @@ li.dropdown {
   margin-right: 20%;
   color: #000000;
 }
-.limbah-3 img{
+
+.limbah-3 img {
   position: absolute;
   left: 150px;
   top: 2450px;
@@ -1679,20 +1679,16 @@ li.dropdown {
   height: 400px;
   margin-top: auto;
 }
+
 /*------------------*/
- /* Grup*/
->>>>>>> 517236a09b270b3d1f99808da719ff0b5e36250e
+/* Grup*/
 .bg-grup {
   background-image: url(../assets/hutahaean-group.png);
   background-size: cover;
   min-height: 100vh;
 }
-<<<<<<< HEAD
 
 .bg-grup h3 {
-=======
-.bg-grup h3 {  
->>>>>>> 517236a09b270b3d1f99808da719ff0b5e36250e
   font-family: "Rasa";
   font-style: normal;
   font-weight: normal;
@@ -1923,8 +1919,6 @@ li.dropdown {
   height: 37px;
   left: 1063px;
   top: 1744px;
-
-<<<<<<< HEAD
   font-family: Rasa;
   font-size: 30px;
   line-height: 37px;
@@ -1945,7 +1939,7 @@ li.dropdown {
 /* hr {
     margin: 1rem 0;
 =======
- /*KONTAK*/
+/*KONTAK*/
 
 .bg-kontak {
   background-image: url(../assets/bg-kontak.png);
@@ -2024,21 +2018,19 @@ li.dropdown {
 }
 
 
- /*------------------*/
+/*------------------*/
 
 
 
 hr {
   margin: 1rem 0;
->>>>>>> 517236a09b270b3d1f99808da719ff0b5e36250e
   color: inherit;
   background-color: currentColor;
   border: 0;
   opacity: 0.25;
-} */
+}
 
-
-hr:not([size]) {
+*/ hr:not([size]) {
   height: 1px;
 }
 
