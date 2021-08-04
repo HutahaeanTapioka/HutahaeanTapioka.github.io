@@ -313,6 +313,7 @@ h4 {
 }
 
 .link {
+  padding: 0;
   width: 20%;
 }
 
@@ -339,10 +340,12 @@ h4 {
   font-size: 100%;
   text-decoration: none;
   font-family: "Rasa";
+  text-indent: -0.3;
 }
 
 .link ul li {
   display: block;
+  margin-left: -11%;
 }
 
 /* Visi Misi*/
@@ -380,7 +383,7 @@ box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 218px;
 }
 
-.li.dropdown {
+li.dropdown {
   display: inline-block;
   width: 15.5%;
 }
