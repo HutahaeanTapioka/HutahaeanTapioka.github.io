@@ -79,16 +79,19 @@ body {
   min-height: 100vh;
 }
 
-.indonesia img {
+.indonesia {
   position: relative;
   left: 82%;
   top: 60px;
 }
 
-.english img {
+.english {
   position: relative;
   left: 84%;
   top: 60px;
+}
+*{
+  border: #000 1px solid;
 }
 
 .img-logo{
