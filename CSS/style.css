@@ -59,12 +59,14 @@ body {
 
 .cf:before,
 .cf:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
 }
 
 .cf:after {
-    clear: both;
+  clear: both;
 }
 
 .bg-main {
@@ -371,16 +373,16 @@ h4 {
   padding-bottom: 75px;
 }
 
-.poligon{
-position: absolute;
-width: 1271px;
-height: 1073px;
-left: -130px;
-top: 1290px;
+.poligon {
+  position: absolute;
+  width: 1271px;
+  height: 1073px;
+  left: -130px;
+  top: 1290px;
 
-background: rgba(6, 98, 57, 0.34);
-box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 218px;
+  background: rgba(6, 98, 57, 0.34);
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 218px;
 }
 
 li.dropdown {
@@ -948,8 +950,82 @@ li.dropdown {
 
 /*------------------*/
 
-/* Grup*/
-/*------------------*/
+/* Sertifikat */
+.bg-sertifikat {
+  background-image: url(../assets/serti-bg.png);
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.ktk {
+  position: absolute;
+  width: 370px;
+  left: 41px;
+  top: 877px;
+  background-color: #066239;
+  font-family: Rasa;
+  font-weight: 300;
+  font-size: 50px;
+  line-height: 78px;
+}
+
+.apa {
+  padding: 1500px;
+}
+
+.tulisan {
+  position: absolute;
+  width: 576.69px;
+  height: 686px;
+  left: 31px;
+  top: 1000px;
+
+  font-family: Rasa;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 49px;
+  text-align: justify;
+}
+
+.serti-1 {
+  position: absolute;
+  left: 672px;
+  top: 1007px;
+}
+
+.serti-2 {
+  position: absolute;
+  left: 16px;
+  top: 1722px;
+}
+
+.serti-3 {
+  position: absolute;
+  left: 759px;
+  top: 1722px;
+}
+
+.halal {
+  position: absolute;
+  left: 329px;
+  top: 2837px;
+}
+
+.elips-1 {
+  position: absolute;
+  left: -32px;
+  top: 3093px;
+}
+
+.elips-2 {
+  position: absolute;
+  left: 975px;
+  top: 2686px;
+}
+
+/* ----------------- */
+
 /*---Sejarah-------*/
 .bg-sejarah h3 {
   color: #fff;
@@ -2065,7 +2141,7 @@ li.dropdown {
   font-size: 60px;
 }
 
-.judul-bahanbaku{
+.judul-bahanbaku {
   width: 304px;
   height: 64px;
   margin-left: 48px;
@@ -2073,7 +2149,7 @@ li.dropdown {
   background: #4D2424;
 }
 
-.judul-bahanbaku h2{
+.judul-bahanbaku h2 {
   position: relative;
   width: 298px;
   height: 56px;
@@ -2087,7 +2163,7 @@ li.dropdown {
   box-sizing: border-box;
 }
 
-.content-bahanbaku img{
+.content-bahanbaku img {
   width: 500px;
   height: 235px;
   left: 41px;
@@ -2096,24 +2172,24 @@ li.dropdown {
   margin-bottom: 2%
 }
 
-.content-bahanbaku h3{
+.content-bahanbaku h3 {
   margin-top: 2%;
   margin-left: 4%;
 }
 
-.content-bahanbaku p{
-  width : 50%;
+.content-bahanbaku p {
+  width: 50%;
   padding: 1%;
   margin-left: 3%;
   box-sizing: border-box;
 }
 
-.pengenalan-bahanbaku{
+.pengenalan-bahanbaku {
   width: 40%;
   position: relative;
   left: 60%;
   top: -420px;
-  
+
 }
 
 .pengenalan-bahanbaku p {
@@ -2122,7 +2198,7 @@ li.dropdown {
 
 .content-bahanbaku h5 {
   background-color: #066239;
-  color:#fff;
+  color: #fff;
   padding: 1%;
   width: 27%;
   position: relative;
@@ -2140,7 +2216,7 @@ li.dropdown {
 
 .content-bahanbaku h6 {
   background-color: #066239;
-  color:#fff;
+  color: #fff;
   padding: 1%;
   width: 20%;
   position: relative;
@@ -2152,7 +2228,7 @@ li.dropdown {
 
 .content-bahanbaku h7 {
   background-color: #066239;
-  color:#fff;
+  color: #fff;
   padding: 1%;
   width: 25%;
   position: relative;
@@ -2162,7 +2238,7 @@ li.dropdown {
   margin-top: -15%;
 }
 
-.content-bahanbaku h8{
+.content-bahanbaku h8 {
   font-weight: bold;
   margin-left: 3%;
   text-decoration: underline;
@@ -2186,7 +2262,7 @@ li.dropdown {
 
 .content-bahanbaku h9 {
   background-color: #066239;
-  color:#fff;
+  color: #fff;
   padding: 1%;
   width: 25%;
   position: relative;
