@@ -239,10 +239,10 @@ h4 {
 }
 
 .visi-misi img {
-  padding-top: 10%;
-  float: left;
+  width: 100%;
+  margin-top: 10%;
 }
-
+/*
 .text-visi-misi {
   font-family: "Rasa";
   color: #fff;
@@ -263,6 +263,7 @@ h4 {
   color: #000;
   font-size: 40px;
 }
+*/
 
 .hutahaean-group a {
   color: #000;
@@ -385,8 +386,12 @@ h4 {
   border-radius: 218px;
 }
 
-li.dropdown {
+.dropdown {
+  position: relative;
   display: inline-block;
+}
+
+li.dropdown {
   width: 15.5%;
 }
 
@@ -407,10 +412,16 @@ li.dropdown {
   color: #fff !important;
   text-transform: capitalize;
   letter-spacing: 0;
+  font-weight: normal;
 }
+
 
 .isi-dropdown a:hover {
   color: #036338 !important;
+}
+
+ul.isi-dropdown {
+  text-align: left;
 }
 
 /* Proses Produksi*/
@@ -1095,34 +1106,23 @@ li.dropdown {
 }
 
 .kotak {
-  background-color: rgba(0, 0, 0, 0.1);
-  padding: 10px;
-  width: 1030px;
-  margin-top: -130px;
-  margin-left: 300px;
+  position: absolute;
+  width: 1000px;
+  height: 250px;
+  left: -350px;
+  top: 850px;
+
+  background: rgba(0, 0, 0, 0.1);
+
 }
 
 .kotak h1 {
   font-family: "Rasa";
-  font-size: 20px;
+  font-size: 35px;
   text-align: justify;
-
-}
-
-.kotak p {
-  width: 830px;
-  height: 148px;
-  left: 535px;
-  top: 1300px;
-
-  font-family: Rasa;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 30px;
-  line-height: 37px;
-  text-align: justify;
-
-  color: #000000;
+  line-height: 30px;
+  margin-right: 20px;
+  margin-left: 10px;
 }
 
 .bg-second {
@@ -1540,7 +1540,7 @@ li.dropdown {
 .padat {
   width: 422px;
   height: 101px;
-  top: 2000px;
+  top: 1900px;
   bottom: 2000px;
   margin-left: 10%;
 
@@ -1561,8 +1561,8 @@ li.dropdown {
   background-image: url(../assets/kotakpadat.png);
   width: 660px;
   height: 258px;
-  left: 50px;
-  top: 1050px;
+  margin-left: 51.5%;
+  margin-top: 5%;
 
   background: #FFFFFF;
   border: 1px solid #615F5F;
