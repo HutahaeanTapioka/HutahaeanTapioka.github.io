@@ -2227,6 +2227,10 @@ ul.isi-dropdown {
   margin-top: -22%;
 }
 
+.paragraf-2 p{
+  margin-left: 3%;
+}
+
 .bagian-bahanbaku h3 {
   background-color: #066239;
   color: #fff;
@@ -2238,12 +2242,7 @@ ul.isi-dropdown {
   font-family: rasa;
 }
 
-<<<<<<< HEAD
-.bagian-bahanbaku p{
-=======
-.content-bahanbaku h8 {
-  font-weight: bold;
->>>>>>> d1bf85667f2cd80d1ebe48a79cc2c1a26d9680e5
+.paragraf-3 p{
   margin-left: 3%;
 }
 
@@ -2253,6 +2252,10 @@ ul.isi-dropdown {
   font-family: rasa;
   font-weight: bold;
   text-decoration: underline;
+}
+
+.paragraf-4 p{
+  margin-left: 3%;
 }
 
 .gambar-bahanbaku {
@@ -2286,6 +2289,7 @@ ul.isi-dropdown {
 
 .paragraf-5 p {
 line-height: 75%;
+margin-left: 3%;
 }
 
 .bagian-bahanbaku h6{
@@ -2299,6 +2303,13 @@ line-height: 75%;
   font-family: rasa;
 }
 
+.paragraf-6 p {
+  margin-left: 3%;
+}
+
+.paragraf-7 p {
+  margin-left: 3%;
+}
 .tabel-bahanbaku img{
   width: 80%;
   margin-left: 8%;
