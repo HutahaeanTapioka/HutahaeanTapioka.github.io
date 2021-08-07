@@ -242,6 +242,7 @@ h4 {
   width: 100%;
   margin-top: 10%;
 }
+
 /*
 .text-visi-misi {
   font-family: "Rasa";
@@ -434,7 +435,7 @@ ul.isi-dropdown {
 .garis img {
   height: 2250px;
   padding: 0 50%;
-  margin-bottom: 500px;
+  margin-bottom: 239px;
 }
 
 .timbangan {
@@ -1003,6 +1004,7 @@ ul.isi-dropdown {
   position: absolute;
   left: 672px;
   top: 1007px;
+  background-color: green;
 }
 
 .serti-2 {
@@ -2238,7 +2240,7 @@ ul.isi-dropdown {
   width: 90%;
 }
 
-.content-bahanbaku h5 {
+.bagian-bahanbaku h1 {
   background-color: #066239;
   color: #fff;
   padding: 1%;
@@ -2247,16 +2249,17 @@ ul.isi-dropdown {
   left: 3%;
 }
 
-.judul-1 {
+.bagian-bahanbaku h1 {
   top: -450px;
+  font-size: 150%;
 }
 
-.content-bahanbaku ol {
+.bagian-bahanbaku ol {
   margin-top: -37%;
   margin-left: 2%;
 }
 
-.content-bahanbaku h6 {
+.bagian-bahanbaku h2 {
   background-color: #066239;
   color: #fff;
   padding: 1%;
@@ -2268,7 +2271,11 @@ ul.isi-dropdown {
   margin-top: -22%;
 }
 
-.content-bahanbaku h7 {
+.paragraf-2 p{
+  margin-left: 3%;
+}
+
+.bagian-bahanbaku h3 {
   background-color: #066239;
   color: #fff;
   padding: 1%;
@@ -2277,20 +2284,29 @@ ul.isi-dropdown {
   left: 3%;
   font-size: 25px;
   font-family: rasa;
-  margin-top: -15%;
 }
 
-.content-bahanbaku h8 {
-  font-weight: bold;
+.paragraf-3 p{
   margin-left: 3%;
+}
+
+.bagian-bahanbaku h4 {
+  margin-left: -57%;
+  font-size: 15px;
+  font-family: rasa;
+  font-weight: bold;
   text-decoration: underline;
+}
+
+.paragraf-4 p{
+  margin-left: 3%;
 }
 
 .gambar-bahanbaku {
   background-color: #066239;
   width: 40%;
   height: 500px;
-  margin-top: -45%;
+  margin-top: -40%;
   margin-left: 55%;
   margin-bottom: 2%;
 }
@@ -2298,28 +2314,51 @@ ul.isi-dropdown {
 .gambar-bahanbaku img {
   width: 45%;
   height: 40%;
-  margin-top: 6%;
+  margin-top: 7%;
+  margin-left: 3%;
 
 }
 
-.content-bahanbaku h9 {
+.bagian-bahanbaku h5 {
   background-color: #066239;
   color: #fff;
   padding: 1%;
-  width: 25%;
+  width: 20%;
   position: relative;
   left: 3%;
   font-size: 25px;
   font-family: rasa;
-  margin-top: -15%;
+  margin-top: -5%;
 }
 
-
-.p-lahan ol li {
-  margin-top: -20%;
-  margin-left: 2%;
+.paragraf-5 p {
+line-height: 75%;
+margin-left: 3%;
 }
 
+.bagian-bahanbaku h6{
+  background-color: #066239;
+  color:#fff;
+  padding: 1%;
+  width: 20%;
+  position: relative;
+  left: 3%;
+  font-size: 25px;
+  font-family: rasa;
+}
+
+.paragraf-6 p {
+  margin-left: 3%;
+}
+
+.paragraf-7 p {
+  margin-left: 3%;
+}
+.tabel-bahanbaku img{
+  width: 80%;
+  margin-left: 8%;
+  margin-bottom: 2%;
+}
 
 /*------------------*/
 hr {
