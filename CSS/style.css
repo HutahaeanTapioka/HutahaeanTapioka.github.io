@@ -242,6 +242,7 @@ h4 {
   width: 100%;
   margin-top: 10%;
 }
+
 /*
 .text-visi-misi {
   font-family: "Rasa";
@@ -434,7 +435,7 @@ ul.isi-dropdown {
 .garis img {
   height: 2250px;
   padding: 0 50%;
-  margin-bottom: 500px;
+  margin-bottom: 239px;
 }
 
 .timbangan {
@@ -1003,6 +1004,7 @@ ul.isi-dropdown {
   position: absolute;
   left: 672px;
   top: 1007px;
+  background-color: green;
 }
 
 .serti-2 {
