@@ -2109,7 +2109,7 @@ border-radius: 218px;
   width: 90%;
 }
 
-.content-bahanbaku h5 {
+.bagian-bahanbaku h1 {
   background-color: #066239;
   color:#fff;
   padding: 1%;
@@ -2118,16 +2118,17 @@ border-radius: 218px;
   left: 3%;
 }
 
-.judul-1 {
+.bagian-bahanbaku h1 {
   top: -450px;
+  font-size: 150%;
 }
 
-.content-bahanbaku ol {
+.bagian-bahanbaku ol {
   margin-top: -37%;
   margin-left: 2%;
 }
 
-.content-bahanbaku h6 {
+.bagian-bahanbaku h2 {
   background-color: #066239;
   color:#fff;
   padding: 1%;
@@ -2139,7 +2140,7 @@ border-radius: 218px;
   margin-top: -22%;
 }
 
-.content-bahanbaku h7 {
+.bagian-bahanbaku h3 {
   background-color: #066239;
   color:#fff;
   padding: 1%;
@@ -2148,12 +2149,17 @@ border-radius: 218px;
   left: 3%;
   font-size: 25px;
   font-family: rasa;
-  margin-top: -15%;
 }
 
-.content-bahanbaku h8{
-  font-weight: bold;
+.bagian-bahanbaku p{
   margin-left: 3%;
+}
+
+.bagian-bahanbaku h4 {
+  margin-left: -57%;
+  font-size: 15px;
+  font-family: rasa;
+  font-weight: bold;
   text-decoration: underline;
 }
 
@@ -2161,7 +2167,7 @@ border-radius: 218px;
   background-color: #066239;
   width: 40%;
   height: 500px;
-  margin-top: -45%;
+  margin-top: -40%;
   margin-left: 55%;
   margin-bottom: 2%;
 }
@@ -2169,28 +2175,43 @@ border-radius: 218px;
 .gambar-bahanbaku img {
   width: 45%;
   height: 40%;
-  margin-top: 6%;
+  margin-top: 7%;
+  margin-left: 3%;
 
 }
 
-.content-bahanbaku h9 {
+.bagian-bahanbaku h5 {
   background-color: #066239;
   color:#fff;
   padding: 1%;
-  width: 25%;
+  width: 20%;
   position: relative;
   left: 3%;
   font-size: 25px;
   font-family: rasa;
-  margin-top: -15%;
+  margin-top: -5%;
 }
 
-
-.p-lahan ol li {
-  margin-top: -20%;
-  margin-left: 2%;
+.paragraf-5 p {
+line-height: 75%;
 }
 
+.bagian-bahanbaku h6{
+  background-color: #066239;
+  color:#fff;
+  padding: 1%;
+  width: 20%;
+  position: relative;
+  left: 3%;
+  font-size: 25px;
+  font-family: rasa;
+}
+
+.tabel-bahanbaku img{
+  width: 80%;
+  margin-left: 8%;
+  margin-bottom: 2%;
+}
 
 /*------------------*/
 hr {
