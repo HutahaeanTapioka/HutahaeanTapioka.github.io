@@ -2140,6 +2140,23 @@ ul.isi-dropdown {
   bottom: 42.4%;
 }
 
+.email {
+  position: absolute;
+  width: 892px;
+  height: 80px;
+  left: 344px;
+  top: 1475px;
+
+  font-family: "Rasa";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 78px;
+  text-align: justify;
+
+  color: #000000;
+}
+
 .bg-kontak2 {
   background-image: url(../assets/kontak-second.png);
   margin-top: 900px;
