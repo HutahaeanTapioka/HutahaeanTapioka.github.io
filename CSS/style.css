@@ -430,7 +430,9 @@ li.dropdown {
 .bg-proses {
   background-image: url(../assets/background1.jpg);
   background-size: cover;
+  width: 100%;
   min-height: 100vh;
+  background-position: center center;
 }
 
 .garis img {
@@ -450,33 +452,27 @@ li.dropdown {
 .judul1 {
   background-color: #066239;
   position: absolute;
-  width: 414px;
+  width: 200px;
   height: 68px;
   left: 767px;
   top: 860px;
   font-family: Rasa;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 36px;
+  font-size: 25px;
   line-height: 75px;
   color: #FFFFFF;
-  padding: 15px;
 }
 
 .deskripsi1 {
   background-color: #C4C4C4;
   position: absolute;
-  width: 673px;
-  height: 129px;
+  width: 573px;
+  height: 80px;
   left: 767px;
   top: 928px;
   font-family: Rasa;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 30px;
+  font-size: 20px;
   line-height: 37px;
   text-align: justify;
-  padding: 15px;
 }
 
 .oci {
@@ -490,34 +486,28 @@ li.dropdown {
 .judul2 {
   background-color: #066239;
   position: absolute;
-  width: 392px;
+  width: 192px;
   height: 69px;
-  left: 216px;
+  left: 366px;
   top: 1054px;
   font-family: Rasa;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 36px;
+  font-size: 25px;
   line-height: 75px;
   color: #FFFFFF;
-  padding: 15px;
 }
 
 .deskripsi2 {
   background-color: #C4C4C4;
   position: absolute;
-  width: 608px;
-  height: 106px;
-  left: 0px;
+  width: 508px;
+  height: 80px;
+  left: 50px;
   top: 1123px;
   font-family: Rasa;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 30px;
+  font-size: 20px;
   line-height: 37px;
   text-align: justify;
   color: #000000;
-  padding: 15px;
 }
 
 .pengering {
@@ -531,34 +521,28 @@ li.dropdown {
 .judul3 {
   background-color: #066239;
   position: absolute;
-  width: 405px;
+  width: 200px;
   height: 70px;
   left: 767px;
   top: 1250px;
   font-family: Rasa;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 36px;
+  font-size: 25px;
   line-height: 75px;
   color: #FFFFFF;
-  padding: 15px;
 }
 
 .deskripsi3 {
   background-color: #C4C4C4;
   position: absolute;
-  width: 673px;
-  height: 94px;
+  width: 573px;
+  height: 78px;
   left: 767px;
   top: 1320px;
   font-family: Rasa;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 30px;
+  font-size: 20px;
   line-height: 37px;
   text-align: justify;
   color: #000000;
-  padding: 15px;
 }
 
 .pencuci {
@@ -572,34 +556,28 @@ li.dropdown {
 .judul4 {
   background-color: #066239;
   position: absolute;
-  width: 408px;
+  width: 208px;
   height: 64px;
-  left: 200px;
+  left: 350px;
   top: 1450px;
   font-family: Rasa;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 36px;
+  font-size: 25px;
   line-height: 65px;
   color: #FFFFFF;
-  padding: 10px;
 }
 
 .deskripsi4 {
   background-color: #C4C4C4;
   position: absolute;
-  width: 608px;
-  height: 125px;
-  left: 0px;
+  width: 508px;
+  height: 80px;
+  left: 50px;
   top: 1508px;
   font-family: Rasa;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 30px;
+  font-size: 20px;
   line-height: 37px;
   text-align: justify;
   color: #000000;
-  padding: 15px;
 }
 
 .pemotong {
@@ -613,33 +591,27 @@ li.dropdown {
 .judul5 {
   background-color: #066239;
   position: absolute;
-  width: 405px;
+  width: 200px;
   height: 68px;
   left: 767px;
   top: 1675px;
   font-family: Rasa;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 36px;
+  font-size: 25px;
   line-height: 75px;
   color: #FFFFFF;
-  padding: 10px;
 }
 
 .deskripsi5 {
   background-color: #C4C4C4;
   position: absolute;
-  width: 673px;
-  height: 91px;
+  width: 573px;
+  height: 81px;
   left: 767px;
   top: 1737px;
   font-family: Rasa;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 30px;
+  font-size: 20px;
   line-height: 37px;
   color: #000000;
-  padding: 15px;
 }
 
 .penggiling {
@@ -653,34 +625,28 @@ li.dropdown {
 .judul6 {
   background-color: #066239;
   position: absolute;
-  width: 392px;
+  width: 192px;
   height: 63px;
-  left: 216px;
+  left: 366px;
   top: 1852px;
   font-family: Rasa;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 36px;
+  font-size: 25px;
   line-height: 65px;
   color: #FFFFFF;
-  padding: 15px;
 }
 
 .deskripsi6 {
   background-color: #C4C4C4;
   position: absolute;
-  width: 608px;
-  height: 101px;
-  left: 0px;
+  width: 508px;
+  height: 81px;
+  left: 50px;
   top: 1913px;
   font-family: Rasa;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 30px;
+  font-size: 20px;
   line-height: 37px;
   text-align: justify;
   color: #000000;
-  padding: 15px;
 }
 
 .pemisah {
@@ -694,34 +660,28 @@ li.dropdown {
 .judul7 {
   background-color: #066239;
   position: absolute;
-  width: 405px;
+  width: 200px;
   height: 66px;
   left: 767px;
   top: 2048px;
   font-family: Rasa;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 36px;
+  font-size: 25px;
   line-height: 65px;
   color: #FFFFFF;
-  padding: 15px;
 }
 
 .deskripsi7 {
   background-color: #C4C4C4;
   position: absolute;
-  width: 675px;
-  height: 98px;
+  width: 575px;
+  height: 48px;
   left: 767px;
   top: 2113px;
   font-family: Rasa;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 30px;
+  font-size: 20px;
   line-height: 37px;
   text-align: justify;
   color: #000000;
-  padding: 15px;
 }
 
 .pemisahzat {
@@ -735,34 +695,28 @@ li.dropdown {
 .judul8 {
   background-color: #066239;
   position: absolute;
-  width: 392px;
+  width: 192px;
   height: 62px;
-  left: 216px;
+  left: 366px;
   top: 2259px;
   font-family: Rasa;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 36px;
+  font-size: 25px;
   line-height: 65px;
   color: #FFFFFF;
-  padding: 10px;
 }
 
 .deskripsi8 {
   background-color: #C4C4C4;
   position: absolute;
-  width: 608px;
-  height: 127px;
-  left: 0px;
+  width: 508px;
+  height: 87px;
+  left: 50px;
   top: 2318px;
   font-family: Rasa;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 30px;
+  font-size: 20px;
   line-height: 37px;
   text-align: justify;
   color: #000000;
-  padding: 15px;
 }
 
 .dewatering {
@@ -776,34 +730,28 @@ li.dropdown {
 .judul9 {
   background-color: #066239;
   position: absolute;
-  width: 403px;
+  width: 203px;
   height: 59px;
   left: 769px;
   top: 2450px;
   font-family: Rasa;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 36px;
+  font-size: 25px;
   line-height: 65px;
   color: #FFFFFF;
-  padding: 10px;
 }
 
 .deskripsi9 {
   background-color: #C4C4C4;
   position: absolute;
-  width: 666px;
-  height: 163px;
+  width: 566px;
+  height: 110px;
   left: 769px;
   top: 2507px;
   font-family: Rasa;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 30px;
+  font-size: 20px;
   line-height: 37px;
   text-align: justify;
   color: #000000;
-  padding: 15px;
 }
 
 .pengeringpati {
@@ -817,34 +765,28 @@ li.dropdown {
 .judul10 {
   background-color: #066239;
   position: absolute;
-  width: 410px;
+  width: 210px;
   height: 64px;
-  left: 198px;
+  left: 348px;
   top: 2684px;
   font-family: Rasa;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 36px;
+  font-size: 25px;
   line-height: 75px;
   color: #FFFFFF;
-  padding: 10px;
 }
 
 .deskripsi10 {
   background-color: #C4C4C4;
   position: absolute;
-  width: 608px;
-  height: 100px;
-  left: 0px;
+  width: 508px;
+  height: 50px;
+  left: 50px;
   top: 2748px;
   font-family: Rasa;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 30px;
+  font-size: 20px;
   line-height: 37px;
   text-align: justify;
   color: #000000;
-  padding: 15px;
 }
 
 .pengayakan {
@@ -858,34 +800,28 @@ li.dropdown {
 .judul11 {
   background-color: #066239;
   position: absolute;
-  width: 384px;
+  width: 184px;
   height: 64px;
   left: 769px;
   top: 2850px;
   font-family: Rasa;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 36px;
+  font-size: 25px;
   line-height: 65px;
   color: #FFFFFF;
-  padding: 10px;
 }
 
 .deskripsi11 {
   background-color: #C4C4C4;
   position: absolute;
-  width: 671px;
-  height: 134px;
+  width: 571px;
+  height: 80px;
   left: 769px;
   top: 2906px;
   font-family: Rasa;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 30px;
+  font-size: 20px;
   line-height: 37px;
   text-align: justify;
   color: #000000;
-  padding: 15px;
 }
 
 .packing {
@@ -899,55 +835,45 @@ li.dropdown {
 .judul12 {
   background-color: #066239;
   position: absolute;
-  width: 410px;
+  width: 210px;
   height: 75px;
-  left: 198px;
+  left: 348px;
   top: 3058px;
   font-family: Rasa;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 36px;
+  font-size: 25px;
   line-height: 75px;
   color: #FFFFFF;
-  padding: 20px;
 }
 
 .deskripsi12 {
   background-color: #C4C4C4;
   position: absolute;
-  width: 608px;
-  height: 97px;
-  left: 0px;
+  width: 508px;
+  height: 77px;
+  left: 50px;
   top: 3133px;
   font-family: Rasa;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 30px;
+  font-size: 20px;
   line-height: 37px;
   text-align: justify;
   color: #000000;
-  padding: 15px;
 }
 
 .gambarbawah {
   position: absolute;
   width: 1437px;
   height: 326px;
-  left: 0px;
+  left: -90px;
   top: 3300px;
 }
 
 .motivasi1 {
   position: absolute;
-  width: 1124px;
   height: 280px;
-  left: 160px;
+  left: 100px;
   top: 100px;
-
   font-family: Mada;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 55px;
+  font-size: 20px;
   line-height: 100px;
   text-align: center;
   color: #FFFFFF;
@@ -2272,7 +2198,7 @@ li.dropdown {
   margin-top: -22%;
 }
 
-.paragraf-2 p{
+.paragraf-2 p {
   margin-left: 3%;
 }
 
@@ -2287,7 +2213,7 @@ li.dropdown {
   font-family: rasa;
 }
 
-.paragraf-3 p{
+.paragraf-3 p {
   margin-left: 3%;
 }
 
@@ -2299,7 +2225,7 @@ li.dropdown {
   text-decoration: underline;
 }
 
-.paragraf-4 p{
+.paragraf-4 p {
   margin-left: 3%;
 }
 
@@ -2333,13 +2259,13 @@ li.dropdown {
 }
 
 .paragraf-5 p {
-line-height: 75%;
-margin-left: 3%;
+  line-height: 75%;
+  margin-left: 3%;
 }
 
-.bagian-bahanbaku h6{
+.bagian-bahanbaku h6 {
   background-color: #066239;
-  color:#fff;
+  color: #fff;
   padding: 1%;
   width: 20%;
   position: relative;
@@ -2355,7 +2281,8 @@ margin-left: 3%;
 .paragraf-7 p {
   margin-left: 3%;
 }
-.tabel-bahanbaku img{
+
+.tabel-bahanbaku img {
   width: 80%;
   margin-left: 8%;
   margin-bottom: 2%;
