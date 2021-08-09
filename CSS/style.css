@@ -416,15 +416,16 @@ li.dropdown {
   font-weight: normal;
 }
 
-
 .isi-dropdown a:hover {
   color: #036338 !important;
 }
 
-ul.isi-dropdown {
+.dropdown ul li {
+  width: 100%;
+  padding-right: 20px;
+  display: block;
   text-align: left;
 }
-
 /* Proses Produksi*/
 .bg-proses {
   background-image: url(../assets/background1.jpg);
