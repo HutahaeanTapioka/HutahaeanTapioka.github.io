@@ -893,74 +893,75 @@ ul.isi-dropdown {
   background-image: url(../assets/serti-bg.png);
   background-size: cover;
   min-height: 100vh;
+  width: 100%;
+  background-position: center center;
 }
 
-.ktk {
-  position: absolute;
-  width: 370px;
-  left: 41px;
-  top: 877px;
-  background-color: #066239;
-  font-family: Rasa;
-  font-weight: 300;
+.bg-sertifikat h3 {
   font-size: 50px;
   line-height: 78px;
+  color: #FFFFFF;
+  padding: 50px;
+  margin-top: 20%;
 }
 
 .apa {
-  padding: 1500px;
+  font-family: Rasa;
+  margin: 1600px;
 }
 
-.tulisan {
+.apa h1 {
   position: absolute;
-  width: 576.69px;
-  height: 686px;
-  left: 31px;
-  top: 1000px;
+  width: 180px;
+  left: 91px;
+  top: 877px;
+  background-color: #066239;
+  font-weight: 280px;
+  font-size: 25px;
+  line-height: 48px;
+}
 
-  font-family: Rasa;
-  font-style: normal;
+.apa p {
+  position: absolute;
+  width: 400px;
+  left: 91px;
+  top: 940px;
   font-weight: 300;
-  font-size: 36px;
-  line-height: 49px;
+  font-size: 20px;
+  line-height: 25px;
   text-align: justify;
+  text-indent: 50px;
 }
 
 .serti-1 {
   position: absolute;
-  left: 672px;
-  top: 1007px;
-  background-color: green;
+  left: 570px;
+  top: 900px;
+  height: 300px;
 }
 
 .serti-2 {
   position: absolute;
-  left: 16px;
-  top: 1722px;
+  left: 130px;
+  top: 1300px;
+  height: 600px;
+  width: 500px;
 }
 
 .serti-3 {
   position: absolute;
-  left: 759px;
-  top: 1722px;
+  left: 730px;
+  top: 1300px;
+  height: 600px;
+  width: 500px;
 }
 
 .halal {
   position: absolute;
-  left: 329px;
-  top: 2837px;
-}
-
-.elips-1 {
-  position: absolute;
-  left: -32px;
-  top: 3093px;
-}
-
-.elips-2 {
-  position: absolute;
-  left: 975px;
-  top: 2686px;
+  left: 520px;
+  top: 2000px;
+  height: 400px;
+  width: 300px;
 }
 
 /* ----------------- */
@@ -1749,56 +1750,32 @@ ul.isi-dropdown {
   background-image: url(../assets/hutahaean-group.png);
   background-size: cover;
   min-height: 100vh;
+  width: 100%;
+  background-position: center center;
 }
 
 .bg-grup h3 {
-  font-family: "Rasa";
-  font-style: normal;
-  font-weight: normal;
   font-size: 50px;
   line-height: 78px;
   color: #FFFFFF;
   padding: 50px;
-  margin-top: 30%;
+  margin-top: 20%;
 }
 
-.hutahaean-grup-1 {
-  color: black;
-  margin-left: 8%;
-  font-size: 60px;
-  padding: 4%;
+.hth-grup {
+  padding: 5%;
+  margin-top: -60px;
+  font-family: "Rasa";
+  margin-left: 5%;
 }
 
-.hutahaean-grup-1 h3 {
-  font-weight: normal;
+.hth-grup ul {
+  font-size: 25px;
 }
 
-.hutahaean-grup-1 a {
-  color: black;
+.hth-grup a {
+  color: grey;
   text-decoration: none;
-}
-
-.hutahaean-grup-2 {
-  color: black;
-  margin-left: 8%;
-  font-size: 60px;
-  padding: 4%;
-}
-
-.hutahaean-grup-2 h3 {
-  font-weight: normal;
-}
-
-.hutahaean-grup-3 {
-  color: black;
-  margin-left: 8%;
-  font-size: 60px;
-  padding: 4%;
-  margin-bottom: 100px;
-}
-
-.hutahaean-grup-3 h3 {
-  font-weight: normal;
 }
 
 /*-----------------*/
