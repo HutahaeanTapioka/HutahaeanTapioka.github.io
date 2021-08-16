@@ -434,9 +434,13 @@ ul.isi-dropdown {
   background-position: center center;
 }
 
+/* * {
+  border: 1px solid #000;
+} */
+
 .garis img {
   height: 2250px;
-  padding: 0 50%;
+  padding: 0 49.35%;
   margin-bottom: 239px;
 }
 
@@ -444,7 +448,7 @@ ul.isi-dropdown {
   position: absolute;
   width: 98px;
   height: 72px;
-  left: 627px;
+  left: 617px;
   top: 850px;
 }
 
@@ -459,26 +463,28 @@ ul.isi-dropdown {
   font-size: 25px;
   line-height: 75px;
   color: #FFFFFF;
+  padding-left: 7px;
 }
 
 .deskripsi1 {
   background-color: #C4C4C4;
   position: absolute;
-  width: 573px;
-  height: 80px;
+  width: 450px;
+  height: 110px;
   left: 767px;
   top: 928px;
   font-family: Rasa;
   font-size: 20px;
   line-height: 37px;
   text-align: justify;
+  padding: 5px;
 }
 
 .oci {
   position: absolute;
   width: 97px;
   height: 75px;
-  left: 627px;
+  left: 617px;
   top: 1050px;
 }
 
@@ -493,27 +499,29 @@ ul.isi-dropdown {
   font-size: 25px;
   line-height: 75px;
   color: #FFFFFF;
+  padding-left: 7px;
 }
 
 .deskripsi2 {
   background-color: #C4C4C4;
   position: absolute;
-  width: 508px;
+  width: 450px;
   height: 80px;
-  left: 50px;
+  left: 108px;
   top: 1123px;
   font-family: Rasa;
   font-size: 20px;
   line-height: 37px;
   text-align: justify;
   color: #000000;
+  padding: 5px;
 }
 
 .pengering {
   position: absolute;
   width: 97px;
   height: 75px;
-  left: 630px;
+  left: 617px;
   top: 1250px;
 }
 
@@ -528,12 +536,13 @@ ul.isi-dropdown {
   font-size: 25px;
   line-height: 75px;
   color: #FFFFFF;
+  padding-left: 7px;
 }
 
 .deskripsi3 {
   background-color: #C4C4C4;
   position: absolute;
-  width: 573px;
+  width: 450px;
   height: 78px;
   left: 767px;
   top: 1320px;
@@ -542,13 +551,14 @@ ul.isi-dropdown {
   line-height: 37px;
   text-align: justify;
   color: #000000;
+  padding: 5px;
 }
 
 .pencuci {
   position: absolute;
   width: 97px;
   height: 75px;
-  left: 630px;
+  left: 617px;
   top: 1450px;
 }
 
@@ -563,27 +573,29 @@ ul.isi-dropdown {
   font-size: 25px;
   line-height: 65px;
   color: #FFFFFF;
+  padding-left: 7px;
 }
 
 .deskripsi4 {
   background-color: #C4C4C4;
   position: absolute;
-  width: 508px;
+  width: 450px;
   height: 80px;
-  left: 50px;
+  left: 108px;
   top: 1508px;
   font-family: Rasa;
   font-size: 20px;
   line-height: 37px;
   text-align: justify;
   color: #000000;
+  padding: 5px;
 }
 
 .pemotong {
   position: absolute;
   width: 97px;
   height: 75px;
-  left: 620px;
+  left: 617px;
   top: 1650px;
 }
 
@@ -598,12 +610,13 @@ ul.isi-dropdown {
   font-size: 25px;
   line-height: 75px;
   color: #FFFFFF;
+  padding-left: 7px;
 }
 
 .deskripsi5 {
   background-color: #C4C4C4;
   position: absolute;
-  width: 573px;
+  width: 450px;
   height: 81px;
   left: 767px;
   top: 1737px;
@@ -611,13 +624,14 @@ ul.isi-dropdown {
   font-size: 20px;
   line-height: 37px;
   color: #000000;
+  padding: 5px;
 }
 
 .penggiling {
   position: absolute;
   width: 97px;
   height: 75px;
-  left: 637px;
+  left: 633px;
   top: 1850px;
 }
 
@@ -632,27 +646,29 @@ ul.isi-dropdown {
   font-size: 25px;
   line-height: 65px;
   color: #FFFFFF;
+  padding-left: 7px;
 }
 
 .deskripsi6 {
   background-color: #C4C4C4;
   position: absolute;
-  width: 508px;
+  width: 450px;
   height: 81px;
-  left: 50px;
+  left: 108px;
   top: 1913px;
   font-family: Rasa;
   font-size: 20px;
   line-height: 37px;
   text-align: justify;
   color: #000000;
+  padding: 5px;
 }
 
 .pemisah {
   position: absolute;
   width: 97px;
   height: 75px;
-  left: 637px;
+  left: 633px;
   top: 2050px;
 }
 
@@ -667,13 +683,14 @@ ul.isi-dropdown {
   font-size: 25px;
   line-height: 65px;
   color: #FFFFFF;
+  padding-left: 7px;
 }
 
 .deskripsi7 {
   background-color: #C4C4C4;
   position: absolute;
-  width: 575px;
-  height: 48px;
+  width: 450px;
+  height: 70px;
   left: 767px;
   top: 2113px;
   font-family: Rasa;
@@ -681,13 +698,14 @@ ul.isi-dropdown {
   line-height: 37px;
   text-align: justify;
   color: #000000;
+  padding: 5px;
 }
 
 .pemisahzat {
   position: absolute;
   width: 97px;
   height: 75px;
-  left: 637px;
+  left: 633px;
   top: 2250px;
 }
 
@@ -702,27 +720,29 @@ ul.isi-dropdown {
   font-size: 25px;
   line-height: 65px;
   color: #FFFFFF;
+  padding-left: 7px;
 }
 
 .deskripsi8 {
   background-color: #C4C4C4;
   position: absolute;
-  width: 508px;
-  height: 87px;
-  left: 50px;
+  width: 450px;
+  height: 110px;
+  left: 108px;
   top: 2318px;
   font-family: Rasa;
   font-size: 20px;
   line-height: 37px;
   text-align: justify;
   color: #000000;
+  padding: 5px;
 }
 
 .dewatering {
   position: absolute;
   width: 97px;
   height: 75px;
-  left: 645px;
+  left: 633px;
   top: 2450px;
 }
 
@@ -737,13 +757,14 @@ ul.isi-dropdown {
   font-size: 25px;
   line-height: 65px;
   color: #FFFFFF;
+  padding-left: 7px;
 }
 
 .deskripsi9 {
   background-color: #C4C4C4;
   position: absolute;
-  width: 566px;
-  height: 110px;
+  width: 450px;
+  height: 150px;
   left: 769px;
   top: 2507px;
   font-family: Rasa;
@@ -751,13 +772,14 @@ ul.isi-dropdown {
   line-height: 37px;
   text-align: justify;
   color: #000000;
+  padding: 5px;
 }
 
 .pengeringpati {
   position: absolute;
   width: 97px;
   height: 75px;
-  left: 638px;
+  left: 633px;
   top: 2650px;
 }
 
@@ -772,27 +794,29 @@ ul.isi-dropdown {
   font-size: 25px;
   line-height: 75px;
   color: #FFFFFF;
+  padding-left: 7px;
 }
 
 .deskripsi10 {
   background-color: #C4C4C4;
   position: absolute;
-  width: 508px;
-  height: 50px;
-  left: 50px;
+  width: 450px;
+  height: 80px;
+  left: 108px;
   top: 2748px;
   font-family: Rasa;
   font-size: 20px;
   line-height: 37px;
   text-align: justify;
   color: #000000;
+  padding: 5px;
 }
 
 .pengayakan {
   position: absolute;
   width: 97px;
   height: 75px;
-  left: 638px;
+  left: 633px;
   top: 2850px;
 }
 
@@ -807,13 +831,14 @@ ul.isi-dropdown {
   font-size: 25px;
   line-height: 65px;
   color: #FFFFFF;
+  padding-left: 7px;
 }
 
 .deskripsi11 {
   background-color: #C4C4C4;
   position: absolute;
-  width: 571px;
-  height: 80px;
+  width: 450px;
+  height: 115px;
   left: 769px;
   top: 2906px;
   font-family: Rasa;
@@ -821,13 +846,14 @@ ul.isi-dropdown {
   line-height: 37px;
   text-align: justify;
   color: #000000;
+  padding: 5px;
 }
 
 .packing {
   position: absolute;
   width: 97px;
   height: 75px;
-  left: 638px;
+  left: 633px;
   top: 3050px;
 }
 
@@ -842,40 +868,45 @@ ul.isi-dropdown {
   font-size: 25px;
   line-height: 75px;
   color: #FFFFFF;
+  padding-left: 7px;
 }
 
 .deskripsi12 {
   background-color: #C4C4C4;
   position: absolute;
-  width: 508px;
+  width: 450px;
   height: 77px;
-  left: 50px;
+  left: 108px;
   top: 3133px;
   font-family: Rasa;
   font-size: 20px;
   line-height: 37px;
   text-align: justify;
   color: #000000;
+  padding: 5px;
 }
 
-.gambarbawah {
+
+.gambarbawah img {
   position: absolute;
   width: 1437px;
   height: 326px;
   left: -90px;
   top: 3300px;
+  z-index: 0;
 }
 
-.motivasi1 {
+.gambarbawah h2 {
   position: absolute;
-  height: 280px;
+  width: 87%;
   left: 100px;
-  top: 100px;
+  top: 3320px;
   font-family: Mada;
-  font-size: 20px;
+  font-size: 33px;
   line-height: 100px;
   text-align: center;
   color: #FFFFFF;
+  z-index: 1;
 }
 
 
@@ -933,10 +964,20 @@ ul.isi-dropdown {
   text-indent: 50px;
 }
 
-.serti-1 {
+.serti-1 img {
   position: absolute;
-  left: 570px;
-  top: 900px;
+  height: 300px;
+  top: 30px;
+  left: -30px;
+}
+
+
+.serti-1 {
+  background-color: rgba(3, 99, 56, 0.69);
+  position: absolute;
+  left: 600px;
+  top: 870px;
+  width: 30%;
   height: 300px;
 }
 
@@ -1754,6 +1795,10 @@ ul.isi-dropdown {
   background-position: center center;
 }
 
+/* * {
+  border: 1px solid #000;
+} */
+
 .bg-grup h3 {
   font-size: 50px;
   line-height: 78px;
@@ -1771,6 +1816,8 @@ ul.isi-dropdown {
 
 .hth-grup ul {
   font-size: 25px;
+  padding: 30px;
+  list-style-type: none;
 }
 
 .hth-grup a {
@@ -1791,7 +1838,7 @@ ul.isi-dropdown {
 .tjs {
   position: absolute;
   height: 102px;
-  left: 200px;
+  left: 100px;
   top: 560px;
 
   font-family: Rasa;
@@ -1802,17 +1849,37 @@ ul.isi-dropdown {
 }
 
 .KOLOM {
-  padding: 680px;
+  padding-bottom: 1280px;
   background-color: whitesmoke;
 }
 
-.line-1 {
-  align-items: center;
-  width: 1012px;
-  height: 0px;
-  left: 720px;
-  top: 864px;
+.line-1 img {
+  position: absolute;
+  height: 1200px;
+  left: 50%;
+  top: 897px;
+  background: #000000;
 }
+
+/* * {
+  border: 1px solid #000;
+} */
+
+img.line-2 {
+  position: absolute;
+  width: 93%;
+  height: 9px;
+  left: 3%;
+  top: 1400px;
+  background: #000000;
+}
+
+/* #verticle-line {
+  width: 1px;
+  min-height: 400px;
+  background: black;
+  margin-top: 0;
+} */
 
 .rp-1 {
   position: absolute;
@@ -1848,7 +1915,7 @@ ul.isi-dropdown {
 .rp-2 {
   position: absolute;
   height: 42px;
-  left: 867px;
+  left: 767px;
   top: 973px;
 
   font-family: Work Sans;
@@ -1861,14 +1928,14 @@ ul.isi-dropdown {
   position: absolute;
   width: 112px;
   height: 117px;
-  left: 911px;
+  left: 811px;
   top: 1137px;
 }
 
 .fg-1 {
   position: absolute;
   height: 37px;
-  left: 1086px;
+  left: 986px;
   top: 1193px;
 
   font-family: Rasa;
@@ -1929,7 +1996,7 @@ ul.isi-dropdown {
 .rp-4 {
   position: absolute;
   height: 42px;
-  left: 879px;
+  left: 779px;
   top: 1560px;
 
   font-family: Work Sans;
@@ -1942,7 +2009,7 @@ ul.isi-dropdown {
   position: absolute;
   width: 112px;
   height: 117px;
-  left: 911px;
+  left: 811px;
   top: 1710px;
 }
 
@@ -1950,14 +2017,14 @@ ul.isi-dropdown {
   position: absolute;
   width: 112px;
   height: 117px;
-  left: 911px;
+  left: 811px;
   top: 1910px;
 }
 
 .pl-1 {
   position: absolute;
   height: 37px;
-  left: 1063px;
+  left: 963px;
   top: 1744px;
   font-family: Rasa;
   font-size: 30px;
@@ -1967,11 +2034,15 @@ ul.isi-dropdown {
 .ps-1 {
   position: absolute;
   height: 37px;
-  left: 1049px;
+  left: 949px;
   top: 1972px;
   font-family: Rasa;
   font-size: 30px;
   line-height: 37px;
+}
+
+.produksi-a span {
+  color: rgba(0, 0, 0, 0.39);
 }
 
 /*------------------*/
@@ -13963,3 +14034,67 @@ fieldset:disabled .btn {
 }
 
 /*# sourceMappingURL=bootstrap.css.map */
+
+/* Responsive dilayar mobile middle
+
+@media (min-width : 321px) and (max-width : 425px) {
+  section#box-profile {
+    width: 90%;
+    height: 630px;
+    margin-left: 5%;
+    margin-right: 5px;
+    margin-top: 30%;
+  }
+
+  .menu-mobile {
+    top: 20px;
+    right: 10%;
+    display: inline-block;
+  }
+
+  nav ul {
+    display: none;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    top: 4px;
+    z-index: 99;
+    background: white;
+  }
+
+  nav ul li {
+    float: unset;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .description {
+    padding-left: 0px;
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+    border: none;
+  }
+
+  .description .button {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .img .profile {
+    left: 35%;
+    position: relative;
+  }
+
+  .information {
+    top: 75px;
+    margin-left: 25px;
+    font-size: 14px;
+  }
+
+  section#input.form {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+} */
