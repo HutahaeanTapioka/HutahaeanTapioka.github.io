@@ -178,7 +178,6 @@ h4 {
   height: 700px;
   margin-top: 7.5%;
   margin-left: 7%;
-  box-sizing: border-box;
 }
 
 .text-sejarah h1 {
@@ -416,15 +415,16 @@ li.dropdown {
   font-weight: normal;
 }
 
-
 .isi-dropdown a:hover {
   color: #036338 !important;
 }
 
-ul.isi-dropdown {
+.dropdown ul li {
+  width: 100%;
+  padding-right: 20px;
+  display: block;
   text-align: left;
 }
-
 /* Proses Produksi*/
 .bg-proses {
   background-image: url(../assets/background1.jpg);
