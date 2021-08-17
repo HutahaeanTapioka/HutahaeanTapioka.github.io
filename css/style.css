@@ -85,26 +85,30 @@ body {
 } */
 
 
-@media (max-width: 720px) {
+@media (max-width: 780px) {
 
   #top-home img {
     width: 67px;
   }
+  
 
   #top-home h1 {
-    font-size: 26px !important;
     padding: 0% !important;
     margin: 0% !important;
   }
   
   #top-home .language img {
-    width: 47px;
+    width: 44px;
     height: auto;
   }
+}
+
+@media (max-width: 720px) {
   .navbar {
     display: none !important;
-  }
+  } 
 }
+
 
 .bg-main {
   width: 100%;
@@ -141,7 +145,7 @@ body {
 }
 
 .mt-m6 {
-  margin-top: -5rem;
+  margin-top: -5.5rem;
 }
 
 .mt-7 {
@@ -154,7 +158,7 @@ body {
 }
 
 .language img {
-  width: 57px;
+  width: 48px;
   height: auto;
 }
 .button-slider {
@@ -373,7 +377,7 @@ h4 {
   margin-left: -11%;
 }
 
-/*----------  Visi Misi ---------------------------*/
+/*--------------  Visi Misi ---------------------*/
 .bgvisimisi-main {
   background-image: url(./../assets/bgvisimisi.png);
   background-size: cover;
