@@ -98,7 +98,8 @@ body {
   }
   
   #top-home .language img {
-    width: 40px;
+    width: 47px;
+    height: auto;
   }
   .navbar {
     display: none !important;
@@ -113,20 +114,6 @@ body {
   background-position: center center;
 }
 
-.bg-sejarah {
-  width: 100%;
-  min-height: 100vh;
-  background-image: url(../assets/sejarah.png);
-  background-size: cover;
-  background-position: center center;
-  box-sizing: border-box;
-}
-
-.bgvisimisi-main {
-  background-image: url(./../assets/bgvisimisi.png);
-  background-size: cover;
-  min-height: 100vh;
-}
 
 /*------------- Menu -------------------*/
 .navbar-dark .navbar-nav .nav-link:hover,
@@ -161,20 +148,21 @@ body {
   margin-top: 15rem;
 }
 
-.me-m5 {
-  margin-right: -3rem;
-}
-
 .px-6 {
   padding-left: 19rem;
   padding-right: 19rem;
 }
 
+.language img {
+  width: 57px;
+  height: auto;
+}
 .button-slider {
   margin: 25%;
   text-align: center;
 }
-
+/* --------------------------------- */
+/* ------------- Kop -------------------- */
 .kop-kecil {
   padding: 50px;
 }
@@ -385,7 +373,13 @@ h4 {
   margin-left: -11%;
 }
 
-/* Visi Misi*/
+/*----------  Visi Misi ---------------------------*/
+.bgvisimisi-main {
+  background-image: url(./../assets/bgvisimisi.png);
+  background-size: cover;
+  min-height: 100vh;
+}
+
 .visi {
   color: #fff;
   margin-top: 25%;
@@ -1009,9 +1003,14 @@ h4 {
   font-size: 40px;
 } */
 
-/* *{
-  border: 1px solid #000;
-} */
+.bg-sejarah {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(../assets/sejarah.png);
+  background-size: cover;
+  background-position: center center;
+  box-sizing: border-box;
+}
 
 .sejarah-content h1 {
   background-color: #066239;
