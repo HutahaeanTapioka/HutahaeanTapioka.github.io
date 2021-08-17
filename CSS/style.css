@@ -69,6 +69,15 @@ body {
   clear: both;
 }
 
+
+@media (max-width: 1000px) {
+  img#top-home {
+    width: 200px;
+    justify-items: left;
+    margin: 0;
+    float: left;
+  }
+}
 .bg-main {
   width: 100%;
   min-height: 100vh;
@@ -92,54 +101,42 @@ body {
   min-height: 100vh;
 }
 
-.indonesia {
-  position: relative;
-  left: 82%;
-  top: 60px;
+/*------------- Menu -------------------*/
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus {
+  color: #036338 !important;
 }
 
-.english {
-  position: relative;
-  left: 84%;
-  top: 60px;
+.dropdown:hover .dropdown-menu {
+  display: block !important;
 }
 
-.img-logo {
-  margin: 0.3% 47%;
+.dropdown-item:hover {
+  color: #036338 !important;
 }
+/* ----------------------------------------- */
 
-.judul {
+.text-hth {
   color: #036338;
-  text-align: center;
-  letter-spacing: 1px;
-  font-size: 150%;
 }
 
-.navigasi a {
-  color: #fff;
-  font-weight: bold;
-  font-size: larger;
-  text-decoration: none;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-  font-size: 100%;
+.mt-6 {
+  margin-top: -5rem;
 }
 
-.navigasi ul {
-  text-align: center;
+.mt-7 {
+  margin-top: 15rem;
 }
 
-.navigasi ul li {
-  display: inline-block;
-  margin: 1px 1.8%;
-  text-align: center;
+.px-6 {
+  padding-left: 19rem;
+  padding-right: 19rem;
 }
 
 .button-slider {
   margin: 25%;
   text-align: center;
 }
-
 
 .kop-kecil {
   padding: 50px;
@@ -384,46 +381,6 @@ h4 {
   background: rgba(6, 98, 57, 0.34);
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 218px;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-li.dropdown {
-  width: 15.5%;
-}
-
-.dropdown:hover .isi-dropdown {
-  display: block;
-}
-
-.isi-dropdown {
-  position: absolute;
-  display: none;
-  box-shadow: 0px 8px 16px 0px rgba(39, 36, 36, 0.2);
-  z-index: 1;
-  background-color: #000;
-  opacity: 0.7;
-}
-
-.isi-dropdown a {
-  color: #fff !important;
-  text-transform: capitalize;
-  letter-spacing: 0;
-  font-weight: normal;
-}
-
-.isi-dropdown a:hover {
-  color: #036338 !important;
-}
-
-.dropdown ul li {
-  width: 100%;
-  padding-right: 20px;
-  display: block;
-  text-align: left;
 }
 /* Proses Produksi*/
 .bg-proses {
@@ -967,12 +924,16 @@ li.dropdown {
 /* ----------------- */
 
 /*---Sejarah-------*/
-.bg-sejarah h3 {
+/* .bg-sejarah h3 {
   color: #fff;
   margin-top: 23%;
   margin-left: 10%;
   font-size: 40px;
-}
+} */
+
+/* *{
+  border: 1px solid #000;
+} */
 
 .sejarah-content h1 {
   background-color: #066239;
@@ -6421,6 +6382,7 @@ fieldset:disabled .btn {
 .dropdown-menu.show {
   display: block;
 }
+
 
 .dropdown-header {
   display: block;
