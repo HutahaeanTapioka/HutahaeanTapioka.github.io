@@ -90,13 +90,13 @@ body {
   #top-home img {
     width: 67px;
   }
-  
+
 
   #top-home h1 {
     padding: 0% !important;
     margin: 0% !important;
   }
-  
+
   #top-home .language img {
     width: 44px;
     height: auto;
@@ -106,7 +106,7 @@ body {
 @media (max-width: 720px) {
   .navbar {
     display: none !important;
-  } 
+  }
 }
 
 /* ------------------------------------------ */
@@ -137,7 +137,7 @@ body {
 
 .dropdown-item.active,
 .dropdown-item:active {
-  background-color:  rgba(249, 249, 249, 0.7) !important;
+  background-color: rgba(249, 249, 249, 0.7) !important;
 }
 
 /* ------------------------------------- */
@@ -163,11 +163,17 @@ body {
   width: 48px;
   height: auto;
 }
+
 .button-slider {
   margin: 25%;
   text-align: center;
 }
+<<<<<<< HEAD
 /* -------------------------------------- */
+=======
+
+/* --------------------------------- */
+>>>>>>> ad6227132e45b594ee9baa76c89525c48be6d233
 /* ------------- Kop -------------------- */
 .kop-kecil {
   padding: 50px;
@@ -432,6 +438,7 @@ h4 {
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 218px;
 }
+
 /* Proses Produksi*/
 .bg-proses {
   background-image: url(../assets/background1.jpg);
@@ -1849,19 +1856,6 @@ h4 {
   background-image: url(../assets/TJS.png);
   background-size: cover;
   min-height: 100vh;
-}
-
-.tjs {
-  position: absolute;
-  height: 102px;
-  left: 100px;
-  top: 560px;
-
-  font-family: Rasa;
-  font-weight: 600;
-  font-size: 64px;
-  line-height: 78px;
-  color: #FFFFFF;
 }
 
 .KOLOM {
