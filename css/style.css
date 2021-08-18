@@ -1084,6 +1084,8 @@ h4 {
   font-size: 60px;
 }
 
+
+
 .bg-produk {
   background-image: url(../assets/background-produk.jpg);
   background-size: cover;
@@ -1108,18 +1110,18 @@ h4 {
 }
 
 .bulat2 h1 {
-  margin-top: 20px;
+  margin-top: 30px;
   font-size: 30px;
-  padding-top: 50px;
+  padding-top: 30px;
   text-align: center;
 }
 
 .kotak img {
   position: absolute;
-  width: 1000px;
+  width: 800px;
   height: 250px;
   left: 270px;
-  top: 850px;
+  top: 750px;
 }
 
 .text h1 {
@@ -1129,7 +1131,7 @@ h4 {
   font-family: "Rasa";
   font-style: normal;
   font-weight: 600;
-  font-size: 40px;
+  font-size: 30px;
   line-height: 88px;
 
   color: #000000;
@@ -1142,7 +1144,7 @@ h4 {
   font-family: "Rasa";
   font-style: normal;
   font-weight: normal;
-  font-size: 30px;
+  font-size: 25px;
   line-height: 37px;
   text-align: justify;
 
@@ -1152,7 +1154,7 @@ h4 {
 .bg-second {
   background-image: url(../assets/bg-second.jpg);
   position: absolute;
-  width: 1350px;
+  width: 1345px;
   height: 496px;
   left: 0px;
   top: 1300px;
@@ -1167,6 +1169,7 @@ h4 {
   top: 10%;
   margin: auto;
   text-align: center;
+
 }
 
 .merah p {
@@ -1179,7 +1182,7 @@ h4 {
   font-family: "Rasa";
   font-style: normal;
   font-weight: normal;
-  font-size: 30px;
+  font-size: 25px;
   line-height: 37px;
 }
 
@@ -1205,7 +1208,7 @@ h4 {
   font-family: "Rasa";
   font-style: normal;
   font-weight: normal;
-  font-size: 30px;
+  font-size: 25px;
   line-height: 37px;
 }
 
@@ -1230,7 +1233,7 @@ h4 {
   font-family: "Rasa";
   font-style: normal;
   font-weight: normal;
-  font-size: 30px;
+  font-size: 25px;
   line-height: 37px;
 }
 
@@ -1498,7 +1501,7 @@ h4 {
 .bg-third {
   background-image: url(../assets/bg-third.jpg);
   position: absolute;
-  width: 1350px;
+  width: 1345px;
   height: 422px;
   left: 0px;
   top: 3600px;
