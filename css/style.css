@@ -1079,9 +1079,7 @@ h4 {
   font-size: 60px;
 }
 
-*{
-  border: 1px solid black;
-}
+
 
 .bg-produk {
   background-image: url(../assets/background-produk.jpg);
@@ -1118,7 +1116,7 @@ h4 {
   width: 800px;
   height: 250px;
   left: 270px;
-  top: 850px;
+  top: 750px;
 }
 
 .text h1 {
