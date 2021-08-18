@@ -84,7 +84,7 @@ body {
 
 } */
 
-
+ /* ---------- Responsive  ----------------- */
 @media (max-width: 780px) {
 
   #top-home img {
@@ -109,7 +109,9 @@ body {
   } 
 }
 
+/* ------------------------------------------ */
 
+/* ---------- Section-Header-Home ----------- */
 .bg-main {
   width: 100%;
   min-height: 100vh;
@@ -138,7 +140,7 @@ body {
   background-color:  rgba(249, 249, 249, 0.7) !important;
 }
 
-/* ----------------------------------------- */
+/* ------------------------------------- */
 
 .text-hth {
   color: #036338;
@@ -165,7 +167,7 @@ body {
   margin: 25%;
   text-align: center;
 }
-/* --------------------------------- */
+/* -------------------------------------- */
 /* ------------- Kop -------------------- */
 .kop-kecil {
   padding: 50px;
@@ -177,7 +179,10 @@ h4 {
   text-align: center;
   letter-spacing: 1.5px;
 }
+/* -------------------------------------- */
 
+
+/* ---------------- Section-Sejarah-Home -------------- */
 .side-img {
   background-color: rgba(3, 99, 56, 0.69);
   width: 40%;
@@ -215,7 +220,9 @@ h4 {
   font-family: "Rasa";
   font-size: 27px;
 }
+/* ------------------------------------ */
 
+/* ------- Section-ProfilPemilik-Home ------- */
 .judul-profil h1 {
   background-color: #752D2D;
   width: 96%;
@@ -262,7 +269,9 @@ h4 {
   margin-right: 15%;
   box-sizing: border-box;
 }
+/* ------------------------------ */
 
+ /* ------- Section-VisiMisi-Home  ------ */
 .visi-misi img {
   width: 100%;
   margin-top: 10%;
@@ -291,6 +300,9 @@ h4 {
 }
 */
 
+/* -------------------------------- */
+
+/* --------- Section-Grup-Home -------- */
 .hutahaean-group a {
   color: #000;
   font-weight: bold;
@@ -318,7 +330,9 @@ h4 {
   text-align: center;
   padding-right: 17%;
 }
+/* ----------------------------------- */
 
+/* --------- Section-Footer ------------- */
 .footer {
   background-color: #066338;
   height: 320px;
@@ -376,6 +390,7 @@ h4 {
   display: block;
   margin-left: -11%;
 }
+/* ----------------------------------------------- */
 
 /*--------------  Visi Misi ---------------------*/
 .bgvisimisi-main {
