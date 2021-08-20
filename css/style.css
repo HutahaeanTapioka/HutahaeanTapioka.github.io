@@ -334,32 +334,6 @@ img {
 
 /* ------------- Kop -------------------- */
 
-.kop-kecil {
-  padding: 50px;
-}
-
-.kop-kecil h2, .kop-kecil h4 {
-  font-family: "Rasa";
-  text-align: center;
-  letter-spacing: 1.5px;
-}
-
-@me
-@media screen and (max-width: 600px) {
-    .kop-kecil {
-      padding: 30px;
-    }
-
-    .kop-kecil h2, .kop-kecil h4 {
-      font-family: "Rasa";
-      text-align: center;
-      letter-spacing: 1px;
-    }
-    
-}
-
-/* ---------------- */
-
 
 /* ---------------- Section-Sejarah-Home -------------- */
 
@@ -379,55 +353,19 @@ img {
   margin-top: -5%;
 }
 
-
-@media screen and  (max-width: 600px) {
-    .sejarah-home {
-        display: block;
-        margin: 0;
-        padding: 0;
-    }
-
-    .side-img {
-      display: block;
-      width: 100%;
-      height: auto;
-    }
-
-    .side-img img {
-      position: static;
-      width: 100%;
-      height: auto;
-    }
-
-    .text-sejhom {
-      display: block;
-      width: 100%;
-    }
-}
-
-
 /* ------- Section-ProfilPemilik-Home ------- */
 
 .judul-profil h1 {
   background-color: #752D2D;
-  width: 96%;
-  padding-top: 40px;
-  padding-left: 90px;
-  margin-left: -8%;
-  margin-right: 40%;
   position: relative;
-  top: -27%;
-  font-family: "Rasa";
-  font-size: 50px;
   color: #fff;
-  box-sizing: border-box;
+  bottom: 0.5rem;
+  right: 1rem;
+
 }
 
 .judul-profil {
   background-color: #992727;
-  height: 100px;
-  width: 70%;
-  box-sizing: border-box;
 }
 
 .profil img {
@@ -439,30 +377,6 @@ img {
   margin-right: 15%;
   box-sizing: border-box;
 }
-
-/* ------- Section-VisiMisi-Home  ------ */
-/*
-.text-visi-misi {
-  font-family: "Rasa";
-  color: #fff;
-  position: relative;
-  padding-top: 15%;
-  left: -26%;
-  font-size: 20px;
-  width: 122%;
-  box-sizing: border-box;
-}
-
-.text-visi-misi span {
-  color: #000;
-}
-
-.text-visi-misi h1 {
-  text-align: center;
-  color: #000;
-  font-size: 40px;
-}
-*/
 
 .bg-visi-home {
   background-image: url(../assets/visiside.png);
@@ -484,59 +398,71 @@ img {
   background-color: #066338;
   height: 320px;
 }
-/* 
-.description,
-.link,
-.contact-information {
-  display: inline;
-  width: 27%;
-  margin: 5% 3%;
-  padding: 0 2.7%;
-  float: left;
-  color: #fff;
-  font-family: "Rasa";
-  box-sizing: border-box;
+
+/* -------- Responsive Home ------------- */
+
+
+@media screen and  (max-width: 992px) {
+   
+  .side-img {
+    background-color: rgba(3, 99, 56, 0.69);
+    height: 10rem;
+    width: 20rem;
+    margin-left: 2%;
+    margin-top: 30%;
+  }
+
+  .side-img img {
+    position: relative;
+    height: 10rem;
+    width: 20rem;
+    left: 5%;
+    margin-top: 15%; 
+  }
+
+  .navbar ul li a {
+      font-size: small !important;;
+  }
 }
 
-.description {
-  width: 35%;
+@media screen and  (max-width: 780px) {
+    .sider-img {
+      position: absolute !important;
+      width: 100vh !important;
+      top: 73rem;
+      right: -4rem;
+    }
+
+    .text-sejh {
+      position: static !important;
+      display: block !important;
+      float: none !important;
+      width: 100vh !important;
+      margin-bottom: 11rem;
+    }
+
+    .text-visihome {
+      width: 100% !important;
+      margin: 0;
+      padding: 0;
+    }
+
+    .text-visihome dl {
+      width: 100% !important;
+      margin: 0;
+      padding: 0;
+    }
+
+    .bg-visi-home {
+      height: max-content !important;
+      width: auto;
+      overflow: auto !important;
+    }
+
+    .footer h1, .footer p {
+      font-size: small !important;
+    }
 }
-
-.link {
-  padding: 0;
-  width: 20%;
-} */
-
-/* .contact-information {
-  width: 27%;
-}
-
-.description p,
-.link p,
-.contact-information p {
-  font-size: 100%;
-}
-
-.description h1,
-.link h1,
-.contact-information h1 {
-  font-weight: normal;
-  font-size: 150%;
-  font: sans-serif;
-}
-
-.link a {
-  color: #fff;
-  font-size: 100%;
-  text-decoration: none;
-  font-family: "Rasa";
-  text-indent: -0.3;
-}
-
-.link ul li {
-  display: block;
-  margin-left: -11%;
-} */
 
 /* ----------------------------------------------- */
 /* ----------------------------------------------- */
@@ -1560,38 +1486,41 @@ img {
   min-height: 100vh;
 }
 
-.sejarah-content h1 {
+.bg-hijau1 {
   background-color: #066239;
-  width: 40%;
-  padding: 2%;
-  font-family: "Rasa";
-  font-size: 50px;
-  color: #fff;
-  box-sizing: border-box;
 }
-
-.top-sejarah img {
-  width: 100%;
+.batu-sejarah {
+  width: 400px;
+  width: 300px;
 }
-
-.sejarah-content p {
-  padding: 10px;
-  font-size: larger;
-  text-indent: 3%;
+@media screen and (max-width: 920) {
+    img.batusejarah {
+        width:300px;
+        height: 200px;
+    }
 }
-
-.side-img-sejarah img {
-  float: left;
-  width: 20%;
-  margin: 20px;
-  margin-bottom: 0px;
+@media screen and (max-width: 768) {
+  img.batusejarah {
+      width: 200px;
+      height: 100px;
+  }
+  h1.judul-sejarah, h1.bg-hijau1 {
+    width: 100% !important;
+    padding: 5rem;
+    font-size: smaller;
+  }
 }
-
-.bottom-sejarah img {
-  width: 30%;
-  margin: 2% 35%;
+@media screen and (max-width: 576) {
+  img.batusejarah {
+      width:100px;
+      height: 50px;
+  }
+  h1.judul-sejarah, h1.bg-hijau1 {
+    width: 100% !important;
+    padding: 2rem;
+    font-size:x-small smaller;
+  }
 }
-
 /*-----------------*/
 /*-----Produk--------*/
 .produk {
@@ -10466,6 +10395,10 @@ fieldset:disabled .btn {
 
 .w-50 {
   width: 50% !important;
+}
+
+.w-70 {
+  width: 70% !important;
 }
 
 .w-75 {
