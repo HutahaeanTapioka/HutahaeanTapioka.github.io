@@ -47,14 +47,17 @@
 
 body {
   margin: 0;
+  padding: 0;
   font-family: var(--bs-font-sans-serif);
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  background-color: #fff;
+  background-color: transparent;
+  background: transparent;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  overflow-x: hidden;
 }
 
 .cf:before,
@@ -69,59 +72,143 @@ body {
   clear: both;
 }
 
+.mySlides {
+  display: none;
+}
 
-/* @media (max-width: 1000px) {
-  #top-home {
-    margin: 0% !important;
-  }
 
-  #top-home h1 {
-    font-size: 26px !important;
-    padding: 0% !important;
-    margin: 0% !important;
-    text-align: left !important;
-  }
+/* Header-Home */
 
-} */
+/* -- Background-Header-Home -- */
+#header, .header {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
 
-/* ---------- Responsive  ----------------- */
-@media (max-width: 780px) {
+.background-home {
+  background-image: url(../assets/Main-Screen.jpg);
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  min-height: 100vh;
+}
 
-  #top-home img {
+img {
+  vertical-align: middle;
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+  position: absolute;
+  display: block;
+  width: 100%;
+  min-height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-image: url(../assets/Main-Screen.jpg);
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: rgba(187, 187, 187, 0.432);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.position-dot {
+  position: absolute;
+  left: 23.5%;
+  right: 26.5%;
+  top: 90%;
+  z-index: 0;
+}
+.active {
+  background-color: #71717165;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 6s;
+  animation-name: fade;
+  animation-duration: 6s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: 0.90} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: 0.90} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+
+/* --------Header-Home---------------- */
+
+@media screen and (max-width: 768px) {
+  .logo img {
     width: 67px;
-  }
-
-
-  #top-home h1 {
-    padding: 0% !important;
-    margin: 0% !important;
-  }
-
-  #top-home .language img {
-    width: 44px;
     height: auto;
   }
 }
 
-@media (max-width: 720px) {
-  .navbar {
-    display: none !important;
+.language a img {
+  height: 42px;
+  width: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .language a img {
+    width: 32px;
+    height: auto;
   }
 }
 
-/* ------------------------------------------ */
-
-/* ---------- Section-Header-Home ----------- */
-.bg-main {
-  width: 100%;
-  min-height: 100vh;
-  background-image: url(../assets/Main-Screen.jpg);
-  background-size: cover;
-  background-position: center center;
+.minHeight {
+  min-height: 65vh;
 }
 
-
 /*------------- Menu -------------------*/
+.hidden-scrollbar {
+  background-color:black;
+  border:2px solid #666;
+  color:white;  
+  overflow:hidden;
+  text-align:justify;    
+}
+
+.hidden-scrollbar .inner {
+  height:200px;
+  overflow:auto;
+  margin:15px -300px 15px 15px;
+  padding-right:300px; /* Samakan dengan besar margin negatif */
+}
+
+.opacity-body{
+  opacity: 0.45;
+}
+
+.opacity-menu {
+  opacity: 1 !important;
+}
+
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link:focus {
   color: #036338 !important;
@@ -140,7 +227,96 @@ body {
   background-color: rgba(249, 249, 249, 0.7) !important;
 }
 
-/* ------------------------------------- */
+@media screen and (max-width: 600px) {
+
+  .navbar ul{
+    position: fixed;
+    width: 15rem;
+    top: -1%;
+    right: 0;
+    height: 100%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 20%;
+    flex-direction: column !important;
+    transform: translateX(100%);
+    transition: all 0.1;
+    opacity: 0;
+    background-color: #212529;
+    z-index: 1;
+    overflow-y: hidden;
+    overflow-x: visible;
+  }
+
+  .navbar ul li a {
+    font-size: 12px !important;
+    text-transform: uppercase;
+    font-weight: 300;
+  }
+  
+  .navbar ul.slide {
+    opacity: 1;
+    transform: translateX(0);
+  } 
+
+  .dropdown-menu {
+    border: 0px !important;
+    border-radius: 0px !important;
+  }
+} 
+
+.bottom-nav{
+  background-color: var(--bs-white) !important;
+}
+
+.bottom-nav li a {
+  color: #000 !important;
+  font-weight: 500;
+}
+
+.bottom-nav li a.text-white {
+  color: var(--bs-white) !important;
+}
+/*-- Icon Menu --*/
+.container-icon {
+  cursor: pointer;
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .container-icon {
+    display: block;
+    z-index: 1051;
+    margin-top: 7%;
+    margin-right: 2%;
+  }
+}
+
+.bar1, .bar2, .bar3 {
+  width: 25px;
+  height: 3px;
+  background-color: rgba(255, 255, 255, 0.55);;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-11px, 8px);
+  transform: rotate(-45deg) translate(-11px, 8px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-4px, -2px);
+  transform: rotate(45deg) translate(-4px, -2px);
+}
+
+.fa-caret-down {
+  content: "\f0d7";
+  color: #f0f0f0;
+}
+/* -- Desain-Tambahan-HeaderHome --- */
 
 .text-hth {
   color: #036338;
@@ -154,22 +330,18 @@ body {
   margin-top: 15rem;
 }
 
-.px-6 {
-  padding-left: 19rem;
-  padding-right: 19rem;
-}
+/* -------------------------------------- */
 
-.language img {
-  width: 48px;
-  height: auto;
-}
+/* --- Kop --- */
 
-.button-slider {
-  margin: 25%;
-  text-align: center;
-}
 
+<<<<<<< HEAD
+=======
+/* -------------------------------------- */
+
+>>>>>>> d74bf9cad7fbb93cbe5f391898f91d056a610422
 /* ------------- Kop -------------------- */
+
 .kop-kecil {
   padding: 50px;
 }
@@ -180,11 +352,11 @@ h4 {
   text-align: center;
   letter-spacing: 1.5px;
 }
-
-/* -------------------------------------- */
+/* ---------------- */
 
 
 /* ---------------- Section-Sejarah-Home -------------- */
+
 .side-img {
   background-color: rgba(3, 99, 56, 0.69);
   width: 40%;
@@ -223,9 +395,11 @@ h4 {
   font-size: 27px;
 }
 
-/* ------------------------------------ */
+
+
 
 /* ------- Section-ProfilPemilik-Home ------- */
+
 .judul-profil h1 {
   background-color: #752D2D;
   width: 96%;
@@ -240,7 +414,6 @@ h4 {
   color: #fff;
   box-sizing: border-box;
 }
-
 
 .judul-profil {
   background-color: #992727;
@@ -273,7 +446,6 @@ h4 {
   box-sizing: border-box;
 }
 
-/* ------------------------------ */
 
 /* ------- Section-VisiMisi-Home  ------ */
 .visi-misi img {
@@ -304,9 +476,9 @@ h4 {
 }
 */
 
-/* -------------------------------- */
 
 /* --------- Section-Grup-Home -------- */
+
 .hutahaean-group a {
   color: #000;
   font-weight: bold;
@@ -335,10 +507,10 @@ h4 {
   padding-right: 17%;
 }
 
-/* ----------------------------------- */
 
 /* --------- Section-Footer ------------- */
-.footer {
+
+.footer, #footer {
   background-color: #066338;
   height: 320px;
 }
@@ -397,8 +569,9 @@ h4 {
 }
 
 /* ----------------------------------------------- */
-
+/* ----------------------------------------------- */
 /*--------------  Visi Misi ---------------------*/
+
 .bgvisimisi-main {
   background-image: url(./../assets/bgvisimisi.png);
   background-size: cover;
@@ -1408,20 +1581,13 @@ h4 {
 /* ----------------- */
 
 /*---Sejarah-------*/
-/* .bg-sejarah h3 {
-  color: #fff;
-  margin-top: 23%;
-  margin-left: 10%;
-  font-size: 40px;
-} */
 
 .bg-sejarah {
-  width: 100%;
-  min-height: 100vh;
   background-image: url(../assets/sejarah.png);
   background-size: cover;
   background-position: center center;
-  box-sizing: border-box;
+  width: 100%;
+  min-height: 100vh;
 }
 
 .sejarah-content h1 {
@@ -6731,7 +6897,7 @@ fieldset:disabled .btn {
 }
 
 .fade {
-  transition: opacity 0.15s linear;
+  transition: opacity 0.15s ease-in;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -8912,7 +9078,7 @@ fieldset:disabled .btn {
   background-color: #000;
 }
 
-.modal-backdrop.fade {
+.modal-backdropline {
   opacity: 0;
 }
 
@@ -10168,6 +10334,10 @@ fieldset:disabled .btn {
   top: 0 !important;
 }
 
+.top-15 {
+  top: 15% !important;
+}
+
 .top-50 {
   top: 50% !important;
 }
@@ -10374,6 +10544,10 @@ fieldset:disabled .btn {
 
 .mh-100 {
   max-height: 100% !important;
+}
+
+.mv-100h {
+  max-height: 100vh !important ;
 }
 
 .vh-100 {
@@ -14598,7 +14772,6 @@ fieldset:disabled .btn {
     display: none !important;
   }
 }
-
 /*# sourceMappingURL=bootstrap.css.map */
 
 /* Responsive dilayar mobile middle
@@ -14663,4 +14836,4 @@ fieldset:disabled .btn {
     margin-left: 5px;
     margin-right: 5px;
   }
-}
+}  */
