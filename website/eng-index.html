@@ -5,130 +5,198 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>PT Hutahaean Pabrik Tapioka</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Website HutahaeanTapioka "/>
+	<meta name="description" content="Website HutahaeanTapioka "/>
 	<meta name="keywords" content="PT HutahaeanTapioka"/> 
 	<meta name="author" content="  Montana Irfan Talenta Trivena"/>
   
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rasa"> 
   <link rel="stylesheet" href="../css/style.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rasa">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"/>
+  
 </head>
+
 <body>
-  <header class="bg-main">
-    <div class="container">
-      <div class="text-center pt-3 cf" id="top-home">
-        <div class="mw-100 mx-auto d-table">
-          <img src="../assets/logo.png" alt="logo">
-          <h1 class="text-hth text-uppercase fs-3">PT Hutahaean Pabrik Tapioka</h1>
+
+  <div class="loader" style="display: none;"></div>
+
+    <header id="header" class="header">
+      <div class="container">
+        <div class="kop-header container">
+          <div class="logo text-center pt-3">
+            <img src="../assets/logo.png" alt="logo">
+            <h1 class="text-hth text-uppercase fs-3">PT Hutahaean Pabrik Tapioka</h1>
+          </div>
+          <div class="language float-end me-5 mt-m6">
+            <a href="../index.html"><img src="../assets/Flag_of_Indonesia.png" alt="indonesian language"></a>
+            <a href="eng-index.html"><img src="../assets/Flag_of_UnitedKingdom.png" alt="english language"></a>
+          </div>          
+          <div class="container-icon position-absolute end-0 top-0" onclick="iconSideMenu(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
         </div>
-        <div class="language float-end mt-m6">
-          <a href="../index.html"><img src="../assets/Flag_of_Indonesia.png" alt="indonesian language"></a>
-          <a href="eng-index.html"><img src="../assets/Flag_of_UnitedKingdom.png" alt="english language"></a>
-        </div>
-      </div>
-      <nav class="navbar navbar-expand-sm navbar-dark text-uppercase fw-bold justify-content-center pt-0 sticky-top">
-        <ul class="navbar-nav">
-          <li class="nav-item px-3"><a class="nav-link" href="eng-index.html">Home</a></li>
-          <li class="nav-item dropdown px-3"><a class="nav-link" href="#">
-            About Us</a>
-            <div class="dropdown-menu text-capitalize bg-dark">
-              <a class="dropdown-item text-white" href="history.html" >Company History</a>
-              <a class="dropdown-item text-white" href="eng-visi-misi.html">Vision-Mision</a>
-              <a class="dropdown-item text-white" href="eng-Sertifikat.html">Certificate</a>
-            </div>
-          </li>
-          <li class="nav-item px-3"><a class="nav-link" href="eng-Grup.html">Group</a></li>
-          <li class="nav-item dropdown px-3"><a class="nav-link" href="#">
-            Production</a>
-            <div class="dropdown-menu text-capitalize bg-dark">
-              <a class="dropdown-item  text-white" href="eng-bahanbaku.html">Raw Material</a>
-              <a class="dropdown-item  text-white" href="eng-proses.html">Production Process</a>
-              <a class="dropdown-item  text-white" href="eng-produk.html">Product</a>
-              <a class="dropdown-item  text-white" href="eng-pengolahanlimbah.html">Waste Treatment</a>
-            </div>
-          </li>
-          <li class="nav-item px-3"><a class="nav-link" href="eng-TJS.html">Corporate Social Responsibility</a></li>
-          <li class="nav-item px-3"><a class="nav-link" href="eng-kontak.html">Contact Us</a></li>
+    
+        <nav class="navbar navbar-expand justify-content-center navbar-dark text-uppercase fw-bold sticky-top" role="navigation" id="navbar">      
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+            <li class="nav-item dropdown"><a class="nav-link" href="#">
+              About Us <i class="fa fa-caret-down float-end mt-1 ms-1"></i></a>
+              <div class="dropdown-menu text-capitalize bg-dark">
+                <a class="dropdown-item text-white" href="sejarah.html" >Company History</a>
+                <a class="dropdown-item text-white" href="visi-misi.html">Visi & Misi</a>
+                <a class="dropdown-item text-white" href="Sertifikat.html">Sertifikat</a>
+              </div>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="Grup.html">Group</a></li>
+            <li class="nav-item dropdown"><a class="nav-link" href="#">
+              Production <i class="fa fa-caret-down float-end mt-1 ms-1"></i></a>
+              <div class="dropdown-menu text-capitalize bg-dark">
+                <a class="dropdown-item  text-white" href="bahan-baku.html">Raw Material</a>
+                <a class="dropdown-item  text-white" href="proses.html">Production Process</a>
+                <a class="dropdown-item  text-white" href="produk.html">Product</a>
+                <a class="dropdown-item  text-white" href="pengolahanlimbah.html">Waste Treatment</a>
+              </div>
+            </li>
+            <li class="nav-item text-start"><a class="nav-link" href="TJS.html">Corporate Social Responsibility</a></li>
+            <li class="nav-item"><a class="nav-link" href="kontak.html">Contact</a></li>
+          </ul>
+        </nav>
+    
+      <aside class="slideshow-container">
+        <li style="background-image: url(../assets/Main-Screen.jpg);" type="none" class="mySlides fade background-home"></li>
+        <li style="background-image: url(../assets/background-produk.jpg);" type="none" class="mySlides fade background-home"></li>
+        <li style="background-image: url(../assets/background1.jpg);" type="none" class="mySlides fade background-home"></li>
+        <ul style="text-align:center" class="position-dot">
+          <li class="dot"></li> 
+          <li class="dot"></li> 
+          <li class="dot"></li> 
         </ul>
-      </nav>
-      <h2 class="text-white mt-7 ms-5 p-5"></h2>
-    </div>
+      </aside>
+  
+      </div>
+  
   </header>
-  <div class="content">
-    <div class="kop-kecil">
-      <h2>PT. HUTAHAEAN PABRIK TAPIOKA</h2>
-      <h4>Jl. Indorayon, Pintubosi, Laguboti, Toba, North Sumatera, 22381-Indonesia.</h4>
-    </div>
-    <div class="sejarah">
-      <div class="side-img">
-        <img src="../assets/bendera-PT-HTH.png" alt="Bendera PT HTH">
-        <div class="clearfix"></div>
-      </div> 
-      <div class="text-sejarah"> 
-        <h1>Company History</h1>
-        <br>
-        <p>In the process of planting these sweet potatoes, OPPUNG thought that if the sweet potatoes had been harvested, where would they be. Then without thinking, OPPUNG decided to build a Tapioca Factory to accommodate the marketing of the sweet potato. So in 2009 work began to build a tapioca factory in Pintubosi Village while waiting for the sweet potatoes to be harvested. 
-        </p>
-      </div>
-    </div>
-    <div class="profil">
-      <img src="../assets/profil.png" alt="Foto Profil Pemilik">
-      <div class="text-profil">
-        <div class="judul-profil">
-          <h1>Owner's Profile</h1> 
+  
+  <main id="content" class="content">
+        <div class="container">
+          <nav class="navbar navbar-expand justify-content-center navbar-dark text-uppercase fw-bold sticky-top" role="navigation" id="navbarId">      
+            <ul class="navbar-nav">
+              <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+              <li class="nav-item dropdown"><a class="nav-link" href="#">
+                About Us <i class="fa fa-caret-down float-end mt-1 ms-1"></i></a>
+                <div class="dropdown-menu text-capitalize bg-dark">
+                  <a class="dropdown-item text-white" href="sejarah.html" >Company History</a>
+                  <a class="dropdown-item text-white" href="visi-misi.html">Visi & Misi</a>
+                  <a class="dropdown-item text-white" href="Sertifikat.html">Sertifikat</a>
+                </div>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="Grup.html">Group</a></li>
+              <li class="nav-item dropdown"><a class="nav-link" href="#">
+                Production <i class="fa fa-caret-down float-end mt-1 ms-1"></i></a>
+                <div class="dropdown-menu text-capitalize bg-dark">
+                  <a class="dropdown-item  text-white" href="bahan-baku.html">Raw Material</a>
+                  <a class="dropdown-item  text-white" href="proses.html">Production Process</a>
+                  <a class="dropdown-item  text-white" href="produk.html">Product</a>
+                  <a class="dropdown-item  text-white" href="pengolahanlimbah.html">Waste Treatment</a>
+                </div>
+              </li>
+              <li class="nav-item text-start"><a class="nav-link" href="TJS.html">Corporate Social Responsibility</a></li>
+              <li class="nav-item"><a class="nav-link" href="kontak.html">Contact</a></li>
+            </ul>
+          </nav>
+      
+            <div class="kop-kecil">
+              <h2>PT. HUTAHAEAN PABRIK TAPIOKA</h2>
+              <h4>Jl. Indorayon, Pintubosi, Laguboti, Toba, North Sumatera, 22381-Indonesia.</h4>
+            </div>
+      
+            <div class="sejarah">
+              <div class="side-img">
+                <img src="../assets/bendera-PT-HTH.png" alt="Bendera PT HTH">
+                <div class="clearfix"></div>
+              </div> 
+              <div class="text-sejarah"> 
+                <h1>Company History</h1>
+                <br>
+                <p>In the process of planting these sweet potatoes, OPPUNG thought that if the sweet potatoes had been harvested, where would they be. Then without thinking, OPPUNG decided to build a Tapioca Factory to accommodate the marketing of the sweet potato. So in 2009 work began to build a tapioca factory in Pintubosi Village while waiting for the sweet potatoes to be harvested. 
+                </p>
+              </div>
+            </div>
+      
+            <div class="profil">
+              <img src="../assets/profil.png" alt="Foto Profil Pemilik">
+              <div class="text-profil">
+                <div class="judul-profil">
+                  <h1>Owner's Profile</h1> 
+                </div>
+                <br>
+                <p>
+                  The owner of PT. Hutahaean Tapioca Factory is Mr. St. Harangan Wilmar Hutahaean who is known by the nickname Mr. Hutahaean or OPPUNG.</p>
+              </div>
+            </div>
+      
+            <div class="visi-misi">
+              <img src="../assets/side-img-VisiMisi.png" alt="Visi dan Misi">
+              <div class="text-visi-misi">
+                <h1>Vision & Mission</h1>
+                <dl>
+                  <dt>Vision</dt>
+                  <dd>"To be the best<span> company in Indonesia in producing tapioca</span> flour with environm<span>entally friendly technology".</span></li>          
+                  <dt>Mission</dt>
+                  <dd>
+                    <ol type="I">
+                      <li>Participate in building and a<span>dvancing Tapanuli Raya in the</span> economic field through cassava cr<span>op and agriculture</span> program.</li>
+                      <li>Improving the welfare of farmers in the<span> economic field by</span> working together for profit sharing in<span> manage their farms.</span></li>
+                      <li>Improving the skills and knowledg<span>e of farmers in growing</span> cassava as raw material for pro<span>ducing tapioca flour.</span></li>
+                      <li>Enhance the business exper<span>ience in an industrial culture in</span> combination with agrar<span>ian culture.</span></li>
+                    </ol>
+                  </li>
+                </dl>
+              </div>
+            </div>
+      
+            <div class="hutahaean-group">
+              <img src="../assets/hutahaean-group.png">
+              <ul>
+                <li><a href="">PT. Hutahaean</a></li>
+                <li><a href="">PT. Labersa</a></li>
+                <li><a href="">PT. Herationica</a></li>              
+              </ul>
+            </div>
         </div>
-        <br>
-        <p>
-          The owner of PT. Hutahaean Tapioca Factory is Mr. St. Harangan Wilmar Hutahaean who is known by the nickname Mr. Hutahaean or OPPUNG.</p>
+   
+  </main>   
+
+  <footer id="footer" class="footer">
+      <div class="container">
+        <div class="description">
+          <h1>PT HUTAHAEAN PABRIK TAPIOKA</h1>
+          <p>PT Hutahaean Tapioka Factory is a company that contributes to the processing of yams in the Toba district.</p>
+        </div>
+    
+        <div class="link">
+          <h1>LINK</h1>
+          <ul>
+            <li><a href="eng-index.html">Home</a></li>
+            <li><a href="eng-visi-misi.html">About Us</a></li>
+            <li><a href="eng-Grup.html">Group</a></li>
+            <li><a href="eng-proses.html">Production</a></li>
+            <li><a href="eng-TJS.html">Corporate Social Responsibility</a></li>
+            <li><a href="eng-kontak.html">Contact Us</a></li>
+          </ul>
+        </div>
+    
+        <div class="contact-information">
+          <h1>CONTACT INFORMATION</h1>
+          <p>Jl. Indorayon, Pintubosi, Laguboti, Toba, North Sumatera, 22381-Indonesia.</p>
+        </div>
       </div>
-    </div>
-    <div class="visi-misi">
-      <img src="../assets/side-img-VisiMisi.png" alt="Visi dan Misi">
-      <div class="text-visi-misi">
-        <h1>Vision & Mission</h1>
-        <dl>
-          <dt>Vision</dt>
-          <dd>"To be the best<span> company in Indonesia in producing tapioca</span> flour with environm<span>entally friendly technology".</span></li>          
-          <dt>Mission</dt>
-          <dd>
-            <ol type="I">
-              <li>Participate in building and a<span>dvancing Tapanuli Raya in the</span> economic field through cassava cr<span>op and agriculture</span> program.</li>
-              <li>Improving the welfare of farmers in the<span> economic field by</span> working together for profit sharing in<span> manage their farms.</span></li>
-              <li>Improving the skills and knowledg<span>e of farmers in growing</span> cassava as raw material for pro<span>ducing tapioca flour.</span></li>
-              <li>Enhance the business exper<span>ience in an industrial culture in</span> combination with agrar<span>ian culture.</span></li>
-            </ol>
-          </li>
-        </dl>
-      </div>
-    </div>
-    <div class="hutahaean-group">
-      <img src="../assets/hutahaean-group.png">
-      <ul>
-        <li><a href="">PT. Hutahaean</a></li>
-        <li><a href="">PT. Labersa</a></li>
-        <li><a href="">PT. Herationica</a></li>              
-      </ul>
-    </div>
-  </div>
-  <div class="footer">
-    <div class="description">
-      <h1>PT HUTAHAEAN PABRIK TAPIOKA</h1>
-      <p>PT Hutahaean Tapioka Factory is a company that contributes to the processing of yams in the Toba district.</p>
-    </div>
-    <div class="link">
-      <h1>LINK</h1>
-      <ul>
-        <li><a href="eng-index.html">Home</a></li>
-        <li><a href="eng-visi-misi.html">About Us</a></li>
-        <li><a href="eng-Grup.html">Group</a></li>
-        <li><a href="eng-proses.html">Production</a></li>
-        <li><a href="eng-TJS.html">Corporate Social Responsibility</a></li>
-        <li><a href="eng-kontak.html">Contact Us</a></li>
-      </ul>
-    </div>
-    <div class="contact-information">
-      <h1>CONTACT INFORMATION</h1>
-      <p>Jl. Indorayon, Pintubosi, Laguboti, Toba, North Sumatera, 22381-Indonesia.</p>
-    </div>
-  </div>
+ 
+
+  </footer>
+
+  <script src="../js/script.js"></script>
+
 </body>
 </html>
