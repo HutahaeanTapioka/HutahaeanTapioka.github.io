@@ -169,12 +169,6 @@ body {
   text-align: center;
 }
 
-<<<<<<< HEAD
-/* -------------------------------------- */
-=======
-/* --------------------------------- */
->>>>>>>ad6227132e45b594ee9baa76c89525c48be6d233
-
 /* ------------- Kop -------------------- */
 .kop-kecil {
   padding: 50px;
@@ -454,17 +448,366 @@ h4 {
   background-position: center center;
 }
 
-/* * {
-  border: 1px solid #000;
-} */
-
 .garis img {
-  height: 2350px;
+  height: 2245px;
   padding: 0 49.35%;
   margin-bottom: 239px;
 }
 
-.timbangan {
+@media only screen and (max-width: 780px) {
+
+  .content .garis img {
+    height: 1125px;
+    padding: 0 49.35%;
+    margin-bottom: 80px;
+  }
+
+  .content .timbangan img {
+    width: 42px;
+    height: 42px;
+    left: 219px;
+    top: 890px;
+  }
+
+  .content .timbangan h2 {
+    width: 120px;
+    height: 25px;
+    left: 280px;
+    top: 900px;
+    font-size: 14px;
+    line-height: 25px;
+    padding-left: 7px;
+  }
+
+  .content .timbangan p {
+    width: 180px;
+    height: 42px;
+    left: 280px;
+    top: 925px;
+    font-size: 12px;
+    line-height: 9px;
+    text-align: left;
+    padding: 3px;
+  }
+
+  .content .oci img {
+    width: 42px;
+    height: 42px;
+    left: 219px;
+    top: 990px;
+  }
+
+  .content .oci h2 {
+    width: 120px;
+    height: 25px;
+    left: 82px;
+    top: 995px;
+    font-size: 14px;
+    line-height: 25px;
+    padding-left: 7px;
+  }
+
+  .content .oci p {
+    width: 180px;
+    height: 34px;
+    left: 22px;
+    top: 1020px;
+    font-size: 12px;
+    line-height: 9px;
+    text-align: left;
+    padding: 3px;
+  }
+
+  .content .pengering img {
+    width: 42px;
+    height: 42px;
+    left: 219px;
+    top: 1090px;
+  }
+
+  .content .pengering h2 {
+    width: 120px;
+    height: 25px;
+    left: 280px;
+    top: 1090px;
+    font-size: 14px;
+    line-height: 25px;
+    padding-left: 7px;
+  }
+
+  .content .pengering p {
+    width: 180px;
+    height: 34px;
+    left: 280px;
+    top: 1115px;
+    font-size: 12px;
+    line-height: 9px;
+    text-align: left;
+    padding: 3px;
+  }
+
+  .content .pencuci img {
+    width: 42px;
+    height: 42px;
+    left: 219px;
+    top: 1190px;
+  }
+
+  .content .pencuci h2 {
+    width: 120px;
+    height: 25px;
+    left: 82px;
+    top: 1190px;
+    font-size: 14px;
+    line-height: 25px;
+    padding-left: 7px;
+  }
+
+  .content .pencuci p {
+    width: 180px;
+    height: 34px;
+    left: 22px;
+    top: 1215px;
+    font-size: 12px;
+    line-height: 9px;
+    text-align: left;
+    padding: 3px;
+  }
+
+  .content .pemotong img {
+    width: 42px;
+    height: 42px;
+    left: 225px;
+    top: 1290px;
+  }
+
+  .content .pemotong h2 {
+    width: 120px;
+    height: 25px;
+    left: 280px;
+    top: 1290px;
+    font-size: 14px;
+    line-height: 25px;
+    padding-left: 7px;
+  }
+
+  .content .pemotong p {
+    width: 180px;
+    height: 34px;
+    left: 280px;
+    top: 1315px;
+    font-size: 12px;
+    line-height: 9px;
+    text-align: left;
+    padding: 3px;
+  }
+
+  .content .penggiling img {
+    width: 42px;
+    height: 42px;
+    left: 225px;
+    top: 1390px;
+  }
+
+  .content .penggiling h2 {
+    width: 120px;
+    height: 25px;
+    left: 82px;
+    top: 1390px;
+    font-size: 14px;
+    line-height: 25px;
+    padding-left: 7px;
+  }
+
+  .content .penggiling p {
+    width: 180px;
+    height: 34px;
+    left: 22px;
+    top: 1415px;
+    font-size: 12px;
+    line-height: 9px;
+    text-align: left;
+    padding: 3px;
+  }
+
+  .content .pemisah img {
+    width: 42px;
+    height: 42px;
+    left: 219px;
+    top: 1490px;
+  }
+
+  .content .pemisah h2 {
+    width: 120px;
+    height: 25px;
+    left: 280px;
+    top: 1490px;
+    font-size: 14px;
+    line-height: 25px;
+    padding-left: 7px;
+  }
+
+  .content .pemisah p {
+    width: 180px;
+    height: 34px;
+    left: 280px;
+    top: 1515px;
+    font-size: 12px;
+    line-height: 9px;
+    text-align: left;
+    padding: 3px;
+  }
+
+  .content .pemisahzat img {
+    width: 42px;
+    height: 42px;
+    left: 228px;
+    top: 1590px;
+  }
+
+  .content .pemisahzat h2 {
+    width: 120px;
+    height: 25px;
+    left: 82px;
+    top: 1590px;
+    font-size: 14px;
+    line-height: 25px;
+    padding-left: 7px;
+  }
+
+  .content .pemisahzat p {
+    width: 180px;
+    height: 40px;
+    left: 22px;
+    top: 1615px;
+    font-size: 12px;
+    line-height: 9px;
+    text-align: left;
+    padding: 3px;
+  }
+
+  .content .dewatering img {
+    width: 42px;
+    height: 42px;
+    left: 222px;
+    top: 1690px;
+  }
+
+  .content .dewatering h2 {
+    width: 120px;
+    height: 25px;
+    left: 280px;
+    top: 1690px;
+    font-size: 14px;
+    line-height: 25px;
+    padding-left: 7px;
+  }
+
+  .content .dewatering p {
+    width: 180px;
+    height: 50px;
+    left: 280px;
+    top: 1715px;
+    font-size: 12px;
+    line-height: 9px;
+    text-align: left;
+    padding: 3px;
+  }
+
+  .content .pengeringpati img {
+    width: 42px;
+    height: 42px;
+    left: 222px;
+    top: 1790px;
+  }
+
+  .content .pengeringpati h2 {
+    width: 120px;
+    height: 25px;
+    left: 82px;
+    top: 1790px;
+    font-size: 14px;
+    line-height: 25px;
+    padding-left: 7px;
+  }
+
+  .content .pengeringpati p {
+    width: 180px;
+    height: 25px;
+    left: 22px;
+    top: 1815px;
+    font-size: 12px;
+    line-height: 9px;
+    text-align: left;
+    padding: 3px;
+  }
+
+  .content .pengayakan img {
+    width: 42px;
+    height: 42px;
+    left: 222px;
+    top: 1890px;
+  }
+
+  .content .pengayakan h2 {
+    width: 120px;
+    height: 25px;
+    left: 280px;
+    top: 1890px;
+    font-size: 14px;
+    line-height: 25px;
+    padding-left: 7px;
+  }
+
+  .content .pengayakan p {
+    width: 180px;
+    height: 45px;
+    left: 280px;
+    top: 1915px;
+    font-size: 12px;
+    line-height: 9px;
+    text-align: left;
+    padding: 3px;
+  }
+
+  .content .packing img {
+    width: 42px;
+    height: 42px;
+    left: 225px;
+    top: 1990px;
+  }
+
+  .content .packing h2 {
+    width: 120px;
+    height: 25px;
+    left: 82px;
+    top: 1990px;
+    font-size: 14px;
+    line-height: 25px;
+    padding-left: 7px;
+  }
+
+  .content .packing p {
+    width: 180px;
+    height: 35px;
+    left: 22px;
+    top: 2015px;
+    font-size: 12px;
+    line-height: 9px;
+    text-align: left;
+    padding: 3px;
+  }
+
+  .content .gambarbawah img {
+    display: none;
+  }
+
+  .content .gambarbawah h2 {
+    display: none;
+  }
+}
+
+.timbangan img {
   position: absolute;
   width: 98px;
   height: 72px;
@@ -472,9 +815,9 @@ h4 {
   top: 850px;
 }
 
-.judul1 {
-  background-color: #066239;
+.timbangan h2 {
   position: absolute;
+  background-color: #066239;
   width: 200px;
   height: 68px;
   left: 767px;
@@ -486,21 +829,21 @@ h4 {
   padding-left: 7px;
 }
 
-.deskripsi1 {
+.timbangan p {
   background-color: #C4C4C4;
   position: absolute;
   width: 450px;
-  height: 110px;
+  height: 80px;
   left: 767px;
   top: 928px;
   font-family: Rasa;
   font-size: 20px;
-  line-height: 37px;
+  line-height: 25px;
   text-align: justify;
   padding: 5px;
 }
 
-.oci {
+.oci img {
   position: absolute;
   width: 97px;
   height: 75px;
@@ -508,7 +851,7 @@ h4 {
   top: 1050px;
 }
 
-.judul2 {
+.oci h2 {
   background-color: #066239;
   position: absolute;
   width: 192px;
@@ -522,22 +865,22 @@ h4 {
   padding-left: 7px;
 }
 
-.deskripsi2 {
+.oci p {
   background-color: #C4C4C4;
   position: absolute;
   width: 450px;
-  height: 80px;
+  height: 60px;
   left: 108px;
   top: 1123px;
   font-family: Rasa;
   font-size: 20px;
-  line-height: 37px;
+  line-height: 25px;
   text-align: justify;
   color: #000000;
   padding: 5px;
 }
 
-.pengering {
+.pengering img {
   position: absolute;
   width: 97px;
   height: 75px;
@@ -545,7 +888,7 @@ h4 {
   top: 1250px;
 }
 
-.judul3 {
+.pengering h2 {
   background-color: #066239;
   position: absolute;
   width: 200px;
@@ -559,22 +902,22 @@ h4 {
   padding-left: 7px;
 }
 
-.deskripsi3 {
+.pengering p {
   background-color: #C4C4C4;
   position: absolute;
   width: 450px;
-  height: 78px;
+  height: 60px;
   left: 767px;
   top: 1320px;
   font-family: Rasa;
   font-size: 20px;
-  line-height: 37px;
+  line-height: 25px;
   text-align: justify;
   color: #000000;
   padding: 5px;
 }
 
-.pencuci {
+.pencuci img {
   position: absolute;
   width: 97px;
   height: 75px;
@@ -582,7 +925,7 @@ h4 {
   top: 1450px;
 }
 
-.judul4 {
+.pencuci h2 {
   background-color: #066239;
   position: absolute;
   width: 208px;
@@ -596,36 +939,36 @@ h4 {
   padding-left: 7px;
 }
 
-.deskripsi4 {
+.pencuci p {
   background-color: #C4C4C4;
   position: absolute;
   width: 450px;
-  height: 80px;
+  height: 60px;
   left: 108px;
   top: 1508px;
   font-family: Rasa;
   font-size: 20px;
-  line-height: 37px;
+  line-height: 25px;
   text-align: justify;
   color: #000000;
   padding: 5px;
 }
 
-.pemotong {
+.pemotong img {
   position: absolute;
   width: 97px;
   height: 75px;
-  left: 617px;
-  top: 1650px;
+  left: 630px;
+  top: 1630px;
 }
 
-.judul5 {
+.pemotong h2 {
   background-color: #066239;
   position: absolute;
   width: 200px;
   height: 68px;
   left: 767px;
-  top: 1675px;
+  top: 1630px;
   font-family: Rasa;
   font-size: 25px;
   line-height: 75px;
@@ -633,21 +976,21 @@ h4 {
   padding-left: 7px;
 }
 
-.deskripsi5 {
+.pemotong p {
   background-color: #C4C4C4;
   position: absolute;
   width: 450px;
-  height: 81px;
+  height: 60px;
   left: 767px;
-  top: 1737px;
+  top: 1698px;
   font-family: Rasa;
   font-size: 20px;
-  line-height: 37px;
+  line-height: 25px;
   color: #000000;
   padding: 5px;
 }
 
-.penggiling {
+.penggiling img {
   position: absolute;
   width: 97px;
   height: 75px;
@@ -655,7 +998,7 @@ h4 {
   top: 1850px;
 }
 
-.judul6 {
+.penggiling h2 {
   background-color: #066239;
   position: absolute;
   width: 192px;
@@ -669,22 +1012,22 @@ h4 {
   padding-left: 7px;
 }
 
-.deskripsi6 {
+.penggiling p {
   background-color: #C4C4C4;
   position: absolute;
   width: 450px;
-  height: 81px;
+  height: 60px;
   left: 108px;
   top: 1913px;
   font-family: Rasa;
   font-size: 20px;
-  line-height: 37px;
+  line-height: 25px;
   text-align: justify;
   color: #000000;
   padding: 5px;
 }
 
-.pemisah {
+.pemisah img {
   position: absolute;
   width: 97px;
   height: 75px;
@@ -692,7 +1035,7 @@ h4 {
   top: 2050px;
 }
 
-.judul7 {
+.pemisah h2 {
   background-color: #066239;
   position: absolute;
   width: 200px;
@@ -706,22 +1049,22 @@ h4 {
   padding-left: 7px;
 }
 
-.deskripsi7 {
+.pemisah p {
   background-color: #C4C4C4;
   position: absolute;
   width: 450px;
-  height: 70px;
+  height: 55px;
   left: 767px;
   top: 2113px;
   font-family: Rasa;
   font-size: 20px;
-  line-height: 37px;
+  line-height: 25px;
   text-align: justify;
   color: #000000;
   padding: 5px;
 }
 
-.pemisahzat {
+.pemisahzat img {
   position: absolute;
   width: 97px;
   height: 75px;
@@ -729,7 +1072,7 @@ h4 {
   top: 2250px;
 }
 
-.judul8 {
+.pemisahzat h2 {
   background-color: #066239;
   position: absolute;
   width: 192px;
@@ -743,22 +1086,22 @@ h4 {
   padding-left: 7px;
 }
 
-.deskripsi8 {
+.pemisahzat p {
   background-color: #C4C4C4;
   position: absolute;
   width: 450px;
-  height: 110px;
+  height: 85px;
   left: 108px;
   top: 2318px;
   font-family: Rasa;
   font-size: 20px;
-  line-height: 37px;
+  line-height: 25px;
   text-align: justify;
   color: #000000;
   padding: 5px;
 }
 
-.dewatering {
+.dewatering img {
   position: absolute;
   width: 97px;
   height: 75px;
@@ -766,7 +1109,7 @@ h4 {
   top: 2450px;
 }
 
-.judul9 {
+.dewatering h2 {
   background-color: #066239;
   position: absolute;
   width: 203px;
@@ -780,22 +1123,22 @@ h4 {
   padding-left: 7px;
 }
 
-.deskripsi9 {
+.dewatering p {
   background-color: #C4C4C4;
   position: absolute;
   width: 450px;
-  height: 150px;
+  height: 110px;
   left: 769px;
   top: 2507px;
   font-family: Rasa;
   font-size: 20px;
-  line-height: 37px;
+  line-height: 25px;
   text-align: justify;
   color: #000000;
   padding: 5px;
 }
 
-.pengeringpati {
+.pengeringpati img {
   position: absolute;
   width: 97px;
   height: 75px;
@@ -803,7 +1146,7 @@ h4 {
   top: 2650px;
 }
 
-.judul10 {
+.pengeringpati h2 {
   background-color: #066239;
   position: absolute;
   width: 210px;
@@ -817,22 +1160,22 @@ h4 {
   padding-left: 7px;
 }
 
-.deskripsi10 {
+.pengeringpati p {
   background-color: #C4C4C4;
   position: absolute;
   width: 450px;
-  height: 80px;
+  height: 60px;
   left: 108px;
   top: 2748px;
   font-family: Rasa;
   font-size: 20px;
-  line-height: 37px;
+  line-height: 25px;
   text-align: justify;
   color: #000000;
   padding: 5px;
 }
 
-.pengayakan {
+.pengayakan img {
   position: absolute;
   width: 97px;
   height: 75px;
@@ -840,7 +1183,7 @@ h4 {
   top: 2850px;
 }
 
-.judul11 {
+.pengayakan h2 {
   background-color: #066239;
   position: absolute;
   width: 184px;
@@ -854,22 +1197,22 @@ h4 {
   padding-left: 7px;
 }
 
-.deskripsi11 {
+.pengayakan p {
   background-color: #C4C4C4;
   position: absolute;
   width: 450px;
-  height: 115px;
+  height: 85px;
   left: 769px;
   top: 2906px;
   font-family: Rasa;
   font-size: 20px;
-  line-height: 37px;
+  line-height: 25px;
   text-align: justify;
   color: #000000;
   padding: 5px;
 }
 
-.packing {
+.packing img {
   position: absolute;
   width: 97px;
   height: 75px;
@@ -877,7 +1220,7 @@ h4 {
   top: 3050px;
 }
 
-.judul12 {
+.packing h2 {
   background-color: #066239;
   position: absolute;
   width: 210px;
@@ -891,21 +1234,20 @@ h4 {
   padding-left: 7px;
 }
 
-.deskripsi12 {
+.packing p {
   background-color: #C4C4C4;
   position: absolute;
   width: 450px;
-  height: 77px;
+  height: 57px;
   left: 108px;
   top: 3133px;
   font-family: Rasa;
   font-size: 20px;
-  line-height: 37px;
+  line-height: 25px;
   text-align: justify;
   color: #000000;
   padding: 5px;
 }
-
 
 .gambarbawah img {
   position: absolute;
@@ -920,22 +1262,21 @@ h4 {
   position: absolute;
   width: 87%;
   left: 100px;
-  top: 3320px;
+  top: 3385px;
   font-family: Mada;
   font-size: 33px;
-  line-height: 100px;
+  line-height: 50px;
   text-align: center;
   color: #FFFFFF;
   z-index: 1;
 }
 
-
-.prosesproduksi {
+/* .prosesproduksi {
   color: #fff;
   margin-top: 23%;
   margin-left: 10%;
   font-size: 60px;
-}
+} */
 
 /*------------------*/
 
@@ -948,17 +1289,10 @@ h4 {
   background-position: center center;
 }
 
-.bg-sertifikat h3 {
-  font-size: 50px;
-  line-height: 78px;
-  color: #FFFFFF;
-  padding: 50px;
-  margin-top: 20%;
-}
-
 .apa {
+  display: grid;
   font-family: Rasa;
-  margin: 1600px;
+  margin: 550px;
 }
 
 .apa h1 {
@@ -1016,12 +1350,59 @@ h4 {
   width: 500px;
 }
 
-.halal {
-  position: absolute;
-  left: 520px;
-  top: 2000px;
-  height: 400px;
-  width: 300px;
+@media only screen and (max-width: 780px) {
+
+  .apa {
+    font-family: Rasa;
+    margin: 450px;
+  }
+
+  .apa h1 {
+    width: 120px;
+    left: 30px;
+    top: 877px;
+    background-color: #066239;
+    font-size: 18px;
+  }
+
+  .apa p {
+    width: 400px;
+    left: 30px;
+    top: 940px;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: justify;
+    text-indent: 50px;
+  }
+
+  .serti-1 img {
+    width: 300px;
+    height: 200px;
+    left: 0px;
+    top: 30px;
+  }
+
+  .serti-1 {
+    background-color: rgba(3, 99, 56, 0.69);
+    left: 60px;
+    top: 1200px;
+    width: 350px;
+    height: 250px;
+  }
+
+  .serti-2 {
+    left: 30px;
+    top: 1500px;
+    height: 250px;
+    width: 200px;
+  }
+
+  .serti-3 {
+    left: 250px;
+    top: 1500px;
+    height: 250px;
+    width: 200px;
+  }
 }
 
 /* ----------------- */
@@ -1826,28 +2207,25 @@ h4 {
   background-position: center center;
 }
 
-/* * {
-  border: 1px solid #000;
-} */
-
-.bg-grup h3 {
-  font-size: 50px;
-  line-height: 78px;
-  color: #FFFFFF;
-  padding: 50px;
-  margin-top: 20%;
-}
-
 .hth-grup {
-  padding: 5%;
-  margin-top: 60px;
-  font-family: "Rasa";
-  margin-left: 5%;
+  padding: 15px;
+  margin-left: 25px;
+  margin-bottom: 40px;
 }
 
-.hth-grup ul {
+.hth-grup h1 {
+  font-family: "Rasa";
   font-size: 25px;
-  padding: 30px;
+  margin-left: 5%;
+  margin-bottom: 15px;
+  margin-top: 35px;
+}
+
+.hth-grup ul li {
+  font-size: 25px;
+  margin-left: 100px;
+  line-height: 40px;
+  text-align: justify;
   list-style-type: none;
 }
 
@@ -1856,50 +2234,77 @@ h4 {
   text-decoration: none;
 }
 
+@media only screen and (max-width: 780px) {
+  .content .hth-grup {
+    margin-left: 5px;
+    margin-bottom: 20px;
+  }
+
+  .content .hth-grup h1 {
+    font-family: "Rasa";
+    font-size: 20px;
+    margin-left: 5%;
+  }
+
+  .content .hth-grup ul li {
+    font-size: 15px;
+    margin-left: 25px;
+    line-height: 20px;
+    text-align: justify;
+    list-style-type: none;
+  }
+}
+
 /*-----------------*/
 
 /* Tanggung Jawab Sosial */
+
+.line-tengah {
+  width: 93%;
+  top: 210%;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  position: absolute;
+  display: block;
+  color: #000;
+  height: 5px;
+  z-index: 10000;
+  box-sizing: border-box;
+}
 
 .bg-tjs {
   background-image: url(../assets/TJS.png);
   background-size: cover;
   min-height: 100vh;
+  width: 100%;
+  background-position: center center;
 }
 
+/* 
+* {
+  border: 1px solid black;
+} */
+
 .KOLOM {
-  padding-bottom: 1450px;
+  padding-bottom: 150px;
   background-color: whitesmoke;
 }
 
-.line-1 img {
-  position: absolute;
+.KOLOM .line-1 img {
   height: 1200px;
-  left: 50%;
+  margin-left: 50%;
   top: 897px;
-  background: #000000;
+  background: #000;
 }
 
-/* * {
-  border: 1px solid #000;
-} */
-
-img.line-2 {
-  position: absolute;
-  width: 93%;
+/* .KOLOM .line-2 img {
+  width: 1440px;
   height: 9px;
-  left: 3%;
-  top: 1400px;
-  background: #000000;
-}
-
-/* #verticle-line {
-  width: 1px;
-  min-height: 400px;
-  background: black;
-  margin-top: 0;
+  left: 0px;
+  top: 407px;
 } */
 
-.rp-1 {
+.KOLOM .kolom1 h2 {
   position: absolute;
   height: 42px;
   left: 50px;
@@ -1911,7 +2316,7 @@ img.line-2 {
   line-height: 42px;
 }
 
-.ic-1 {
+.KOLOM .kolom1 img {
   position: absolute;
   width: 138px;
   height: 115px;
@@ -1919,7 +2324,7 @@ img.line-2 {
   top: 1149px;
 }
 
-.fc-1 {
+.KOLOM .kolom1 p {
   position: absolute;
   height: 37px;
   left: 270px;
@@ -1930,7 +2335,7 @@ img.line-2 {
   line-height: 37px;
 }
 
-.rp-2 {
+.KOLOM .kolom2 h2 {
   position: absolute;
   height: 42px;
   left: 767px;
@@ -1942,7 +2347,7 @@ img.line-2 {
   line-height: 42px;
 }
 
-.ic-2 {
+.KOLOM .kolom2 img {
   position: absolute;
   width: 112px;
   height: 117px;
@@ -1950,7 +2355,7 @@ img.line-2 {
   top: 1137px;
 }
 
-.fg-1 {
+.KOLOM .kolom2 p {
   position: absolute;
   height: 37px;
   left: 986px;
@@ -1961,7 +2366,7 @@ img.line-2 {
   line-height: 37px;
 }
 
-.rp-3 {
+.KOLOM .kolom3 h2 {
   position: absolute;
   height: 42px;
   left: 50px;
@@ -1973,7 +2378,7 @@ img.line-2 {
   line-height: 42px;
 }
 
-.ic-3 {
+.KOLOM .kolom3 .ic-3 {
   position: absolute;
   width: 138px;
   height: 115px;
@@ -1981,7 +2386,7 @@ img.line-2 {
   top: 1709px;
 }
 
-.ic-4 {
+.KOLOM .kolom3 .ic-4 {
   position: absolute;
   width: 138px;
   height: 115px;
@@ -1989,7 +2394,7 @@ img.line-2 {
   top: 1909px;
 }
 
-.pd-1 {
+.KOLOM .kolom3 .pd-1 {
   position: absolute;
   height: 37px;
   left: 252px;
@@ -2000,7 +2405,7 @@ img.line-2 {
   line-height: 37px;
 }
 
-.km-1 {
+.KOLOM .kolom3 .km-1 {
   position: absolute;
   height: 37px;
   left: 258px;
@@ -2011,7 +2416,7 @@ img.line-2 {
   line-height: 37px;
 }
 
-.rp-4 {
+.KOLOM .kolom4 h2 {
   position: absolute;
   height: 42px;
   left: 779px;
@@ -2023,7 +2428,7 @@ img.line-2 {
   line-height: 42px;
 }
 
-.ic-5 {
+.KOLOM .kolom4 .ic-5 {
   position: absolute;
   width: 112px;
   height: 117px;
@@ -2031,7 +2436,7 @@ img.line-2 {
   top: 1710px;
 }
 
-.ic-6 {
+.KOLOM .kolom4 .ic-6 {
   position: absolute;
   width: 112px;
   height: 117px;
@@ -2039,7 +2444,7 @@ img.line-2 {
   top: 1910px;
 }
 
-.pl-1 {
+.KOLOM .kolom4 .pl-1 {
   position: absolute;
   height: 37px;
   left: 963px;
@@ -2049,7 +2454,7 @@ img.line-2 {
   line-height: 37px;
 }
 
-.ps-1 {
+.KOLOM .kolom4 .ps-1 {
   position: absolute;
   height: 37px;
   left: 949px;
@@ -2059,9 +2464,151 @@ img.line-2 {
   line-height: 37px;
 }
 
-.produksi-a span {
-  color: rgba(0, 0, 0, 0.39);
+@media only screen and (max-width: 780px) {
+  .KOLOM {
+    padding-bottom: 50PX;
+    background-color: whitesmoke;
+  }
+
+  .KOLOM .line-1 img {
+    height: 650px;
+    left: 50%;
+    top: 940px;
+  }
+
+  /* .KOLOM .line-2 img {
+    height: 4.5px;
+    left: 3%;
+    top: 1200px;
+  } */
+
+  .line-tengah {
+    width: 88%;
+    top: 173%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: block;
+    color: #000;
+    height: 3px;
+    z-index: 10000;
+    box-sizing: border-box;
+  }
+
+  .KOLOM .kolom1 h2 {
+    left: 25px;
+    top: 952px;
+    font-size: 18px;
+  }
+
+  .KOLOM .kolom1 img {
+    width: 69px;
+    height: 57.5px;
+    left: 25px;
+    top: 1049px;
+  }
+
+  .KOLOM .kolom1 p {
+    left: 100px;
+    top: 1081px;
+    font-family: Rasa;
+    font-size: 15px;
+  }
+
+  .KOLOM .kolom2 h2 {
+    height: 42px;
+    left: 267px;
+    top: 952px;
+    font-size: 18px;
+  }
+
+  .KOLOM .kolom2 img {
+    width: 69px;
+    height: 57.5px;
+    left: 267px;
+    top: 1050px;
+  }
+
+  .KOLOM .kolom2 p {
+    left: 367px;
+    top: 1080px;
+    font-family: Rasa;
+    font-size: 15px;
+  }
+
+  .KOLOM .kolom3 h2 {
+    left: 25px;
+    top: 1258px;
+    font-size: 18px;
+  }
+
+  .KOLOM .kolom3 .ic-3 {
+    width: 69px;
+    height: 57.5px;
+    left: 25px;
+    top: 1358px;
+  }
+
+  .KOLOM .kolom3 .ic-4 {
+    width: 69px;
+    height: 57.5px;
+    left: 25px;
+    top: 1458px;
+  }
+
+  .KOLOM .kolom3 .pd-1 {
+    top: 1390px;
+    left: 100px;
+    font-family: Rasa;
+    font-size: 15px;
+  }
+
+  .KOLOM .kolom3 .km-1 {
+    top: 1480px;
+    left: 100px;
+    font-family: Rasa;
+    font-size: 15px;
+  }
+
+  .KOLOM .kolom4 h2 {
+    height: 42px;
+    left: 267px;
+    top: 1258px;
+    font-size: 18px;
+  }
+
+  .KOLOM .kolom4 .ic-5 {
+    width: 69px;
+    height: 57.5px;
+    left: 267px;
+    top: 1358px;
+  }
+
+  .KOLOM .kolom4 .ic-6 {
+    width: 69px;
+    height: 57.5px;
+    left: 267px;
+    top: 1458px;
+  }
+
+  .KOLOM .kolom4 .pl-1 {
+    left: 367px;
+    top: 1450px;
+    font-family: Rasa;
+    font-size: 15px;
+  }
+
+  .KOLOM .kolom4 .ps-1 {
+    left: 367px;
+    top: 1358px;
+    font-family: Rasa;
+    font-size: 15px;
+  }
 }
+
+
+/* .produksi-a span {
+  color: rgba(0, 0, 0, 0.39);
+} */
 
 /*------------------*/
 
@@ -2358,8 +2905,8 @@ hr {
   margin: 1rem 0;
   color: inherit;
   background-color: currentColor;
-  border: 0;
-  opacity: 0.25;
+  border: 1px;
+  opacity: 1;
 }
 
 */ hr:not([size]) {
