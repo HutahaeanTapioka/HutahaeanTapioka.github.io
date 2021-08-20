@@ -86,7 +86,6 @@ body {
   min-height: 100vh;
 }
 
-<<<<<<< HEAD
 .background-home {
   background-image: url(../assets/Main-Screen.jpg);
   background-size: cover;
@@ -94,10 +93,6 @@ body {
   width: 100%;
   min-height: 100vh;
 }
-=======
-/* ---------- Responsive  ----------------- */
-@media (max-width: 780px) {
->>>>>>> a865a0173465b3352777541bfa28eb141ddb514e
 
 img {
   vertical-align: middle;
@@ -334,21 +329,16 @@ img {
 .mt-7 {
   margin-top: 15rem;
 }
-<<<<<<< HEAD
+
 /* -------------------------------------- */
 
 /* --- Kop --- */
 
-=======
 
-<<<<<<< HEAD
 /* -------------------------------------- */
-=======
-/* --------------------------------- */
->>>>>>>ad6227132e45b594ee9baa76c89525c48be6d233
 
 /* ------------- Kop -------------------- */
->>>>>>> a865a0173465b3352777541bfa28eb141ddb514e
+
 .kop-kecil {
   padding: 50px;
 }
@@ -359,12 +349,7 @@ h4 {
   text-align: center;
   letter-spacing: 1.5px;
 }
-<<<<<<< HEAD
 /* ---------------- */
-=======
-
-/* -------------------------------------- */
->>>>>>> a865a0173465b3352777541bfa28eb141ddb514e
 
 
 /* ---------------- Section-Sejarah-Home -------------- */
@@ -407,12 +392,8 @@ h4 {
   font-size: 27px;
 }
 
-<<<<<<< HEAD
 
 
-=======
-/* ------------------------------------ */
->>>>>>> a865a0173465b3352777541bfa28eb141ddb514e
 
 /* ------- Section-ProfilPemilik-Home ------- */
 
@@ -462,10 +443,6 @@ h4 {
   box-sizing: border-box;
 }
 
-<<<<<<< HEAD
-=======
-/* ------------------------------ */
->>>>>>> a865a0173465b3352777541bfa28eb141ddb514e
 
 /* ------- Section-VisiMisi-Home  ------ */
 .visi-misi img {
@@ -527,10 +504,6 @@ h4 {
   padding-right: 17%;
 }
 
-<<<<<<< HEAD
-=======
-/* ----------------------------------- */
->>>>>>> a865a0173465b3352777541bfa28eb141ddb514e
 
 /* --------- Section-Footer ------------- */
 
