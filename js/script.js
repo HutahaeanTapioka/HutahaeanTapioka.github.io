@@ -37,11 +37,11 @@ window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
   var botnav = document.getElementById("navbarId")
   if (document.body.scrollTop > 620 || document.documentElement.scrollTop > 620) {
-    botnav.classList.add('bottom-nav');
+    botnav.style.display = "flex";
 
   } 
   else {
-    botnav.classList.remove('bottom-nav');
+    botnav.style.display = "none";
 
   }
 }
