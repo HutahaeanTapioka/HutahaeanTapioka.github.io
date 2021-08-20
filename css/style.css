@@ -338,12 +338,26 @@ img {
   padding: 50px;
 }
 
-.kop-kecil h2,
-h4 {
+.kop-kecil h2, .kop-kecil h4 {
   font-family: "Rasa";
   text-align: center;
   letter-spacing: 1.5px;
 }
+
+@me
+@media screen and (max-width: 600px) {
+    .kop-kecil {
+      padding: 30px;
+    }
+
+    .kop-kecil h2, .kop-kecil h4 {
+      font-family: "Rasa";
+      text-align: center;
+      letter-spacing: 1px;
+    }
+    
+}
+
 /* ---------------- */
 
 
@@ -351,43 +365,45 @@ h4 {
 
 .side-img {
   background-color: rgba(3, 99, 56, 0.69);
-  width: 40%;
-  height: 400px;
-  margin-left: 3%;
-  margin-top: 12%;
-  float: left;
-  box-sizing: border-box;
+  height: 20rem;
+  width: 29rem;
+  margin-left: 2%;
+  margin-top: 10%;
 }
 
 .side-img img {
   position: relative;
-  width: 100%;
-  height: 400px;
-  left: 10%;
-  margin-top: -11%;
-  box-sizing: border-box;
-}
-
-.text-sejarah {
-  float: left;
-  padding: 5px;
-  width: 45%;
-  height: 700px;
-  margin-top: 7.5%;
-  margin-left: 7%;
-}
-
-.text-sejarah h1 {
-  font-family: "Rasa";
-  font-size: 50px;
-}
-
-.text-sejarah p {
-  font-family: "Rasa";
-  font-size: 27px;
+  height: 20rem;
+  width: 30rem;
+  left: 5%;
+  margin-top: -5%;
 }
 
 
+@media screen and  (max-width: 600px) {
+    .sejarah-home {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+
+    .side-img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .side-img img {
+      position: static;
+      width: 100%;
+      height: auto;
+    }
+
+    .text-sejhom {
+      display: block;
+      width: 100%;
+    }
+}
 
 
 /* ------- Section-ProfilPemilik-Home ------- */
@@ -414,20 +430,6 @@ h4 {
   box-sizing: border-box;
 }
 
-.text-profil {
-  width: 50%;
-  margin-top: -10%;
-  margin-left: 10%;
-  padding-top: 6%;
-  float: left;
-  box-sizing: border-box;
-}
-
-.text-profil p {
-  font-family: "Rasa";
-  font-size: 30px;
-}
-
 .profil img {
   width: 25%;
   height: 90%;
@@ -438,13 +440,7 @@ h4 {
   box-sizing: border-box;
 }
 
-
 /* ------- Section-VisiMisi-Home  ------ */
-.visi-misi img {
-  width: 100%;
-  margin-top: 10%;
-}
-
 /*
 .text-visi-misi {
   font-family: "Rasa";
@@ -468,35 +464,17 @@ h4 {
 }
 */
 
+.bg-visi-home {
+  background-image: url(../assets/visiside.png);
+  background-size: cover;
+  background-position: center center;
+}
 
 /* --------- Section-Grup-Home -------- */
 
-.hutahaean-group a {
-  color: #000;
-  font-weight: bold;
-  font-size: 100%;
-  text-decoration: none;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-}
-
-.hutahaean-group img {
-  margin-top: 10%;
-  width: 100%;
-  box-sizing: border-box;
-}
-
-.hutahaean-group ul {
-  margin: 2% 0;
-  text-align: center;
-  padding-left: 10%;
-}
-
-.hutahaean-group ul li {
-  display: inline-block;
-  margin: 1px 1.8%;
-  text-align: center;
-  padding-right: 17%;
+.bg-hutahaean-group {
+  background-image: url(../assets/hutahaean-group.png);
+  background-size: cover;
 }
 
 
@@ -506,7 +484,7 @@ h4 {
   background-color: #066338;
   height: 320px;
 }
-
+/* 
 .description,
 .link,
 .contact-information {
@@ -527,9 +505,9 @@ h4 {
 .link {
   padding: 0;
   width: 20%;
-}
+} */
 
-.contact-information {
+/* .contact-information {
   width: 27%;
 }
 
@@ -558,7 +536,7 @@ h4 {
 .link ul li {
   display: block;
   margin-left: -11%;
-}
+} */
 
 /* ----------------------------------------------- */
 /* ----------------------------------------------- */
