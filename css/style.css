@@ -356,22 +356,7 @@ img {
 
 /* ------------- Kop -------------------- */
 
-<<<<<<< HEAD
-.kop-kecil {
-  padding: 50px;
-}
 
-.kop-kecil h2,
-h4 {
-  font-family: "Rasa";
-  text-align: center;
-  letter-spacing: 1.5px;
-}
-
-/* ---------------- */
-
-=======
->>>>>>> a22783c78e11dbb4f83cb91936e0f7aa45f8e327
 
 /* ---------------- Section-Sejarah-Home -------------- */
 
@@ -562,12 +547,12 @@ h4 {
   margin-bottom: 239px;
 }
 
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 576px) {
 
   .content .garis img {
     height: 1110px;
-    padding: 0 49.35%;
-    margin-bottom: 80px;
+    padding: 0 49.31%;
+    margin-bottom: 500px;
   }
 
   .content .timbangan img {
@@ -1356,7 +1341,7 @@ h4 {
   color: #000000;
   padding: 5px;
 }
-
+/* 
 .gambarbawah img {
   position: absolute;
   width: 1437px;
@@ -1377,7 +1362,7 @@ h4 {
   text-align: center;
   color: #FFFFFF;
   z-index: 1;
-}
+} */
 
 /* .prosesproduksi {
   color: #fff;
@@ -1400,7 +1385,7 @@ h4 {
 .apa {
   display: grid;
   font-family: Rasa;
-  margin: 550px;
+  margin: 600px;
 }
 
 .apa h1 {
@@ -1458,11 +1443,11 @@ h4 {
   width: 500px;
 }
 
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 576px) {
 
   .apa {
     font-family: Rasa;
-    margin: 450px;
+    margin: 500px;
   }
 
   .apa h1 {
