@@ -103,7 +103,7 @@ body {
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#FFFFFF', EndColorStr='#b3b3b3')";  
 }
 
-img.logo {
+.logo img {
   background-color: #ffffff3b;
   border-radius: 250px;
   box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.733);
