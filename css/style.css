@@ -1571,6 +1571,18 @@ img {
 .bg-hijau1 {
   background-color: #066239;
 }
+
+.bg-batu-sejarah {
+  background-image: url(../assets/bg-batu-sejarah.png);
+  background-size: cover;
+  background-position: center center;
+}
+
+.bg-text-sejarah {
+  background-image: url(../assets/bg-textSejarah.png);
+  background-size: auto;
+}
+
 .batu-sejarah {
   width: 400px;
   width: 300px;
