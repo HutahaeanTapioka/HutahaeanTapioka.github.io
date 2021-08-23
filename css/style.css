@@ -483,6 +483,17 @@ img {
 
 /* -------- Responsive Home ------------- */
 
+@media screen and  (max-width: 1200px) {
+   
+  .text-profil-home, .profil img {
+    margin-top: -10rem;
+    top: -7rem;
+  }
+  
+  .bg-visi-home {
+    margin-top: -6rem;
+  }
+}
 
 @media screen and  (max-width: 992px) {
    
@@ -512,20 +523,31 @@ img {
     .sejarah-home {
       position: relative !important;
       z-index: 1;
-      min-height: 100vh;
+      height: 100vmin;
     }
 
     .text-sejh {
       position: static! important;
-      z-index: 1;
     }
 
     .sider-img {
       position: absolute !important;
       z-index: 1;
-      margin: 21rem 0;
+      margin-top: 10rem;
       right: -4rem;
       left: 15%;
+    }
+
+    .text-profil-home, .profil img {
+      margin-top: 5rem;
+      top: 7rem;
+    }
+
+    .bg-visi-home {
+      height: max-content !important;
+      width: auto;
+      overflow: auto !important;
+      margin-top: -1rem;
     }
 
     .text-visihome {
@@ -538,16 +560,121 @@ img {
       padding: 0;
     }
 
-    .bg-visi-home {
-      height: max-content !important;
-      width: auto;
-      overflow: auto !important;
-    }
-
     .footer h1, .footer p {
       font-size: small !important;
     }
 }
+
+@media screen and (max-width: 767.5px) {
+  * {
+    font-size: small;
+  }
+
+  .sider-img {
+    margin-top: 10rem;
+  }
+
+  .text-profil-home, .profil img {
+    margin-top: -2rem;
+    top: 1rem;
+  }
+
+  .bg-visi-home {
+    margin-top: -2rem;
+  }
+}
+
+@media screen and (max-width: 498.5px) {
+  * {
+    font-size: x-small;
+  }
+
+  .sider-img {
+    margin-top: 7rem;
+  }
+  
+  .text-profil-home, .profil img {
+    margin-top: -14rem;
+    top: -4rem;
+  }
+
+  .bg-visi-home {
+    margin-top: -2rem;
+  }
+}
+
+@media screen and (max-width: 429.5px) {
+  .sider-img {
+    margin-top: 13rem;
+  }
+  
+  .text-profil-home, .profil img {
+    margin-top: -6rem;
+    top: 1rem;
+  }
+}
+
+
+@media screen and (max-width: 363.5px) {
+  * {
+    font-size: xx-small;
+  }
+
+  .sider-img {
+    margin-top: 14rem;
+  }
+
+  .text-profil-home, .profil img {
+    margin-top: 0rem;
+    top: 3rem;
+  }
+
+  .bg-visi-home {
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 327.5px) {
+ .sider-img {
+  margin-top: 17rem;
+  }
+
+  .text-profil-home, .profil img {
+  margin-top: -1rem;
+  top: 3rem;
+  }
+}
+
+@media screen and (max-width: 302.5px) {
+  .sider-img {
+   margin-top: 20rem;
+   }
+ 
+   .text-profil-home, .profil img {
+   margin-top: 6rem;
+   top: 3rem;
+   }
+
+   .bg-visi-home {
+    margin-top: 4rem;
+  }
+ }
+
+ @media screen and (max-width: 267.5px) {
+  .sider-img {
+   margin-top: 25rem;
+   }
+ 
+   .text-profil-home, .profil img {
+   margin-top: 14rem;
+   top: 7em;
+   }
+
+   .bg-visi-home {
+    margin-top: 6rem;
+  }
+ }
+
 
 
 /* ----------------------------------------------- */
