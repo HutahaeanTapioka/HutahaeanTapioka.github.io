@@ -113,6 +113,10 @@ body {
   text-shadow: 2px 2px 5px #fff;
 }
 
+.header h2 {
+  text-shadow: 2px 2px 5px rgba(17, 17, 17, 0.884);
+}
+
 .background-home {
   background-image: url(../assets/image-1.jpg);
   background-size: cover;
