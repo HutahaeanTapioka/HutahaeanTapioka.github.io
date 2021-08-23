@@ -151,7 +151,7 @@ img {
   font-size: 15px;
   left: 14.5%;
   right: 14.5%;
-  top: 65%;
+  top: 63%;
   bottom: 20%;
   padding: 8px 12px;
   position: absolute;
@@ -516,14 +516,14 @@ img {
     }
 
     .text-sejh {
-      position: absolute! important;
+      position: static! important;
       z-index: 1;
     }
 
     .sider-img {
       position: absolute !important;
       z-index: 1;
-      margin: 18rem 0;
+      margin: 21rem 0;
       right: -4rem;
       left: 15%;
     }
