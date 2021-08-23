@@ -25,7 +25,10 @@ function iconSideMenu(x) {
 
     x.classList.toggle("change");
     nav.classList.toggle('slide');
-    body.classList.toggle('hidden-scrollbar')
+    nav.classList.toggle('px-5');
+    nav.classList.toggle('px-2');
+    menu.classList.toggle('mx-0');
+    menu.classList.toggle('hidden-scrollbar')
     body.classList.toggle('opacity-body')
     menu.classList.toggle('opacity-menu')
 }
