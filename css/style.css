@@ -87,8 +87,34 @@ body {
   min-height: 100vh;
 }
 
+.blur {
+  background-color: #0c0c0c3f;
+  background-image: -moz-linear-gradient(top, #0c0c0c3f, #b3b3b344); 
+  background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #0c0c0c33),color-stop(1, #b3b3b344)); 
+  filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#FFFFFF', EndColorStr='#b3b3b3'); 
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#FFFFFF', EndColorStr='#b3b3b3')";  
+}
+
+.blur1 {
+  background-color: #0c0c0c18;
+  background-image: -moz-linear-gradient(top, #0c0c0c3f, #b3b3b344); 
+  background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #0c0c0c33),color-stop(1, #b3b3b344)); 
+  filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#FFFFFF', EndColorStr='#b3b3b3'); 
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#FFFFFF', EndColorStr='#b3b3b3')";  
+}
+
+img.logo {
+  background-color: #ffffff3b;
+  border-radius: 250px;
+  box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.733);
+}
+
+.kop-header h1 {
+  text-shadow: 2px 2px 5px #fff;
+}
+
 .background-home {
-  background-image: url(../assets/Main-Screen.jpg);
+  background-image: url(../assets/image-1.jpg);
   background-size: cover;
   background-position: center center;
   width: 100%;
@@ -113,6 +139,26 @@ img {
   background-size: cover;
   background-position: center;
   z-index: -1;
+}
+
+/* Caption text */
+.text {
+  color: #fafffd;
+  font-size: 15px;
+  left: 14.5%;
+  right: 14.5%;
+  top: 65%;
+  bottom: 20%;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 70%;
+  text-align: center;
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  transform-origin: 50% 50% 0px;
+  font-family: "Comic Sans MS", cursive;
+  font-weight: bold;
+  /* background: hsla(240, 2%, 10%, 0.6); */
 }
 
 /* The dots/bullets/indicators */
@@ -141,9 +187,9 @@ img {
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 6s;
+  -webkit-animation-duration: 15s;
   animation-name: fade;
-  animation-duration: 6s;
+  animation-duration: 15s;
 }
 
 @-webkit-keyframes fade {
@@ -177,7 +223,7 @@ img {
 /* --------Header-Home---------------- */
 
 @media screen and (max-width: 768px) {
-  .logo img {
+  .kop-header img  {
     width: 67px;
     height: auto;
   }
@@ -221,7 +267,7 @@ img {
 }
 
 .opacity-menu {
-  opacity: 1 !important;
+  opacity: 1.5 !important;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
@@ -402,7 +448,7 @@ img {
 }
 
 .bg-visi-home {
-  background-image: url(../assets/visiside.png);
+  background-image: url(../assets/side-img-VisiMisi.png);
   background-size: cover;
   background-position: center center;
 }
@@ -410,7 +456,7 @@ img {
 /* --------- Section-Grup-Home -------- */
 
 .bg-hutahaean-group {
-  background-image: url(../assets/hutahaean-group.png);
+  background-image: url(../assets/grup.jpg);
   background-size: cover;
 }
 
@@ -421,6 +467,14 @@ img {
 #footer {
   background-color: #066338;
   height: 320px;
+}
+
+.footer a {
+  color: #0dcaf0;
+}
+
+.footer a:hover{
+  color: #fff;
 }
 
 /* -------- Responsive Home ------------- */
@@ -450,25 +504,28 @@ img {
 }
 
 @media screen and  (max-width: 780px) {
-    .sider-img {
-      position: absolute !important;
-      width: 100vh !important;
-      top: 73rem;
-      right: -4rem;
+
+    .sejarah-home {
+      position: relative !important;
+      z-index: 1;
+      min-height: 100vh;
     }
 
     .text-sejh {
-      position: static !important;
-      display: block !important;
-      float: none !important;
-      width: 100vh !important;
-      margin-bottom: 11rem;
+      position: absolute! important;
+      z-index: 1;
+    }
+
+    .sider-img {
+      position: absolute !important;
+      z-index: 1;
+      margin: 18rem 0;
+      right: -4rem;
+      left: 15%;
     }
 
     .text-visihome {
-      width: 100% !important;
-      margin: 0;
-      padding: 0;
+      flex-direction: column;
     }
 
     .text-visihome dl {
@@ -488,12 +545,13 @@ img {
     }
 }
 
+
 /* ----------------------------------------------- */
 /* ----------------------------------------------- */
 /*--------------  Visi Misi ---------------------*/
 
 .bgvisimisi-main {
-  background-image: url(./../assets/bgvisimisi.png);
+  background-image: url(./../assets/bg-vismis.jpg);
   background-size: cover;
   min-height: 100vh;
 }
@@ -534,7 +592,7 @@ img {
 
 /* Proses Produksi*/
 .bg-proses {
-  background-image: url(../assets/background1.jpg);
+  background-image: url(../assets/bg-proses.png);
   background-size: cover;
   width: 100%;
   min-height: 100vh;
@@ -1503,7 +1561,7 @@ img {
 /*---Sejarah-------*/
 
 .bg-sejarah {
-  background-image: url(../assets/sejarah.png);
+  background-image: url(../assets/sejarah.jpg);
   background-size: cover;
   background-position: center center;
   width: 100%;
@@ -1557,7 +1615,7 @@ img {
 
 
 .bg-produk {
-  background-image: url(../assets/background-produk.jpg);
+  background-image: url(../assets/bg-produk.jpg);
   background-size: cover;
   min-height: 100vh;
 }
@@ -7973,7 +8031,7 @@ fieldset:disabled .btn {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.55);
+  color: rgba(255, 255, 255, 1);
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
@@ -10464,6 +10522,10 @@ fieldset:disabled .btn {
   top: 50% !important;
 }
 
+.top-75 {
+  top: 75% !important;
+}
+
 .top-100 {
   top: 100% !important;
 }
@@ -10503,7 +10565,6 @@ fieldset:disabled .btn {
 .end-100 {
   right: 100% !important;
 }
-
 .translate-middle {
   transform: translate(-50%, -50%) !important;
 }
