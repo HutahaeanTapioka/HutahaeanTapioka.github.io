@@ -1580,7 +1580,8 @@ img {
 
 .bg-text-sejarah {
   background-image: url(../assets/bg-textSejarah.png);
-  background-size: auto;
+  background-size: contain;
+  background-position: center top;
 }
 
 .batu-sejarah {
