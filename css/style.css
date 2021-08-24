@@ -292,7 +292,7 @@ img {
 
   .navbar ul {
     position: fixed;
-    min-width: 40vh;
+    min-width: 30vh;
     top: -1%;
     right: 0rem;
     height: 110%;
