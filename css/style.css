@@ -250,12 +250,8 @@ img {
 
 /*------------- Menu -------------------*/
 
-.opacity-body {
-  opacity: 0.45;
-}
-
-.opacity-menu {
-  opacity: 1.5 !important;
+.brigthness-body {
+  filter: brightness(0.6);
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
@@ -277,10 +273,19 @@ img {
 }
 
 @media screen and (max-width: 600px) {
-  body {
-    overflow: hidden; /* Hide scrollbars */
+  body.hide-scroll {
+    overflow: hidden;
+    overflow: -moz-hidden-unscrollable;
   }
-  
+
+  body.hidden-scrollbar {
+    background-color:black;
+    border:2px solid #666;
+    color:white;  
+    overflow:hidden;
+    text-align:justify;    
+  }
+
   .container {
     overflow-x: hidden;
   }
