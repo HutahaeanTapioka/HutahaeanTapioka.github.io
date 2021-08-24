@@ -295,13 +295,12 @@ img {
 
   .navbar ul {
     position: fixed;
-    width: 15rem;
+    width: auto;
     top: -1%;
-    right: 0;
+    right: 5rem;
     height: 100%;
-    padding-left: 4%;
-    padding-right: 4%;
     padding-top: 20%;
+    line-height: 2.5;
     flex-direction: column !important;
     transform: translateX(100%);
     transition: all 0.1;
