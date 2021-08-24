@@ -278,14 +278,6 @@ img {
     overflow: -moz-hidden-unscrollable;
   }
 
-  body.hidden-scrollbar {
-    background-color:black;
-    border:2px solid #666;
-    color:white;  
-    overflow:hidden;
-    text-align:justify;    
-  }
-
   .container {
     overflow-x: hidden;
   }
@@ -310,6 +302,7 @@ img {
   }
 
   .navbar ul li a {
+    flex-direction: column !important;
     font-size: 12px !important;
     text-transform: uppercase;
     font-weight: 300;
