@@ -152,10 +152,9 @@ img {
   left: 14.5%;
   right: 14.5%;
   top: 63%;
-  bottom: 20%;
+  bottom: 10%;
   padding: 8px 12px;
   position: absolute;
-  bottom: 8px;
   width: 70%;
   text-align: center;
   transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
