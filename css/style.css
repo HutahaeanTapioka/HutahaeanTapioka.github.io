@@ -249,21 +249,6 @@ img {
 }
 
 /*------------- Menu -------------------*/
-.hidden-scrollbar {
-  background-color: black;
-  border: 2px solid #666;
-  color: white;
-  overflow: hidden;
-  text-align: justify;
-}
-
-.hidden-scrollbar .inner {
-  height: 200px;
-  overflow: auto;
-  margin: 15px -300px 15px 15px;
-  padding-right: 300px;
-  /* Samakan dengan besar margin negatif */
-}
 
 .opacity-body {
   opacity: 0.45;
@@ -292,9 +277,14 @@ img {
 }
 
 @media screen and (max-width: 600px) {
-  .container {
-    overflow: hidden;
+  body {
+    overflow: hidden; /* Hide scrollbars */
   }
+  
+  .container {
+    overflow-x: hidden;
+  }
+
   .navbar ul {
     position: fixed;
     width: auto;
@@ -312,7 +302,6 @@ img {
     opacity: 0;
     background-color: #212529;
     z-index: 1;
-    overflow: hidden;
   }
 
   .navbar ul li a {
