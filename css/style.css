@@ -1777,7 +1777,7 @@ img {
   background: #066239;
   width: 300px;
   height: 250px;
-  left: 0px;
+  margin-left: -110px;
 }
 
 .bulat2 {
@@ -1785,8 +1785,8 @@ img {
   background: #FFFFFF;
   width: 150px;
   height: 125px;
-  margin-left: 80px;
-  margin-top: -200px;
+  margin-left: -40px;
+  margin-top: -210px;
 }
 
 .bulat2 h1 {
@@ -1805,8 +1805,8 @@ img {
 }
 
 .text h1 {
-  margin-top: -530px;
-  margin-left: 300px;
+  margin-top: 350px;
+  margin-left: -500px;
 
   font-family: "Rasa";
   font-style: normal;
@@ -1819,7 +1819,7 @@ img {
 
 .text p {
   margin-top: 10px;
-  margin-left: 300px;
+  margin-left: 100px;
 
   font-family: "Rasa";
   font-style: normal;
@@ -1837,7 +1837,7 @@ img {
   width: 1345px;
   height: 496px;
   left: 0px;
-  top: 1300px;
+  top: 1170px;
 }
 
 .merah h1 {
@@ -3399,6 +3399,172 @@ img {
 }
 
 /*------------------*/
+
+/*TJS 4*/
+
+.manfaat h1 {
+  position: absolute;
+  width: 692px;
+  height: 78px;
+  left: 123px;
+  top: 900px;
+  padding-top: 30px;
+
+  font-family: Rasa;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 78px;
+  text-align: center;
+
+  width: 743px;
+  height: 150px;
+  left: 97px;
+
+  background: #C4C4C4;
+}
+
+.manfaat p {
+  position: absolute;
+  width: 1100px;
+  height: 406px;
+  left: 97px;
+  top: 1100px;
+
+  font-family: Rasa;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 58px;
+  text-align: justify;
+
+  color: #000000;
+}
+
+.bunga {
+  position: absolute;
+  width: 442px;
+  height: 599px;
+  left: 373px;
+  top: 1600px;
+
+  background: #71899E;
+}
+
+.bunga h1 {
+  position: absolute;
+  width: 380px;
+  height: 78px;
+  left: 260px;
+  top: 100px;
+  padding-top: 300px;
+  padding-left: 50px;
+
+  font-family: Rasa;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 78px;
+/* identical to box height */
+
+  color: rgba(255, 255, 255, 0.96);
+
+  position: absolute;
+  width: 465px;
+  height: 587px;
+
+  background: #B69B9B;
+}
+
+.sampah h1 {
+  position: absolute;
+  width: 508px;
+  height: 78px;
+  left: 500px;
+  top: 2500px;
+  padding-top: 50px;
+  padding-left: 90px;
+
+  font-family: Rasa;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 78px;
+  /* identical to box height */
+
+  text-align: justify;
+
+  color: #000000;
+
+  position: absolute;
+  width: 743px;
+  height: 150px;
+
+  background: #C4C4C4;
+}
+
+.sampah p {
+  position: absolute;
+  width: 1100px;
+  height: 638px;
+  left: 97px;
+  top: 2800px;
+
+  font-family: Rasa;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 58px;
+  text-align: justify;
+
+  color: #000000;
+}
+
+.tombol {
+  position: absolute;
+  width: 116px;
+  height: 44px;
+  left: 649px;
+  top: 3500px;
+  padding-top: 30px;
+  padding-left: 35px;
+
+  font-family: Rasa;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height */
+
+
+  color: #000000;
+  position: absolute;
+  width: 209px;
+  height: 84px;
+
+  background: #C4C4C4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------*/
 hr {
   margin: 1rem 0;
   color: inherit;
