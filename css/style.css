@@ -2770,6 +2770,20 @@ img {
   min-height: 100vh;
 }
 
+@media screen and (max-width:680px) {
+  .content img {
+    width: 70px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .content img {
+    width: 50px;
+    height: auto;
+  }
+}
+
 /*Bahan Baku*/
 .bgbahanbaku-main {
   background-image: url(../assets/bahanbaku.png);
