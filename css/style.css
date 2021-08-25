@@ -2634,6 +2634,14 @@ img {
   z-index: -1;
 }
 
+.kotak--1 a, .kotak--2 a, .kotak--3 a, .kotak--4 a {
+  color: #000;
+}
+
+.kotak--1 a:hover, .kotak--2 a:hover, .kotak--3 a:hover, .kotak--4 a:hover {
+  color: #289664 ;
+}
+
 @media screen and (max-width: 992px) {
 
   .utama .line-1 img {
@@ -3603,7 +3611,16 @@ img {
 
 .bg-hth3 {
   background-color: #25474B;
-  height: 3rem;
+  height: 5rem;
+}
+
+.bg-right-pg {
+  background-color: #9E9D72;
+}
+
+.left-text {
+  margin-left: 58%;
+  margin-right: 10%;
 }
 
 
