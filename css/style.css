@@ -76,6 +76,10 @@ body {
   display: none;
 }
 
+.bg-hth {
+  background-color: #036338;
+}
+
 
 /* Header-Home */
 
@@ -95,13 +99,13 @@ body {
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#FFFFFF', EndColorStr='#b3b3b3')";
 }
 
-.blur1 {
+/* .blur1 {
   background-color: #0c0c0c18;
   background-image: -moz-linear-gradient(top, #0c0c0c3f, #b3b3b344);
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #0c0c0c33), color-stop(1, #b3b3b344));
   filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#FFFFFF', EndColorStr='#b3b3b3');
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#FFFFFF', EndColorStr='#b3b3b3')";
-}
+} */
 
 .logo img {
   background-color: #ffffff3b;
@@ -113,7 +117,7 @@ body {
   text-shadow: 2px 2px 5px #fff;
 }
 
-.header h2 {
+.header h2,.text-shw {
   text-shadow: 2px 2px 5px rgba(17, 17, 17, 0.884);
 }
 
@@ -2634,7 +2638,7 @@ img {
   z-index: -1;
 }
 
-.kotak--1 a, .kotak--2 a, .kotak--3 a, .kotak--4 a {
+.kotak--1 a, .kotak--2 a, .kotak--3 a, .kotak--4 a, a.email {
   color: #000;
 }
 
@@ -3132,14 +3136,14 @@ img {
   font-size: 25px;
 }
 
-/* TJS-1 */
+/* TJS-2 */
 .bg-coklat {
   background-color: #876D6D;
   width: 14rem;
   height: 4rem;
 }
 
-.bg-hth {
+.bg-hth2 {
   background-color: #25474B;
   width: 14rem;
   height: 4rem;
@@ -3176,7 +3180,7 @@ img {
   min-height: 100vh;
 }
 
-.kontak {
+/* .kontak {
   color: #fff;
   margin-top: 23%;
   margin-left: 10%;
@@ -3255,7 +3259,7 @@ img {
   background-image: url(../assets/kontak-second.png);
   margin-top: 900px;
   height: 691px;
-}
+} */
 
 .footer-3 {
   background-color: #066338;
