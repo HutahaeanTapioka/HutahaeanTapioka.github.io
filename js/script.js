@@ -20,14 +20,14 @@ function showSlides() {
 
 function iconSideMenu(x) {
     var nav = document.querySelector('nav ul');
-    var menu = document.querySelector('navbar')
+    var menu = document.querySelector('navbar');
     var body = document.querySelector('body');
-
-    x.classList.toggle("change");
+    
+    x.classList.toggle('change');
     nav.classList.toggle('slide');
-    body.classList.toggle('hidden-scrollbar')
-    body.classList.toggle('opacity-body')
-    menu.classList.toggle('opacity-menu')
+    body.classList.toggle('hide-scroll');
+    body.classList.toggle('brigthness-body');
+
 }
 
 // When the user scrolls down 20px from the top of the document, slide down the navbar
