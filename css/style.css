@@ -168,6 +168,16 @@ img {
   /* background: hsla(240, 2%, 10%, 0.6); */
 }
 
+.text-shw {
+  animation-name: faded;
+  animation-duration: 3s;
+}
+@keyframes faded {
+  0% {
+    top: 60%;
+    opacity: 0.1;
+  }
+}
 /* The dots/bullets/indicators */
 .dot {
   height: 15px;
