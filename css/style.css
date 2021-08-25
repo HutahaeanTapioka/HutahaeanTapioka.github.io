@@ -60,16 +60,21 @@ body {
   overflow-x: hidden;
 }
 
-.cf:before,
+.cf {
+  overflow: auto;
+}
+/* .cf:before,
 .cf:after {
   content: " ";
   /* 1 */
-  display: table;
+  /* display: table;
   /* 2 */
-}
+/* } */
 
 .cf:after {
+  content: "";
   clear: both;
+  display: table;
 }
 
 .mySlides {
@@ -419,6 +424,9 @@ img {
   margin-top: -3rem;
 }
 
+.mt-6 {
+  margin-top: 5rem;
+}
 .mt-7 {
   margin-top: 15rem;
 }
@@ -767,6 +775,31 @@ img {
 }
 
 /* Proses Produksi*/
+
+.bg-hijau-p {
+  background-color: #066239;
+}
+
+.bg-abu-p {
+  background-color: #C4C4C4;
+}
+
+.z-m1{
+  z-index: -1;
+}
+
+.w-01r {
+  width: 0.1rem;
+} 
+
+.h-p {
+  height: 2400px !important;
+}
+
+.h-p1 {
+  height: 2300px !important;
+}
+
 .bg-proses {
   background-image: url(../assets/bg-proses.png);
   background-size: cover;
@@ -775,11 +808,6 @@ img {
   background-position: center center;
 }
 
-.garis img {
-  height: 2240px;
-  padding: 0 49.35%;
-  margin-bottom: 239px;
-}
 
 @media only screen and (max-width: 576px) {
 
@@ -3195,93 +3223,6 @@ img {
   background-image: url(../assets/bg-kontak.png);
   background-size: cover;
   min-height: 100vh;
-}
-
-/* .kontak {
-  color: #fff;
-  margin-top: 23%;
-  margin-left: 10%;
-  font-size: 60px;
-}
-
-.kontak-kami {
-  position: absolute;
-  width: 1345px;
-  height: 104px;
-  left: 2px;
-  top: 900px;
-
-  background: #036338;
-}
-
-.kontak-kami h1 {
-  position: absolute;
-  width: 1442px;
-  height: 73px;
-  left: 2px;
-  top: 20px;
-
-  font-family: Rasa;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 64px;
-  line-height: 78px;
-  text-align: center;
-
-  color: #000000;
-}
-
-.kontak-1 {
-  position: absolute;
-  left: 6.25%;
-  right: 87.36%;
-  top: 180%;
-  bottom: 51.4%;
-}
-
-.kontak-2 {
-  position: absolute;
-  left: 6.6%;
-  right: 87.71%;
-  top: 205%;
-  bottom: 46.87%;
-}
-
-.kontak-3 {
-  position: absolute;
-  left: 6.6%;
-  right: 86.32%;
-  top: 230%;
-  bottom: 42.4%;
-}
-
-.email {
-  position: absolute;
-  width: 892px;
-  height: 80px;
-  left: 344px;
-  top: 1475px;
-
-  font-family: "Rasa";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 64px;
-  line-height: 78px;
-  text-align: justify;
-
-  color: #000000;
-}
-
-.bg-kontak2 {
-  background-image: url(../assets/kontak-second.png);
-  margin-top: 900px;
-  height: 691px;
-} */
-
-.footer-3 {
-  background-color: #066338;
-  height: 400px;
-  margin-top: 100px;
 }
 
 /*Bahan Baku*/
@@ -11104,6 +11045,9 @@ fieldset:disabled .btn {
   width: 50% !important;
 }
 
+.w-54 {
+  width: 54% !important;
+}
 
 .w-70 {
   width: 70% !important;
@@ -11112,6 +11056,7 @@ fieldset:disabled .btn {
 .w-75 {
   width: 75% !important;
 }
+
 
 .w-90 {
   width: 90% !important;
