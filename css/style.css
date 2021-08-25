@@ -170,7 +170,7 @@ img {
 
 .text-shw {
   animation-name: faded;
-  animation-duration: 3s;
+  animation-duration: 2s;
 }
 @keyframes faded {
   0% {
@@ -210,21 +210,27 @@ img {
 }
 
 @-webkit-keyframes fade {
-  from {
-    opacity: 0.90
+  0% {
+    opacity: 0.8
   }
 
-  to {
+  20% {
+    opacity: 1
+  }
+  100% {
     opacity: 1
   }
 }
 
 @keyframes fade {
-  from {
-    opacity: 0.90
+  0% {
+    opacity: 0.8
   }
 
-  to {
+  20% {
+    opacity:1
+  }
+  100% {
     opacity: 1
   }
 }
