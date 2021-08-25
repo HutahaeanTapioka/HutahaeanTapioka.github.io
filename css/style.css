@@ -3549,7 +3549,15 @@ img {
 
 
 
+/* TJS-3 */
+.bg-coklat3 {
+  background-color: #876D6D;
+}
 
+.bg-hth3 {
+  background-color: #25474B;
+  height: 3rem;
+}
 
 
 
@@ -10995,6 +11003,13 @@ fieldset:disabled .btn {
   width: 25% !important;
 }
 
+.w-35 {
+  width: 35% !important;
+}
+
+.w-40 {
+  width: 40% !important;
+}
 .w-50 {
   width: 50% !important;
 }
