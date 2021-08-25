@@ -1591,7 +1591,7 @@ img {
   width: 800px;
   height: 250px;
   left: 270px;
-  top: 750px;
+  top: 780px;
 }
 
 .text h1 {
@@ -1718,8 +1718,8 @@ img {
   font-family: "Rasa";
   font-style: normal;
   font-weight: bold;
-  font-size: 72px;
-  line-height: 88px;
+  font-size: 40px;
+  line-height: 80px;
 }
 
 .kotak-hijau {
@@ -2244,7 +2244,7 @@ img {
 .limbah-3 img {
   position: absolute;
   left: 150px;
-  top: 2450px;
+  top: 2430px;
 
 }
 
