@@ -518,6 +518,16 @@ img {
   color: #fff;
 }
 
+/*------ Footer Produk -------*/
+.footer-1,
+#footer {
+  background-color: #066338;
+  height: 320px;
+  position: relative;
+}
+
+
+
 /* -------- Responsive Home ------------- */
 
 @media screen and (max-width: 1200px) {
@@ -753,13 +763,17 @@ img {
   font-size: 60px;
 }
 
+.text-vm {
+  font-size: 20px;
+}
+
 .isi-visi h5 {
   font-family: "Rasa";
   text-align: center;
   padding: 30px;
   margin-right: 75%;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .text-vm {
@@ -1704,7 +1718,7 @@ hr.line-p {
   width: 1345px;
   height: 422px;
   left: 0px;
-  top: 3600px;
+  top: 3750px;
 }
 
 .bg-third h1 {
@@ -1889,7 +1903,7 @@ hr.line-p {
   width: 583px;
   height: 0px;
   left: 10px;
-  top: 2200px;
+  top: 2000px;
 
   border: 1px solid #000000;
   transform: rotate(90.1deg)
@@ -1898,7 +1912,7 @@ hr.line-p {
 .limbah-1 img {
   position: absolute;
   left: 150px;
-  top: 1850px;
+  top: 1700px;
 
 }
 
@@ -1937,7 +1951,7 @@ hr.line-p {
 .limbah-2 img {
   position: absolute;
   left: 150px;
-  top: 2150px;
+  top: 1950px;
 
 }
 
@@ -1974,7 +1988,7 @@ hr.line-p {
 .limbah-3 img {
   position: absolute;
   left: 150px;
-  top: 2430px;
+  top: 2200px;
 
 }
 
@@ -2824,14 +2838,14 @@ a.email {
 }
 
 @media screen and (max-width:680px) {
-  .content img {
+  img.img-kontak {
     width: 70px;
     height: auto;
   }
 }
 
 @media screen and (max-width:480px) {
-  .content img {
+  img.img-kontak {
     width: 50px;
     height: auto;
   }
@@ -3153,7 +3167,7 @@ a.email {
   position: absolute;
   width: 116px;
   height: 44px;
-  left: 649px;
+  left: 100px;
   top: 3500px;
   padding-top: 30px;
   padding-left: 35px;
@@ -3165,18 +3179,7 @@ a.email {
   line-height: 44px;
   /* identical to box height */
 
-
-  color: #000000;
-  position: absolute;
-  width: 209px;
-  height: 84px;
-
-  background: #C4C4C4;
 }
-
-
-
-
 
 /* TJS-3 */
 .bg-coklat3 {
@@ -3197,15 +3200,74 @@ a.email {
   margin-right: 10%;
 }
 
+/*Struktur*/
+.bgstruktur-main {
+  background-image: url(../assets/struktur.png);
+  background-size: cover;
+  min-height: 100vh;
+}
 
+/*Tjs1*/
 
+.bg-tjs1 {
+  background-image: url(../assets/TJS.png);
+  background-size: cover;
+  min-height: 100vh;
+  width: 100%;
+  background-position: center center;
+}
 
+.utama {
+  background-color: whitesmoke;
+  padding-bottom: 10%;
+}
 
+.judul-TJS1 {
+  width: 304px;
+  height: 64px;
+  margin-left: 48px;
+  top: 850px;
+  background: #25474B;
+}
 
+.judul-TJS1 h2 {
+  position: relative;
+  width: 298px;
+  height: 56px;
+  margin-left: 15px;
+  top: 20px;
+  background: #876D6D;
+  font-family: "Rasa";
+  font-size: 40px;
+  color: #fff;
+  padding: 3%;
+  box-sizing: border-box;
+}
 
+.Gambar-TJS1 img{
+  margin-top: 5%;
+  width: 400px;
+  height: 500px;
+  margin-left: 5%;
+}
 
+.bagian-TJS1 {
+  background-color: #C9A7CE;
+  width: 40%;
+  height: 505px;
+  margin-top: -45%;
+  margin-left: 55%;
+  margin-bottom: 2%;
+  }
 
-
+.bagian-TJS1 h3{
+  font-family: "Rasa";
+  font-size: 23px;
+  margin-left: 5%;
+  margin-top: 5% ;
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
 
 
 
