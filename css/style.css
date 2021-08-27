@@ -2634,6 +2634,144 @@ a.email {
   font-size: 25px;
 }
 
+@media screen and (max-width: 280px) {
+  .bg-tjs {
+    background-image: url(../assets/TJS.png);
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+    background-position: center center;
+  }
+
+  .utama {
+    position: relative;
+    padding: 50x;
+  }
+
+  .utama .line-1 img {
+    height: 280px;
+    width: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .utama .line-tengah {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    width: 233px;
+    margin-top: 20px;
+
+  }
+
+  /* Bagian atas */
+
+
+  .utama .pertama .kotak--1 h2 {
+    font-size: 12px;
+    margin-left: 10%;
+    margin-top: 5%;
+  }
+
+  .utama .pertama .kotak--1 img {
+    margin-left: 15%;
+    margin-top: -200%;
+    height: 25px;
+    width: 25px;
+  }
+
+  .utama .pertama .kotak--1 p {
+    margin-left: 40%;
+    margin-top: -110%;
+    font-size: 8px;
+  }
+
+  .utama .pertama .kotak--2 h2 {
+    font-size: 12px;
+    margin-left: 10%;
+    margin-top: 5%;
+  }
+
+  .utama .pertama .kotak--2 img {
+    margin-left: 15%;
+    margin-top: -200%;
+    height: 25px;
+    width: 25px;
+  }
+
+  .utama .pertama .kotak--2 p {
+    margin-left: 40%;
+    margin-top: -110%;
+    font-size: 8px;
+  }
+
+  /* bagian-bawah */
+
+  .utama .kedua .kotak--3 h2 {
+    font-size: 12px;
+    margin-left: 10%;
+    margin-top: 10%;
+  }
+
+  .utama .kedua .kotak--3 .ic-3 {
+    margin-left: 15%;
+    margin-top: -225%;
+    height: 25px;
+    width: 25px;
+  }
+
+  .utama .kedua .kotak--3 .pd-1 {
+    margin-left: 45%;
+    margin-top: -120%;
+    font-size: 8px;
+  }
+
+  .utama .kedua .kotak--3 .ic-4 {
+    margin-left: 15%;
+    margin-top: 10%;
+    height: 25px;
+    width: 25px;
+  }
+
+  .utama .kedua .kotak--3 .km-1 {
+    margin-left: 45%;
+    margin-top: -15%;
+    font-size: 8px;
+  }
+
+  .utama .kedua .kotak--4 h2 {
+    font-size: 12px;
+    margin-left: 10%;
+    margin-top: 2%;
+  }
+
+  .utama .kedua .kotak--4 .ic-5 {
+    margin-left: 15%;
+    margin-top: -230%;
+    height: 25px;
+    width: 25px;
+  }
+
+  .utama .kedua .kotak--4 .pl-1 {
+    margin-left: 45%;
+    margin-top: -130%;
+    font-size: 8px;
+  }
+
+  .utama .kedua .kotak--4 .ic-6 {
+    margin-left: 15%;
+    margin-top: 10%;
+    height: 25px;
+    width: 25px;
+  }
+
+  .utama .kedua .kotak--4 .ps-1 {
+    margin-left: 45%;
+    margin-top: -20%;
+    font-size: 8px;
+  }
+}
+
+
 /* TJS-2 */
 .bg-coklat {
   background-color: #876D6D;
@@ -2666,6 +2804,13 @@ a.email {
 .bg-abu-1 {
   color: var(--bs-blue);
 }
+
+/* ------- */
+
+
+/* TJS-2 */
+
+@media screen and (max-width: 280px) {}
 
 /* ------- */
 
