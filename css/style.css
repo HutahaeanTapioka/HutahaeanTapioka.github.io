@@ -2074,7 +2074,7 @@ hr.line-p {
 @media screen and (max-width: 576px) {
   .content .hth-grup h1 {
     font-size: 15px;
-    background-color: greenyellow;
+    background-color: rgba(157, 156, 206, 0.959);
   }
 
   .content .hth-grup ul li {
@@ -2649,13 +2649,6 @@ a.email {
 }
 
 @media screen and (max-width: 280px) {
-  .bg-tjs {
-    background-image: url(../assets/TJS.png);
-    background-size: cover;
-    min-height: 100vh;
-    width: 100%;
-    background-position: center center;
-  }
 
   .utama {
     position: relative;
@@ -3244,7 +3237,7 @@ a.email {
   box-sizing: border-box;
 }
 
-.Gambar-TJS1 img{
+.Gambar-TJS1 img {
   margin-top: 5%;
   width: 400px;
   height: 500px;
@@ -3258,13 +3251,13 @@ a.email {
   margin-top: -45%;
   margin-left: 55%;
   margin-bottom: 2%;
-  }
+}
 
-.bagian-TJS1 h3{
+.bagian-TJS1 h3 {
   font-family: "Rasa";
   font-size: 23px;
   margin-left: 5%;
-  margin-top: 5% ;
+  margin-top: 5%;
   margin-right: 5%;
   margin-bottom: 5%;
 }
