@@ -14810,3 +14810,7 @@ fieldset:disabled .btn {
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
+
+.bg-transparent {
+  background-color: transparent !important;
+}
