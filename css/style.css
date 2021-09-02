@@ -855,8 +855,8 @@ hr.line-p {
 }
 
 .imgg {
-  width: 350px;
-  height: 300px;
+  width: 200px !important;
+  height: 200px !important;
 }
 
 /* ----------------- */
