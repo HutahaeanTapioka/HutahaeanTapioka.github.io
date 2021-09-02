@@ -759,9 +759,7 @@ img {
 
 .isi-visi h5 {
   font-family: "Rasa";
-  text-align: center;
   padding: 30px;
-  margin-right: 75%;
   font-weight: bold;
   font-size: 35px;
 }
@@ -2696,195 +2694,6 @@ a.email {
   }
 }
 
-/*Bahan Baku*/
-.bgbahanbaku-main {
-  background-image: url(../assets/bahanbaku.png);
-  background-size: cover;
-  min-height: 100vh;
-}
-
-.bahanbaku {
-  color: #fff;
-  margin-top: 25%;
-  margin-left: 10%;
-  font-size: 60px;
-}
-
-.judul-bahanbaku {
-  width: 304px;
-  height: 64px;
-  margin-left: 48px;
-  top: 850px;
-  background: #4D2424;
-}
-
-.judul-bahanbaku h2 {
-  position: relative;
-  width: 298px;
-  height: 56px;
-  margin-left: 15px;
-  top: 20px;
-  background: #04844B;
-  font-family: "Rasa";
-  font-size: 40px;
-  color: #fff;
-  padding: 3%;
-  box-sizing: border-box;
-}
-
-.content-bahanbaku img {
-  width: 500px;
-  height: 235px;
-  left: 41px;
-  margin-top: 1%;
-  margin-left: 3%;
-  margin-bottom: 2%
-}
-
-.content-bahanbaku h3 {
-  margin-top: 2%;
-  margin-left: 4%;
-}
-
-.content-bahanbaku p {
-  width: 50%;
-  padding: 1%;
-  margin-left: 3%;
-  box-sizing: border-box;
-}
-
-.pengenalan-bahanbaku {
-  width: 40%;
-  position: relative;
-  left: 60%;
-  top: -420px;
-
-}
-
-.pengenalan-bahanbaku p {
-  width: 90%;
-}
-
-.bagian-bahanbaku h1 {
-  background-color: #066239;
-  color: #fff;
-  padding: 1%;
-  width: 27%;
-  position: relative;
-  left: 3%;
-}
-
-.bagian-bahanbaku h1 {
-  top: -450px;
-  font-size: 150%;
-}
-
-.bagian-bahanbaku ol {
-  margin-top: -37%;
-  margin-left: 2%;
-}
-
-.bagian-bahanbaku h2 {
-  background-color: #066239;
-  color: #fff;
-  padding: 1%;
-  width: 20%;
-  position: relative;
-  left: 3%;
-  font-size: 25px;
-  font-family: rasa;
-  margin-top: -22%;
-}
-
-.paragraf-2 p {
-  margin-left: 3%;
-}
-
-.bagian-bahanbaku h3 {
-  background-color: #066239;
-  color: #fff;
-  padding: 1%;
-  width: 25%;
-  position: relative;
-  left: 3%;
-  font-size: 25px;
-  font-family: rasa;
-}
-
-.paragraf-3 p {
-  margin-left: 3%;
-}
-
-.bagian-bahanbaku h4 {
-  margin-left: -57%;
-  font-size: 15px;
-  font-family: rasa;
-  font-weight: bold;
-  text-decoration: underline;
-}
-
-.paragraf-4 p {
-  margin-left: 3%;
-}
-
-.gambar-bahanbaku {
-  background-color: #066239;
-  width: 40%;
-  height: 500px;
-  margin-top: -40%;
-  margin-left: 55%;
-  margin-bottom: 2%;
-}
-
-.gambar-bahanbaku img {
-  width: 45%;
-  height: 40%;
-  margin-top: 7%;
-  margin-left: 3%;
-
-}
-
-.bagian-bahanbaku h5 {
-  background-color: #066239;
-  color: #fff;
-  padding: 1%;
-  width: 20%;
-  position: relative;
-  left: 3%;
-  font-size: 25px;
-  font-family: rasa;
-  margin-top: -5%;
-}
-
-.paragraf-5 p {
-  line-height: 75%;
-  margin-left: 3%;
-}
-
-.bagian-bahanbaku h6 {
-  background-color: #066239;
-  color: #fff;
-  padding: 1%;
-  width: 20%;
-  position: relative;
-  left: 3%;
-  font-size: 25px;
-  font-family: rasa;
-}
-
-.paragraf-6 p {
-  margin-left: 3%;
-}
-
-.paragraf-7 p {
-  margin-left: 3%;
-}
-
-.tabel-bahanbaku img {
-  width: 80%;
-  margin-left: 8%;
-  margin-bottom: 2%;
-}
 
 /*------------------*/
 
@@ -3125,6 +2934,40 @@ a.email {
   margin-bottom: 5%;
 }
 
+/*BB*/
+.bgbahanbaku-main {
+  background-image: url(../assets/bahanbaku.png);
+  background-size: cover;
+  min-height: 100vh;
+}
+.bg-judulbb1{
+  background-color:#4D2424;
+  height: 5rem
+}
+
+.bg-judulbb2{
+  background-color:#04844B ;
+}
+
+.bg-hijau{
+  background-color: #066239;
+}
+
+@media screen and (max-width:1250.5px){
+h3.sbb {
+width: 50% !important;
+}
+}
+@media screen and (max-width:1150.5px){
+  h3.sbb {
+  width: 80% !important;
+  }
+}
+@media screen and (max-width:992.5px) {
+  h5.bb{
+    width: 50% !important;
+  }
+}
 
 
 /*-----------------------------------------------*/
