@@ -769,9 +769,7 @@ img {
 
 .isi-visi h5 {
   font-family: "Rasa";
-  text-align: center;
   padding: 30px;
-  margin-right: 75%;
   font-weight: bold;
   font-size: 35px;
 }
@@ -827,385 +825,23 @@ hr.line-p {
   text-align: center;
 }
 
-/* @media only screen and (max-width: 576px) {
+@media screen and (max-width: 600px) {
+    img.icon-proses {
+      width: 50px !important;
+    }
+    .text-proses1 p,.text-proses1 .h2 {
+      font-size: xx-small !important;
+    }
 
-  .content .garis img {
-    height: 1110px;
-    padding: 0 49.31%;
-    margin-bottom: 500px;
-  }
-
-  .content .timbangan img {
-    width: 20px;
-    height: 20px;
-    left: 190px;
-    top: 880px;
-  }
-
-  .content .timbangan h2 {
-    width: 120px;
-    height: 25px;
-    left: 190px;
-    top: 895px;
-    font-size: 14px;
-    line-height: 25px;
-    padding-left: 7px;
-  }
-
-  .content .timbangan p {
-    width: 180px;
-    height: 42px;
-    left: 280px;
-    top: 925px;
-    font-size: 12px;
-    line-height: 9px;
-    text-align: left;
-    padding: 3px;
-  }
-
-  .content .oci img {
-    width: 42px;
-    height: 42px;
-    left: 219px;
-    top: 990px;
-  }
-
-  .content .oci h2 {
-    width: 120px;
-    height: 25px;
-    left: 82px;
-    top: 995px;
-    font-size: 14px;
-    line-height: 25px;
-    padding-left: 7px;
-  }
-
-  .content .oci p {
-    width: 180px;
-    height: 34px;
-    left: 22px;
-    top: 1020px;
-    font-size: 12px;
-    line-height: 9px;
-    text-align: left;
-    padding: 3px;
-  }
-
-  .content .pengering img {
-    width: 42px;
-    height: 42px;
-    left: 219px;
-    top: 1090px;
-  }
-
-  .content .pengering h2 {
-    width: 120px;
-    height: 25px;
-    left: 280px;
-    top: 1090px;
-    font-size: 14px;
-    line-height: 25px;
-    padding-left: 7px;
-  }
-
-  .content .pengering p {
-    width: 180px;
-    height: 34px;
-    left: 280px;
-    top: 1115px;
-    font-size: 12px;
-    line-height: 9px;
-    text-align: left;
-    padding: 3px;
-  }
-
-  .content .pencuci img {
-    width: 42px;
-    height: 42px;
-    left: 219px;
-    top: 1190px;
-  }
-
-  .content .pencuci h2 {
-    width: 120px;
-    height: 25px;
-    left: 82px;
-    top: 1190px;
-    font-size: 14px;
-    line-height: 25px;
-    padding-left: 7px;
-  }
-
-  .content .pencuci p {
-    width: 180px;
-    height: 34px;
-    left: 22px;
-    top: 1215px;
-    font-size: 12px;
-    line-height: 9px;
-    text-align: left;
-    padding: 3px;
-  }
-
-  .content .pemotong img {
-    width: 42px;
-    height: 42px;
-    left: 225px;
-    top: 1290px;
-  }
-
-  .content .pemotong h2 {
-    width: 120px;
-    height: 25px;
-    left: 280px;
-    top: 1290px;
-    font-size: 14px;
-    line-height: 25px;
-    padding-left: 7px;
-  }
-
-  .content .pemotong p {
-    width: 180px;
-    height: 34px;
-    left: 280px;
-    top: 1315px;
-    font-size: 12px;
-    line-height: 9px;
-    text-align: left;
-    padding: 3px;
-  }
-
-  .content .penggiling img {
-    width: 42px;
-    height: 42px;
-    left: 225px;
-    top: 1390px;
-  }
-
-  .content .penggiling h2 {
-    width: 120px;
-    height: 25px;
-    left: 82px;
-    top: 1390px;
-    font-size: 14px;
-    line-height: 25px;
-    padding-left: 7px;
-  }
-
-  .content .penggiling p {
-    width: 180px;
-    height: 34px;
-    left: 22px;
-    top: 1415px;
-    font-size: 12px;
-    line-height: 9px;
-    text-align: left;
-    padding: 3px;
-  }
-
-  .content .pemisah img {
-    width: 42px;
-    height: 42px;
-    left: 219px;
-    top: 1490px;
-  }
-
-  .content .pemisah h2 {
-    width: 120px;
-    height: 25px;
-    left: 280px;
-    top: 1490px;
-    font-size: 14px;
-    line-height: 25px;
-    padding-left: 7px;
-  }
-
-  .content .pemisah p {
-    width: 180px;
-    height: 34px;
-    left: 280px;
-    top: 1515px;
-    font-size: 12px;
-    line-height: 9px;
-    text-align: left;
-    padding: 3px;
-  }
-
-  .content .pemisahzat img {
-    width: 42px;
-    height: 42px;
-    left: 228px;
-    top: 1590px;
-  }
-
-  .content .pemisahzat h2 {
-    width: 120px;
-    height: 25px;
-    left: 82px;
-    top: 1590px;
-    font-size: 14px;
-    line-height: 25px;
-    padding-left: 7px;
-  }
-
-  .content .pemisahzat p {
-    width: 180px;
-    height: 40px;
-    left: 22px;
-    top: 1615px;
-    font-size: 12px;
-    line-height: 9px;
-    text-align: left;
-    padding: 3px;
-  }
-
-  .content .dewatering img {
-    width: 42px;
-    height: 42px;
-    left: 222px;
-    top: 1690px;
-  }
-
-  .content .dewatering h2 {
-    width: 120px;
-    height: 25px;
-    left: 280px;
-    top: 1690px;
-    font-size: 14px;
-    line-height: 25px;
-    padding-left: 7px;
-  }
-
-  .content .dewatering p {
-    width: 180px;
-    height: 50px;
-    left: 280px;
-    top: 1715px;
-    font-size: 12px;
-    line-height: 9px;
-    text-align: left;
-    padding: 3px;
-  }
-
-  .content .pengeringpati img {
-    width: 42px;
-    height: 42px;
-    left: 222px;
-    top: 1790px;
-  }
-
-  .content .pengeringpati h2 {
-    width: 120px;
-    height: 25px;
-    left: 82px;
-    top: 1790px;
-    font-size: 14px;
-    line-height: 25px;
-    padding-left: 7px;
-  }
-
-  .content .pengeringpati p {
-    width: 180px;
-    height: 25px;
-    left: 22px;
-    top: 1815px;
-    font-size: 12px;
-    line-height: 9px;
-    text-align: left;
-    padding: 3px;
-  }
-
-  .content .pengayakan img {
-    width: 42px;
-    height: 42px;
-    left: 222px;
-    top: 1890px;
-  }
-
-  .content .pengayakan h2 {
-    width: 120px;
-    height: 25px;
-    left: 280px;
-    top: 1890px;
-    font-size: 14px;
-    line-height: 25px;
-    padding-left: 7px;
-  }
-
-  .content .pengayakan p {
-    width: 180px;
-    height: 45px;
-    left: 280px;
-    top: 1915px;
-    font-size: 12px;
-    line-height: 9px;
-    text-align: left;
-    padding: 3px;
-  }
-
-  .content .packing img {
-    width: 42px;
-    height: 42px;
-    left: 225px;
-    top: 1990px;
-  }
-
-  .content .packing h2 {
-    width: 120px;
-    height: 25px;
-    left: 82px;
-    top: 1990px;
-    font-size: 14px;
-    line-height: 25px;
-    padding-left: 7px;
-  }
-
-  .content .packing p {
-    width: 180px;
-    height: 35px;
-    left: 22px;
-    top: 2015px;
-    font-size: 12px;
-    line-height: 9px;
-    text-align: left;
-    padding: 3px;
-  }
-
-  .content .gambarbawah img {
-    display: none;
-  }
-
-  .content .gambarbawah h2 {
-    display: none;
-  }
-} */
-
-
-/* 
-.gambarbawah img {
-  position: absolute;
-  width: 1437px;
-  height: 326px;
-  left: -90px;
-  top: 3300px;
-  z-index: 0;
 }
 
-.gambarbawah h2 {
-  position: absolute;
-  width: 87%;
-  left: 100px;
-  top: 3385px;
-  font-family: Mada;
-  font-size: 33px;
-  line-height: 50px;
-  text-align: center;
-  color: #FFFFFF;
-  z-index: 1;
-} */
-
-
-/*------------------*/
+@media screen and (max-width: 390px) {
+  img.icon-proses {
+    width: 30px !important;
+    margin-left: 0.5rem !important;
+    margin-right: 0.5rem !important;
+  }
+}
 
 /* Sertifikat */
 .bg-sertifikat {
@@ -1217,8 +853,8 @@ hr.line-p {
 }
 
 .imgg {
-  width: 350px;
-  height: 300px;
+  width: 200px !important;
+  height: 200px !important;
 }
 
 
@@ -2711,7 +2347,19 @@ a.email {
   font-size: 25px;
 }
 
-@media screen and (max-width: 280px) {
+
+@media screen and (max-width: 450px) {
+  .utama .pertama .mtjs-40 p, .utama .kedua .mtjs-40 p {
+    margin-right: 0rem !important;
+    margin-left: 7rem !important;
+
+  }
+  .utama .pertama .mtjs-40 img, .utama .kedua .mtjs-40 img {
+    margin-left: 3rem !important;
+  }
+}
+
+@media screen and (max-width: 340px) {
 
   .utama {
     position: relative;
@@ -2719,17 +2367,14 @@ a.email {
   }
 
   .utama .line-1 img {
-    height: 280px;
+    height: 245px;
     width: 5px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px auto;
   }
 
   .utama .line-tengah {
-    margin-left: 2rem;
-    margin-right: 2rem;
-    width: 233px;
-    margin-top: 20px;
+    width: 250px;
+    margin: 20px auto;
 
   }
 
@@ -2875,11 +2520,58 @@ a.email {
   color: var(--bs-blue);
 }
 
+@media screen and (max-width: 600px) {
+  .ggmbr {
+    width: 200px;
+    height: 200px;
+    margin: 20px 35px auto;
+  }
+
+  .para {
+    font-size: 8px;
+    margin: 1rem;
+  }
+
+  .FGG {
+    font-size: 15px;
+    margin: 10px ;
+  }
+}
+  @media screen and (max-width: 400px) {
+    .ggmbr {
+      width: 150px;
+      height: 150px;
+      margin: 30px auto;
+    }
+  }
+
+  @media screen and (max-width: 300px) {
+      .ggmbr {
+        width: 100px;
+        height: 100px;
+        margin: 30px auto;
+      }
+
+      .para {
+        font-size: 6px;
+      }
+
+      @media screen and (max-width: 280px) {
+        .ggmbr {
+          width: 98px;
+          height: 98px;
+          margin: 30px auto;
+        }
+      }
+  }
+
+
 /* ------- */
 
 
 /* TJS-2 */
 
+<<<<<<< HEAD
 @media screen and (max-width: 350px) {
   .mama {
     flex-direction: column;
@@ -2983,6 +2675,8 @@ a.email {
   }
 }
 
+=======
+>>>>>>> cb413ac77c2f561efd72d2665602a1e9cbad29f2
 /* ------- */
 
 
@@ -3008,195 +2702,6 @@ a.email {
   }
 }
 
-/*Bahan Baku*/
-.bgbahanbaku-main {
-  background-image: url(../assets/bahanbaku.png);
-  background-size: cover;
-  min-height: 100vh;
-}
-
-.bahanbaku {
-  color: #fff;
-  margin-top: 25%;
-  margin-left: 10%;
-  font-size: 60px;
-}
-
-.judul-bahanbaku {
-  width: 304px;
-  height: 64px;
-  margin-left: 48px;
-  top: 850px;
-  background: #4D2424;
-}
-
-.judul-bahanbaku h2 {
-  position: relative;
-  width: 298px;
-  height: 56px;
-  margin-left: 15px;
-  top: 20px;
-  background: #04844B;
-  font-family: "Rasa";
-  font-size: 40px;
-  color: #fff;
-  padding: 3%;
-  box-sizing: border-box;
-}
-
-.content-bahanbaku img {
-  width: 500px;
-  height: 235px;
-  left: 41px;
-  margin-top: 1%;
-  margin-left: 3%;
-  margin-bottom: 2%
-}
-
-.content-bahanbaku h3 {
-  margin-top: 2%;
-  margin-left: 4%;
-}
-
-.content-bahanbaku p {
-  width: 50%;
-  padding: 1%;
-  margin-left: 3%;
-  box-sizing: border-box;
-}
-
-.pengenalan-bahanbaku {
-  width: 40%;
-  position: relative;
-  left: 60%;
-  top: -420px;
-
-}
-
-.pengenalan-bahanbaku p {
-  width: 90%;
-}
-
-.bagian-bahanbaku h1 {
-  background-color: #066239;
-  color: #fff;
-  padding: 1%;
-  width: 27%;
-  position: relative;
-  left: 3%;
-}
-
-.bagian-bahanbaku h1 {
-  top: -450px;
-  font-size: 150%;
-}
-
-.bagian-bahanbaku ol {
-  margin-top: -37%;
-  margin-left: 2%;
-}
-
-.bagian-bahanbaku h2 {
-  background-color: #066239;
-  color: #fff;
-  padding: 1%;
-  width: 20%;
-  position: relative;
-  left: 3%;
-  font-size: 25px;
-  font-family: rasa;
-  margin-top: -22%;
-}
-
-.paragraf-2 p {
-  margin-left: 3%;
-}
-
-.bagian-bahanbaku h3 {
-  background-color: #066239;
-  color: #fff;
-  padding: 1%;
-  width: 25%;
-  position: relative;
-  left: 3%;
-  font-size: 25px;
-  font-family: rasa;
-}
-
-.paragraf-3 p {
-  margin-left: 3%;
-}
-
-.bagian-bahanbaku h4 {
-  margin-left: -57%;
-  font-size: 15px;
-  font-family: rasa;
-  font-weight: bold;
-  text-decoration: underline;
-}
-
-.paragraf-4 p {
-  margin-left: 3%;
-}
-
-.gambar-bahanbaku {
-  background-color: #066239;
-  width: 40%;
-  height: 500px;
-  margin-top: -40%;
-  margin-left: 55%;
-  margin-bottom: 2%;
-}
-
-.gambar-bahanbaku img {
-  width: 45%;
-  height: 40%;
-  margin-top: 7%;
-  margin-left: 3%;
-
-}
-
-.bagian-bahanbaku h5 {
-  background-color: #066239;
-  color: #fff;
-  padding: 1%;
-  width: 20%;
-  position: relative;
-  left: 3%;
-  font-size: 25px;
-  font-family: rasa;
-  margin-top: -5%;
-}
-
-.paragraf-5 p {
-  line-height: 75%;
-  margin-left: 3%;
-}
-
-.bagian-bahanbaku h6 {
-  background-color: #066239;
-  color: #fff;
-  padding: 1%;
-  width: 20%;
-  position: relative;
-  left: 3%;
-  font-size: 25px;
-  font-family: rasa;
-}
-
-.paragraf-6 p {
-  margin-left: 3%;
-}
-
-.paragraf-7 p {
-  margin-left: 3%;
-}
-
-.tabel-bahanbaku img {
-  width: 80%;
-  margin-left: 8%;
-  margin-bottom: 2%;
-}
 
 /*------------------*/
 
@@ -3426,6 +2931,40 @@ a.email {
   margin-bottom: 5%;
 }
 
+/*BB*/
+.bgbahanbaku-main {
+  background-image: url(../assets/bahanbaku.png);
+  background-size: cover;
+  min-height: 100vh;
+}
+.bg-judulbb1{
+  background-color:#4D2424;
+  height: 5rem
+}
+
+.bg-judulbb2{
+  background-color:#04844B ;
+}
+
+.bg-hijau{
+  background-color: #066239;
+}
+
+@media screen and (max-width:1250.5px){
+h3.sbb {
+width: 50% !important;
+}
+}
+@media screen and (max-width:1150.5px){
+  h3.sbb {
+  width: 80% !important;
+  }
+}
+@media screen and (max-width:992.5px) {
+  h5.bb{
+    width: 50% !important;
+  }
+}
 
 
 /*-----------------------------------------------*/
@@ -15286,4 +14825,8 @@ fieldset:disabled .btn {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
+}
+
+.bg-transparent {
+  background-color: transparent !important;
 }
