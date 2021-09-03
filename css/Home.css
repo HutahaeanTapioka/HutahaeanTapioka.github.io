@@ -1,5 +1,5 @@
 .u-section-1 {
-  min-height: 1111px;
+  min-height: 1742px;
 }
 
 .u-section-1 .u-image-1 {
@@ -9,14 +9,13 @@
 
 .u-section-1 .u-list-1 {
   width: 1040px;
-  margin: -184px auto 0;
+  margin: -184px auto 60px;
 }
 
 .u-section-1 .u-repeater-1 {
   grid-template-columns: calc(50% - 14px) calc(50% - 14px);
   grid-gap: 28px 28px;
   min-height: 1193px;
-  grid-auto-columns: calc(50% - 14px);
 }
 
 .u-section-1 .u-list-item-1 {
@@ -30,7 +29,7 @@
 .u-section-1 .u-image-2 {
   width: 240px;
   height: 240px;
-  background-image: url("../images/2.jpg");
+  background-image: url("images/2.jpg");
   background-position: 50% 50%;
   margin: 0 auto;
 }
@@ -38,7 +37,7 @@
 .u-section-1 .u-image-21 {
   width: 240px;
   height: 240px;
-  background-image: url("../images/FotoProfil1.jpg");
+  background-image: url("../assets/FotoProfil1.jpg");
   background-position: 50% 50%;
   margin: 0 auto;
 }
@@ -46,7 +45,23 @@
 .u-section-1 .u-image-22 {
   width: 240px;
   height: 240px;
-  background-image: url("../images/FotoProfil2.jpg");
+  background-image: url("../assets/FotoProfil2.jpg");
+  background-position: 50% 50%;
+  margin: 0 auto;
+}
+
+.u-section-1 .u-image-23 {
+  width: 240px;
+  height: 240px;
+  background-image: url("../assets/FotoProfil3.jpg");
+  background-position: 50% 50%;
+  margin: 0 auto;
+}
+
+.u-section-1 .u-image-24 {
+  width: 240px;
+  height: 240px;
+  background-image: url("../assets/FotoProfil4.jpg");
   background-position: 50% 50%;
   margin: 0 auto;
 }
@@ -166,7 +181,7 @@
 .u-section-1 .u-image-4 {
   width: 240px;
   height: 240px;
-  background-image: url("../images/3.jpg");
+  background-image: url("images/3.jpg");
   background-position: 50% 50%;
   margin: 0 auto;
 }
@@ -275,20 +290,7 @@
   height: 100%;
 }
 
-.u-section-1 .u-text-13 {
-  margin: 37px auto 60px;
-}
-
-.u-section-1 .u-btn-1 {
-  border-style: none none solid;
-  padding: 0;
-}
-
 @media (max-width: 1199px) {
-  .u-section-1 {
-    min-height: 1014px;
-  }
-
   .u-section-1 .u-image-1 {
     margin-right: initial;
     margin-left: initial;
@@ -296,11 +298,11 @@
 
   .u-section-1 .u-list-1 {
     width: 900px;
+    margin-bottom: 0;
   }
 
   .u-section-1 .u-repeater-1 {
     grid-template-columns: calc(50% - 5px) calc(50% - 5px);
-    min-height: 2169px;
   }
 
   .u-section-1 .u-text-1 {
@@ -370,10 +372,6 @@
     width: 720px;
   }
 
-  .u-section-1 .u-repeater-1 {
-    grid-auto-columns: calc(100% - 0px);
-  }
-
   .u-section-1 .u-text-3 {
     margin-left: 0;
     margin-right: 0;
@@ -402,7 +400,6 @@
 
   .u-section-1 .u-repeater-1 {
     grid-template-columns: 100%;
-    grid-auto-columns: 100%;
   }
 }
 
