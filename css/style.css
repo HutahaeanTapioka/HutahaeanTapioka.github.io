@@ -1820,678 +1820,34 @@ img.ggmbr-1 {
   background-position: center center;
 }
 
-.utama {
-  background-color: whitesmoke;
-  padding-bottom: 10%;
-}
-
-.line-1 img {
-  position: absolute;
-  height: 930px;
-  width: 8px;
-  background: #000;
-  margin: 0 auto;
-}
-
-.utama .line-tengah {
+.xx {
+  padding: 3%;
+  text-indent: 12%;
+  background-color: #D5F8F6;
   width: 90%;
-  top: 1340px;
-  margin-left: 3rem;
-  margin-right: 3rem;
-  display: block;
-  color: #000;
-  height: 5px;
-  z-index: -1;
 }
 
-.kotak--1 a,
-.kotak--2 a,
-.kotak--3 a,
-.kotak--4 a,
-a.email {
-  color: #000;
+
+a.zz:hover {
+  color: rgb(105, 108, 155) !important;
 }
 
-.kotak--1 a:hover,
-.kotak--2 a:hover,
-.kotak--3 a:hover,
-.kotak--4 a:hover {
-  color: #289664;
-}
-
-@media screen and (max-width: 992px) {
-
-  .utama .line-1 img {
-    height: 580px;
-  }
-
-  .utama .line-tengah {
-    top: 1340px;
-    margin-left: 2rem;
-    margin-right: 2rem;
-  }
-
-  /* bagian-atas */
-  .utama .pertama .kotak--1 {
-    margin: 3%;
-    padding-bottom: 3%;
-  }
-
-  .utama .pertama .kotak--1 h2 {
-    font-size: 20px;
-  }
-
-  .utama .pertama .kotak--1 img {
-    width: 60px;
-    height: 60px;
-    margin-left: 10%;
-    margin-top: -60%;
-  }
-
-  .utama .pertama .kotak--1 p {
-    margin-left: 35%;
-    margin-top: -35%;
-    font-size: 15px;
-  }
-
-  .utama .pertama .kotak--2 {
-    margin: 3%;
-    padding-bottom: 3%;
-  }
-
-  .utama .pertama .kotak--2 h2 {
-    margin-bottom: 180px;
-    font-size: 20px;
-  }
-
-  .utama .pertama .kotak--2 img {
-    width: 60px;
-    height: 60px;
-    margin-left: 10%;
-    margin-top: -60%;
-  }
-
-  .utama .pertama .kotak--2 p {
-    margin-left: 35%;
-    margin-top: -35%;
-    font-size: 15px;
-  }
-
-
-  /* bagian-bawah */
-
-  .utama .kedua .kotak--3 {
-    margin: 3%;
-    padding-bottom: 3%;
-  }
-
-  .utama .kedua .kotak--3 h2 {
-    margin-bottom: 180px;
-    font-size: 20px;
-  }
-
-  .utama .kedua .kotak--3 .ic-3 {
-    width: 60px;
-    height: 60px;
-    margin-left: 10%;
-    margin-top: -60%;
-  }
-
-  .utama .kedua .kotak--3 .pd-1 {
-    margin-left: 35%;
-    margin-top: -35%;
-    font-size: 15px;
-  }
-
-  .utama .kedua .kotak--3 .ic-4 {
-    width: 60px;
-    height: 60px;
-    margin-left: 10%;
-    margin-top: 10%;
-  }
-
-  .utama .kedua .kotak--3 .km-1 {
-    margin-left: 35%;
-    margin-top: -15%;
-    font-size: 15px;
-  }
-
-  .utama .kedua .kotak--4 {
-    margin: 3%;
-    padding-bottom: 3%;
-  }
-
-  .utama .kedua .kotak--4 h2 {
-    margin-bottom: 180px;
-    font-size: 20px;
-  }
-
-  .utama .kedua .kotak--4 .ic-5 {
-    width: 60px;
-    height: 60px;
-    margin-left: 10%;
-    margin-top: -60%;
-  }
-
-  .utama .kedua .kotak--4 .pl-1 {
-    margin-left: 35%;
-    margin-top: -35%;
-    font-size: 15px;
-  }
-
-  .utama .kedua .kotak--4 .ic-6 {
-    width: 60px;
-    height: 60px;
-    margin-left: 10%;
-    margin-top: 10%;
-  }
-
-  .utama .kedua .kotak--4 .ps-1 {
-    margin-left: 35%;
-    margin-top: -15%;
-    font-size: 15px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-
-  .utama .line-1 img {
-    height: 540px;
-  }
-
-  .utama .line-tengah {
-    top: 1340px;
-    margin-left: 2rem;
-    margin-right: 2rem;
-  }
-
-  .utama .pertama .kotak--1 {
-    margin: 3%;
-  }
-
-  .utama .pertama .kotak--1 h2 {
-    font-size: 15px;
-  }
-
-  .utama .pertama .kotak--1 img {
-    margin-left: 10%;
-    margin-top: -80%;
-  }
-
-  .utama .pertama .kotak--1 p {
-    margin-left: 40%;
-    margin-top: -45%;
+@media screen and (max-width: 300px) {
+  .xx {
     font-size: 10px;
+    width: 80%;
+    text-indent: 10%;
+    padding: 1%;
   }
 
-  .utama .pertama .kotak--2 {
-    margin: 3%;
+  img.yy {
+    margin-left: 2% !important;
   }
 
-  .utama .pertama .kotak--2 h2 {
-    font-size: 15px;
-  }
-
-  .utama .pertama .kotak--2 img {
-    margin-left: 10%;
-    margin-top: -80%;
-  }
-
-  .utama .pertama .kotak--2 p {
-    margin-left: 38%;
-    margin-top: -45%;
-    font-size: 10px;
-  }
-
-  /* bagian-bawah */
-
-  .utama .kedua .kotak--3 {
-    margin: 3%;
-  }
-
-  .utama .kedua .kotak--3 h2 {
-    font-size: 15px;
-  }
-
-  .utama .kedua .kotak--3 .ic-3 {
-    margin-left: 10%;
-    margin-top: -85%;
-  }
-
-  .utama .kedua .kotak--3 .pd-1 {
-    margin-left: 45%;
-    margin-top: -40%;
-    font-size: 10px;
-  }
-
-  .utama .kedua .kotak--3 .ic-4 {
-    margin-left: 10%;
-    margin-top: 10%;
-  }
-
-  .utama .kedua .kotak--3 .km-1 {
-    margin-left: 45%;
-    margin-top: -10%;
-    font-size: 10px;
-  }
-
-  .utama .kedua .kotak--4 {
-    margin: 5%;
-  }
-
-  .utama .kedua .kotak--4 h2 {
-    font-size: 15px;
-    margin-top: -10px;
-  }
-
-  .utama .kedua .kotak--4 .ic-5 {
-    margin-left: 10%;
-    margin-top: -85%;
-  }
-
-  .utama .kedua .kotak--4 .pl-1 {
-    margin-left: 40%;
-    margin-top: -45%;
-    font-size: 10px;
-  }
-
-  .utama .kedua .kotak--4 .ic-6 {
-    margin-left: 10%;
-    margin-top: 10%;
-  }
-
-  .utama .kedua .kotak--4 .ps-1 {
-    margin-left: 39%;
-    margin-top: -10%;
-    font-size: 10px;
+  .pp {
+    font-size: xx-small !important;
   }
 }
-
-@media screen and (max-width: 576px) {
-
-
-  .utama {
-    padding-bottom: 5%;
-  }
-
-  .utama .line-1 img {
-    height: 340px;
-    width: 8px;
-    margin-top: 0;
-  }
-
-  .utama .line-tengah {
-    margin-left: 2rem;
-    margin-right: 2rem;
-    width: 450px;
-    margin-top: 20px;
-
-  }
-
-  /* bagian-atas */
-  .utama .pertama .kotak--1 {
-    margin: 1%;
-    padding-bottom: 1%;
-  }
-
-  .utama .pertama .kotak--1 h2 {
-    font-size: 14px;
-    margin-left: 25%;
-    margin-top: 5%;
-  }
-
-  .utama .pertama .kotak--1 img {
-    margin-left: 40%;
-    margin-top: -120%;
-    height: 30px;
-    width: 30px;
-  }
-
-  .utama .pertama .kotak--1 p {
-    margin-left: 55%;
-    margin-top: -65%;
-    font-size: 11px;
-  }
-
-  .utama .pertama .kotak--2 {
-    margin: 1%;
-    padding-bottom: 1%;
-  }
-
-  .utama .pertama .kotak--2 h2 {
-    font-size: 14px;
-    margin-left: 25%;
-    margin-top: 5%;
-  }
-
-  .utama .pertama .kotak--2 img {
-    margin-left: 40%;
-    margin-top: -120%;
-    height: 30px;
-    width: 30px;
-  }
-
-  .utama .pertama .kotak--2 p {
-    margin-left: 55%;
-    margin-top: -65%;
-    font-size: 11px;
-  }
-
-  /* bagian-bawah */
-
-  .utama .kedua .kotak--3 {
-    margin: 1%;
-  }
-
-  .utama .kedua .kotak--3 h2 {
-    font-size: 14px;
-    margin-left: 25%;
-    margin-top: 5%;
-  }
-
-  .utama .kedua .kotak--3 .ic-3 {
-    margin-left: 40%;
-    margin-top: -130%;
-    height: 30px;
-    width: 30px;
-  }
-
-  .utama .kedua .kotak--3 .pd-1 {
-    margin-left: 55%;
-    margin-top: -70%;
-    font-size: 11px;
-  }
-
-  .utama .kedua .kotak--3 .ic-4 {
-    margin-left: 40%;
-    margin-top: -5%;
-    height: 30px;
-    width: 30px;
-  }
-
-  .utama .kedua .kotak--3 .km-1 {
-    margin-left: 55%;
-    margin-top: -10%;
-    font-size: 11px;
-  }
-
-  .utama .kedua .kotak--4 {
-    margin: 5%;
-  }
-
-  .utama .kedua .kotak--4 h2 {
-    font-size: 14px;
-    margin-left: 25%;
-    margin-top: -3%;
-  }
-
-  .utama .kedua .kotak--4 .ic-5 {
-    margin-left: 40%;
-    margin-top: -140%;
-    height: 30px;
-    width: 30px;
-  }
-
-  .utama .kedua .kotak--4 .pl-1 {
-    margin-left: 55%;
-    margin-top: -80%;
-    font-size: 11px;
-  }
-
-  .utama .kedua .kotak--4 .ic-6 {
-    margin-left: 40%;
-    margin-top: -5%;
-    height: 30px;
-    width: 30px;
-  }
-
-  .utama .kedua .kotak--4 .ps-1 {
-    margin-left: 55%;
-    margin-top: -10%;
-    font-size: 11px;
-  }
-}
-
-
-
-/* bagian-atas */
-.pertama .kotak--1 {
-  margin: 5%;
-  padding-bottom: 5%;
-}
-
-.pertama .kotak--1 h2 {
-  margin-bottom: 180px;
-}
-
-.pertama .kotak--1 img {
-  margin-left: 10%;
-  margin-top: -20%;
-}
-
-.pertama .kotak--1 p {
-  margin-left: 45%;
-  margin-top: -10%;
-  font-size: 25px;
-}
-
-.pertama .kotak--2 {
-  margin: 5%;
-  padding-bottom: 5%;
-}
-
-.pertama .kotak--2 h2 {
-  margin-bottom: 180px;
-}
-
-.pertama .kotak--2 img {
-  margin-left: 10%;
-  margin-top: -20%;
-}
-
-.pertama .kotak--2 p {
-  margin-left: 40%;
-  margin-top: -10%;
-  font-size: 25px;
-}
-
-/* bagian-bawah */
-
-.kedua .kotak--3 {
-  margin: 5%;
-}
-
-.kedua .kotak--3 .ic-3 {
-  margin-left: 10%;
-  margin-top: 15%;
-}
-
-.kedua .kotak--3 .pd-1 {
-  margin-left: 35%;
-  margin-top: -10%;
-  font-size: 25px;
-}
-
-.kedua .kotak--3 .ic-4 {
-  margin-left: 10%;
-  margin-top: 10%;
-}
-
-.kedua .kotak--3 .km-1 {
-  margin-left: 35%;
-  margin-top: -10%;
-  font-size: 25px;
-}
-
-.kedua .kotak--4 {
-  margin: 5%;
-}
-
-.kedua .kotak--4 .ic-5 {
-  margin-left: 10%;
-  margin-top: 17%;
-}
-
-.kedua .kotak--4 .pl-1 {
-  margin-left: 28%;
-  margin-top: -10%;
-  font-size: 25px;
-}
-
-.kedua .kotak--4 .ic-6 {
-  margin-left: 10%;
-  margin-top: 10%;
-}
-
-.kedua .kotak--4 .ps-1 {
-  margin-left: 29%;
-  margin-top: -10%;
-  font-size: 25px;
-}
-
-
-@media screen and (max-width: 450px) {
-
-  .utama .pertama .mtjs-40 p,
-  .utama .kedua .mtjs-40 p {
-    margin-right: 0rem !important;
-    margin-left: 7rem !important;
-
-  }
-
-  .utama .pertama .mtjs-40 img,
-  .utama .kedua .mtjs-40 img {
-    margin-left: 3rem !important;
-  }
-}
-
-@media screen and (max-width: 340px) {
-
-  .utama {
-    position: relative;
-    padding: 50x;
-  }
-
-  .utama .line-1 img {
-    height: 245px;
-    width: 5px;
-    margin: 10px auto;
-  }
-
-  .utama .line-tengah {
-    width: 250px;
-    margin: 20px auto;
-
-  }
-
-  /* Bagian atas */
-
-
-  .utama .pertama .kotak--1 h2 {
-    font-size: 12px;
-    margin-left: 10%;
-    margin-top: 5%;
-  }
-
-  .utama .pertama .kotak--1 img {
-    margin-left: 15%;
-    margin-top: -200%;
-    height: 25px;
-    width: 25px;
-  }
-
-  .utama .pertama .kotak--1 p {
-    margin-left: 40%;
-    margin-top: -110%;
-    font-size: 8px;
-  }
-
-  .utama .pertama .kotak--2 h2 {
-    font-size: 12px;
-    margin-left: 10%;
-    margin-top: 5%;
-  }
-
-  .utama .pertama .kotak--2 img {
-    margin-left: 15%;
-    margin-top: -200%;
-    height: 25px;
-    width: 25px;
-  }
-
-  .utama .pertama .kotak--2 p {
-    margin-left: 40%;
-    margin-top: -110%;
-    font-size: 8px;
-  }
-
-  /* bagian-bawah */
-
-  .utama .kedua .kotak--3 h2 {
-    font-size: 12px;
-    margin-left: 10%;
-    margin-top: 10%;
-  }
-
-  .utama .kedua .kotak--3 .ic-3 {
-    margin-left: 15%;
-    margin-top: -225%;
-    height: 25px;
-    width: 25px;
-  }
-
-  .utama .kedua .kotak--3 .pd-1 {
-    margin-left: 45%;
-    margin-top: -120%;
-    font-size: 8px;
-  }
-
-  .utama .kedua .kotak--3 .ic-4 {
-    margin-left: 15%;
-    margin-top: 10%;
-    height: 25px;
-    width: 25px;
-  }
-
-  .utama .kedua .kotak--3 .km-1 {
-    margin-left: 45%;
-    margin-top: -15%;
-    font-size: 8px;
-  }
-
-  .utama .kedua .kotak--4 h2 {
-    font-size: 12px;
-    margin-left: 10%;
-    margin-top: 2%;
-  }
-
-  .utama .kedua .kotak--4 .ic-5 {
-    margin-left: 15%;
-    margin-top: -230%;
-    height: 25px;
-    width: 25px;
-  }
-
-  .utama .kedua .kotak--4 .pl-1 {
-    margin-left: 45%;
-    margin-top: -130%;
-    font-size: 8px;
-  }
-
-  .utama .kedua .kotak--4 .ic-6 {
-    margin-left: 15%;
-    margin-top: 10%;
-    height: 25px;
-    width: 25px;
-  }
-
-  .utama .kedua .kotak--4 .ps-1 {
-    margin-left: 45%;
-    margin-top: -20%;
-    font-size: 8px;
-  }
-}
-
 
 /* TJS-2 */
 .bg-coklat {
@@ -2873,67 +2229,6 @@ a.email {
   min-height: 100vh;
 }
 
-/*Tjs1*/
-
-.bg-tjs1 {
-  background-image: url(../assets/TJS.png);
-  background-size: cover;
-  min-height: 100vh;
-  width: 100%;
-  background-position: center center;
-}
-
-.utama {
-  background-color: whitesmoke;
-  padding-bottom: 10%;
-}
-
-.judul-TJS1 {
-  width: 304px;
-  height: 64px;
-  margin-left: 48px;
-  top: 850px;
-  background: #25474B;
-}
-
-.judul-TJS1 h2 {
-  position: relative;
-  width: 298px;
-  height: 56px;
-  margin-left: 15px;
-  top: 20px;
-  background: #876D6D;
-  font-family: "Rasa";
-  font-size: 40px;
-  color: #fff;
-  padding: 3%;
-  box-sizing: border-box;
-}
-
-.Gambar-TJS1 img {
-  margin-top: 5%;
-  width: 400px;
-  height: 500px;
-  margin-left: 5%;
-}
-
-.bagian-TJS1 {
-  background-color: #C9A7CE;
-  width: 40%;
-  height: 505px;
-  margin-top: -45%;
-  margin-left: 55%;
-  margin-bottom: 2%;
-}
-
-.bagian-TJS1 h3 {
-  font-family: "Rasa";
-  font-size: 23px;
-  margin-left: 5%;
-  margin-top: 5%;
-  margin-right: 5%;
-  margin-bottom: 5%;
-}
 
 /*BB*/
 .bgbahanbaku-main {
@@ -2971,6 +2266,14 @@ a.email {
   h5.bb {
     width: 50% !important;
   }
+}
+
+/*Right place*/
+.bg-warna{
+  background-color: #C4C4C4;
+}
+.bg-ungu{
+  background-color: #C9A7CE;
 }
 
 
@@ -10205,6 +9508,10 @@ fieldset:disabled .btn {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
 
+.shadow1 {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.515) !important;
+}
+
 .shadow-sm {
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
 }
@@ -10400,6 +9707,14 @@ fieldset:disabled .btn {
 
 .border-5 {
   border-width: 5px !important;
+}
+
+.w-15 {
+  width: 15% !important;
+}
+
+.w-20 {
+  width: 20% !important;
 }
 
 .w-25 {
