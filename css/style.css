@@ -2700,67 +2700,6 @@ a.email {
   min-height: 100vh;
 }
 
-/*Tjs1*/
-
-.bg-tjs1 {
-  background-image: url(../assets/TJS.png);
-  background-size: cover;
-  min-height: 100vh;
-  width: 100%;
-  background-position: center center;
-}
-
-.utama {
-  background-color: whitesmoke;
-  padding-bottom: 10%;
-}
-
-.judul-TJS1 {
-  width: 304px;
-  height: 64px;
-  margin-left: 48px;
-  top: 850px;
-  background: #25474B;
-}
-
-.judul-TJS1 h2 {
-  position: relative;
-  width: 298px;
-  height: 56px;
-  margin-left: 15px;
-  top: 20px;
-  background: #876D6D;
-  font-family: "Rasa";
-  font-size: 40px;
-  color: #fff;
-  padding: 3%;
-  box-sizing: border-box;
-}
-
-.Gambar-TJS1 img {
-  margin-top: 5%;
-  width: 400px;
-  height: 500px;
-  margin-left: 5%;
-}
-
-.bagian-TJS1 {
-  background-color: #C9A7CE;
-  width: 40%;
-  height: 505px;
-  margin-top: -45%;
-  margin-left: 55%;
-  margin-bottom: 2%;
-}
-
-.bagian-TJS1 h3 {
-  font-family: "Rasa";
-  font-size: 23px;
-  margin-left: 5%;
-  margin-top: 5%;
-  margin-right: 5%;
-  margin-bottom: 5%;
-}
 
 /*BB*/
 .bgbahanbaku-main {
@@ -2795,6 +2734,14 @@ width: 50% !important;
   h5.bb{
     width: 50% !important;
   }
+}
+
+/*Right place*/
+.bg-warna{
+  background-color: #C4C4C4;
+}
+.bg-ungu{
+  background-color: #C9A7CE;
 }
 
 
