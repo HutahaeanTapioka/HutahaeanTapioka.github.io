@@ -826,12 +826,14 @@ hr.line-p {
 }
 
 @media screen and (max-width: 600px) {
-    img.icon-proses {
-      width: 50px !important;
-    }
-    .text-proses1 p,.text-proses1 .h2 {
-      font-size: xx-small !important;
-    }
+  img.icon-proses {
+    width: 50px !important;
+  }
+
+  .text-proses1 p,
+  .text-proses1 .h2 {
+    font-size: xx-small !important;
+  }
 
 }
 
@@ -2349,12 +2351,16 @@ a.email {
 
 
 @media screen and (max-width: 450px) {
-  .utama .pertama .mtjs-40 p, .utama .kedua .mtjs-40 p {
+
+  .utama .pertama .mtjs-40 p,
+  .utama .kedua .mtjs-40 p {
     margin-right: 0rem !important;
     margin-left: 7rem !important;
 
   }
-  .utama .pertama .mtjs-40 img, .utama .kedua .mtjs-40 img {
+
+  .utama .pertama .mtjs-40 img,
+  .utama .kedua .mtjs-40 img {
     margin-left: 3rem !important;
   }
 }
@@ -2534,36 +2540,37 @@ a.email {
 
   .FGG {
     font-size: 15px;
-    margin: 10px ;
+    margin: 10px;
   }
 }
-  @media screen and (max-width: 400px) {
+
+@media screen and (max-width: 400px) {
+  .ggmbr {
+    width: 150px;
+    height: 150px;
+    margin: 30px auto;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .ggmbr {
+    width: 100px;
+    height: 100px;
+    margin: 30px auto;
+  }
+
+  .para {
+    font-size: 6px;
+  }
+
+  @media screen and (max-width: 280px) {
     .ggmbr {
-      width: 150px;
-      height: 150px;
+      width: 98px;
+      height: 98px;
       margin: 30px auto;
     }
   }
-
-  @media screen and (max-width: 300px) {
-      .ggmbr {
-        width: 100px;
-        height: 100px;
-        margin: 30px auto;
-      }
-
-      .para {
-        font-size: 6px;
-      }
-
-      @media screen and (max-width: 280px) {
-        .ggmbr {
-          width: 98px;
-          height: 98px;
-          margin: 30px auto;
-        }
-      }
-  }
+}
 
 
 /* ------- */
@@ -2571,7 +2578,6 @@ a.email {
 
 /* TJS-2 */
 
-<<<<<<< HEAD
 @media screen and (max-width: 350px) {
   .mama {
     flex-direction: column;
@@ -2675,8 +2681,6 @@ a.email {
   }
 }
 
-=======
->>>>>>> cb413ac77c2f561efd72d2665602a1e9cbad29f2
 /* ------- */
 
 
@@ -2937,31 +2941,34 @@ a.email {
   background-size: cover;
   min-height: 100vh;
 }
-.bg-judulbb1{
-  background-color:#4D2424;
+
+.bg-judulbb1 {
+  background-color: #4D2424;
   height: 5rem
 }
 
-.bg-judulbb2{
-  background-color:#04844B ;
+.bg-judulbb2 {
+  background-color: #04844B;
 }
 
-.bg-hijau{
+.bg-hijau {
   background-color: #066239;
 }
 
-@media screen and (max-width:1250.5px){
-h3.sbb {
-width: 50% !important;
-}
-}
-@media screen and (max-width:1150.5px){
+@media screen and (max-width:1250.5px) {
   h3.sbb {
-  width: 80% !important;
+    width: 50% !important;
   }
 }
+
+@media screen and (max-width:1150.5px) {
+  h3.sbb {
+    width: 80% !important;
+  }
+}
+
 @media screen and (max-width:992.5px) {
-  h5.bb{
+  h5.bb {
     width: 50% !important;
   }
 }
