@@ -518,13 +518,6 @@ img {
   color: #fff;
 }
 
-/*------ Footer Produk -------*/
-.footer-1,
-#footer {
-  background-color: #066338;
-  height: 320px;
-  position: relative;
-}
 
 
 
@@ -999,8 +992,6 @@ img.ggmbr-1 {
   font-size: 60px;
 }
 
-
-
 .bg-produk {
   background-image: url(../assets/bg-produk.jpg);
   background-size: cover;
@@ -1008,461 +999,162 @@ img.ggmbr-1 {
 }
 
 .bulat {
-  border-radius: 250px;
-  background: #066239;
-  width: 300px;
-  height: 250px;
-  margin-left: -110px;
+  background-color: #066239;
 }
 
 .bulat2 {
-  border-radius: 150px;
-  background: #FFFFFF;
-  width: 150px;
-  height: 125px;
-  margin-left: -40px;
-  margin-top: -210px;
+  background-color: #FFFFFF;
 }
 
-.bulat2 h1 {
-  margin-top: 30px;
-  font-size: 30px;
-  padding-top: 30px;
-  text-align: center;
-}
-
-.kotak img {
-  position: absolute;
-  width: 800px;
-  height: 250px;
-  left: 270px;
-  top: 780px;
-}
-
-.text h1 {
-  margin-top: 350px;
-  margin-left: -500px;
-
-  font-family: "Rasa";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 30px;
-  line-height: 88px;
-
-  color: #000000;
-}
-
-.text p {
-  margin-top: 10px;
-  margin-left: 100px;
-
-  font-family: "Rasa";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 25px;
-  line-height: 37px;
-  text-align: justify;
-
-  color: #000000;
+.bgkode {
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .bg-second {
   background-image: url(../assets/bg-second.jpg);
-  position: absolute;
-  width: 1345px;
-  height: 496px;
-  left: 0px;
-  top: 1170px;
+  background-size: cover;
+  width: 100%;
 }
 
-.merah h1 {
+.merah {
   background-color: #F31A41;
-  position: absolute;
-  width: 360px;
-  height: 70px;
-  left: 212px;
-  top: 10%;
-  margin: auto;
-  text-align: center;
-
 }
 
-.merah p {
-  position: absolute;
-  width: 295px;
-  height: 142px;
-  left: 212px;
-  top: 125px;
-
-  font-family: "Rasa";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 25px;
-  line-height: 37px;
-}
-
-.kuning h1 {
+.kuning {
   background-color: #EBE31E;
-  position: absolute;
-  width: 360px;
-  height: 70px;
-  left: 550px;
-  top: 25%;
-  margin: auto;
-  text-align: center;
-
 }
 
-.kuning p {
-  position: absolute;
-  width: 295px;
-  height: 142px;
-  left: 550px;
-  top: 190px;
-
-  font-family: "Rasa";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 25px;
-  line-height: 37px;
-}
-
-.hijau-muda h1 {
+.hijau-muda {
   background-color: #4ADF9D;
-  position: absolute;
-  width: 360px;
-  height: 70px;
-  left: 880px;
-  top: 40%;
-  margin: auto;
-  text-align: center;
-}
-
-.hijau-muda p {
-  position: absolute;
-  width: 295px;
-  height: 142px;
-  left: 880px;
-  top: 265px;
-
-  font-family: "Rasa";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 25px;
-  line-height: 37px;
-}
-
-.komposisi {
-  color: #000000;
-  position: absolute;
-  width: 306px;
-  height: 88px;
-  left: 0px;
-  top: 1870px;
-
-  font-family: "Rasa";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 40px;
-  line-height: 80px;
 }
 
 .kotak-hijau {
   background-color: #066239;
-  position: absolute;
-  width: 194px;
-  height: 420px;
-  left: -6px;
-  top: 1920px;
+  height: 100%;
+  margin: auto 0;
 }
 
 .kotak-merah {
   background-color: #992727;
-  position: absolute;
-  width: 208px;
-  height: 340px;
-  left: 44px;
-  top: 50px;
+  height: 90%;
+  margin: auto 0;
+  margin-left: -50%;
 }
 
 .kotak-abu {
   background-color: #615F5F;
-  position: absolute;
-  width: 190px;
-  height: 286px;
-  left: 134px;
-  top: 35px;
-}
-
-.kotak-abu p {
-  position: absolute;
-  width: 900px;
-  height: 468px;
-  left: 220px;
-  top: -100px;
-
-  font-family: "Rasa";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 36px;
-  line-height: 44px;
-  text-align: justify;
-
-  color: #000000;
+  height: 80%;
+  margin: auto 0;
+  margin-left: -45%;
 }
 
 .kadaluarsa {
-  position: absolute;
-  width: 872px;
-  height: 194px;
-  left: 0px;
-  top: 2600px;
-
   background: #8CAECD;
 }
 
-.kadaluarsa p {
-  position: absolute;
-  width: 713px;
-  height: 132px;
-  left: 13px;
-  top: 50px;
-
-  font-family: "Rasa";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 36px;
-  line-height: 44px;
-  text-align: justify;
-
-  color: #000000;
-}
-
 .masa {
-  position: absolute;
-  width: 576px;
-  height: 164px;
-  left: 760px;
-  top: -20px;
-
   background: #7B6B6B;
-}
-
-.masa p {
-  position: absolute;
-  width: 497px;
-  height: 88px;
-  left: 50px;
-  top: 50px;
-  font-family: "Rasa";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 72px;
-  line-height: 88px;
-
-  color: #000000;
+  margin-top: -2%;
+  margin-left: -5%;
 }
 
 .dd {
-  position: absolute;
-  border-radius: 100px;
-  width: 212px;
-  height: 158px;
-  left: 53px;
-  top: 2890px;
-
   background: #066239;
 }
 
-.dd h1 {
-  position: absolute;
-  width: 44px;
-  height: 44px;
-  left: 90px;
-  top: 65px;
-
-  font-family: "Rasa";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 36px;
-  line-height: 44px;
-
-  text-align: justify;
-
-  color: #000000;
-}
-
-.dd p {
-  position: absolute;
+.dd-1 {
   background-color: #C4C4C4;
-  width: 1000px;
-  height: auto;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  top: 20px;
-  left: 250px;
-
-  font-family: "Rasa";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 30px;
-  line-height: 37px;
-
-  text-align: center;
-
-  color: #000000;
 }
 
 .mm {
-  position: absolute;
-  border-radius: 100px;
-  width: 212px;
-  height: 158px;
-  left: 53px;
-  top: 3100px;
-
   background: #066239;
 }
 
-.mm h1 {
-  position: absolute;
-  width: 44px;
-  height: 44px;
-  left: 90px;
-  top: 65px;
-
-  font-family: "Rasa";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 36px;
-  line-height: 44px;
-
-  text-align: justify;
-
-  color: #000000;
-}
-
-.mm p {
-  position: absolute;
+.mm-1 {
   background-color: #C4C4C4;
-  width: 1000px;
-  height: auto;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  top: 20px;
-  left: 250px;
-
-  font-family: "Rasa";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 30px;
-  line-height: 37px;
-
-  text-align: center;
-
-  color: #000000;
 }
 
 .yyy {
-  position: absolute;
-  border-radius: 100px;
-  width: 212px;
-  height: 158px;
-  left: 53px;
-  top: 3310px;
-
   background: #066239;
 }
 
-.yyy h1 {
-  position: absolute;
-  width: 44px;
-  height: 44px;
-  left: 90px;
-  top: 65px;
-
-  font-family: "Rasa";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 36px;
-  line-height: 44px;
-
-  text-align: justify;
-
-  color: #000000;
-}
-
-.yyy p {
-  position: absolute;
+.yyy-1 {
   background-color: #C4C4C4;
-  width: 1000px;
-  height: auto;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  top: 20px;
-  left: 250px;
-
-  font-family: "Rasa";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 30px;
-  line-height: 37px;
-
-  text-align: center;
-
-  color: #000000;
 }
 
-.bg-third {
-  background-image: url(../assets/bg-third.jpg);
-  position: absolute;
-  width: 1345px;
-  height: 422px;
-  left: 0px;
-  top: 3750px;
-}
 
-.bg-third h1 {
-  position: absolute;
-  width: 1294px;
-  height: 163px;
-  left: auto;
-  right: auto;
-  top: 150px;
+@media screen and (max-width: 991px) {
 
-  font-family: "Oranienbaum";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 72px;
-  line-height: 83px;
-  text-align: center;
+   h1.tc2 {
+    font-size: small !important;
+  }
+  }
 
-  color: #000000;
-}
+  @media screen and (max-width: 767px) {
 
-.bg-third p {
-  position: absolute;
-  width: auto;
-  height: auto;
-  left: 1100px;
-  right: 0px;
-  top: 370px;
+    h1.tc2 {
+     font-size: x-small !important;
+   }
+   }
+@media screen and (max-width: 460px) {
 
-  font-family: "Oranienbaum";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 36px;
-  line-height: 42px;
+    h1.tc2 {
+      font-size: xx-small !important;
+      padding-right: 0 !important;
+      padding-left: 0 !important;
+      padding-top: 2rem !important;
+      padding-bottom: 2rem !important;
+      text-align: left !important;
+      margin: 0 !important;
+    }
+    
+    .tc1 {
+      padding: 0.7rem !important;
+      text-align: left !important;
 
-  color: #000000;
-}
+    }
 
-.footer-1 {
-  background-color: #066338;
-  height: 400px;
-  margin-top: 215%;
-}
 
+   }
+
+   @media screen and (max-width: 345px) {
+
+    h1.tc2 {
+     font-size: 8px !important;
+     padding-right: 160% !important;
+    padding-left: 40% !important;
+    width: 300% !important;
+    margin-left: -100% !important;
+   }
+
+   .tc1 {
+    padding: 0 !important;
+    text-align: left !important;
+  }
+
+   }
+
+@media screen and (max-width: 320px) {
+    .bg-second.merah{
+      margin: 0 !important;
+    
+    }
+    .bg-second {
+      margin: 0 !important
+    }
+    .bg-second.kuning{
+      margin: 0 !important;
+    
+    }
+    .bg-second.hijau-muda{
+      margin: 0 !important;
+    
+    }
+   }
+  
+  
+   
+  
 /*-------------------*/
 /*Pengolahan Limbah*/
 .pengolahanlimbah {
@@ -1479,259 +1171,30 @@ img.ggmbr-1 {
 }
 
 .padat {
-  width: 422px;
-  height: 101px;
-  top: 1900px;
-  bottom: 2000px;
-  margin-left: 10%;
-
   background: linear-gradient(180deg, rgba(97, 95, 95, 0) 0%, #615F5F 82.47%);
 }
 
-.padat h2 {
-  text-align: center;
-  padding-top: 25px;
-  font-family: "Work Sans";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 36px;
-  line-height: 42px;
-}
-
-.kotak {
-  background-image: url(../assets/kotakpadat.png);
-  width: 660px;
-  height: 258px;
-  margin-left: 51.5%;
-  margin-top: 5%;
-
-  background: #FFFFFF;
-  border: 1px solid #615F5F;
-  box-sizing: border-box;
-}
-
-.kotak p {
-  width: 580px;
-  height: 198px;
-  left: 303px;
-  top: 1500px;
-  padding-top: 50px;
-  padding-left: 50px;
-
-  font-family: "Rasa";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 36px;
-  line-height: 44px;
-  display: flex;
-  align-items: center;
-  text-align: justify;
-
-  color: #000000;
+.pdt {
+  width: fit-content;
+  margin-top: -3%;
+  margin-left: 4rem;
 }
 
 .cair {
-  width: 422px;
-  height: 101px;
-  margin-top: 25%;
-  margin-left: 10%;
-
   background: linear-gradient(180deg, rgba(97, 95, 95, 0) 0%, #615F5F 82.47%);
 }
 
-.cair h2 {
-  text-align: center;
-  padding-top: 25px;
-  font-family: "Work Sans";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 36px;
-  line-height: 42px;
+.cr {
+  width: fit-content;
+  margin-top: -3%;
+  margin-left: 4rem;
 }
 
-.kotak2 {
-  background-image: url(../assets/kotakpadat.png);
-  width: 660px;
-  height: 258px;
-  margin-left: 50%;
-  top: 1050px;
-
-  background: #FFFFFF;
-  border: 1px solid #615F5F;
-  box-sizing: border-box;
+.img {
+  position: relative;
 }
+/*----------------------*/
 
-.kotak2 p {
-  width: 580px;
-  height: 198px;
-  left: 303px;
-  top: 1500px;
-  padding-top: 50px;
-  padding-left: 50px;
-
-  font-family: "Rasa";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 25px;
-  line-height: 44px;
-  display: flex;
-  align-items: center;
-  text-align: justify;
-
-  color: #000000;
-}
-
-.text-limbah h1 {
-  font-family: "Work Sans";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 34px;
-  line-height: 40px;
-  margin-top: 25%;
-  margin-left: 35%;
-  /* identical to box height */
-
-  display: flex;
-  align-items: center;
-  text-align: justify;
-  letter-spacing: -0.02em;
-
-  color: #000000;
-}
-
-.garis-limbah img {
-  position: absolute;
-  width: 583px;
-  height: 0px;
-  left: 10px;
-  top: 2000px;
-
-  border: 1px solid #000000;
-  transform: rotate(90.1deg)
-}
-
-.limbah-1 img {
-  position: absolute;
-  left: 150px;
-  top: 1700px;
-
-}
-
-.text1 h4 {
-  font-family: "Unlock";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 28px;
-  line-height: 30px;
-  display: flex;
-  align-items: center;
-  letter-spacing: -0.02em;
-  margin-left: 30%;
-  margin-top: 10%;
-
-  color: #000000;
-}
-
-.text1 p {
-  font-family: "Rasa";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 34px;
-  display: flex;
-  align-items: center;
-  letter-spacing: -0.02em;
-  margin-left: 33%;
-  margin-top: 2%;
-  margin-right: 20%;
-
-  color: #000000;
-
-}
-
-.limbah-2 img {
-  position: absolute;
-  left: 150px;
-  top: 1950px;
-
-}
-
-.text2 h4 {
-  font-family: "Unlock";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 28px;
-  line-height: 30px;
-  display: flex;
-  align-items: center;
-  letter-spacing: -0.02em;
-  margin-left: 30%;
-  margin-top: 10%;
-
-  color: #000000;
-}
-
-.text2 p {
-  font-family: "Rasa";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 34px;
-  display: flex;
-  align-items: center;
-  letter-spacing: -0.02em;
-  margin-left: 33%;
-  margin-top: 2%;
-  margin-right: 20%;
-  color: #000000;
-}
-
-.limbah-3 img {
-  position: absolute;
-  left: 150px;
-  top: 2200px;
-
-}
-
-.text3 h4 {
-  font-family: "Unlock";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 28px;
-  line-height: 30px;
-  display: flex;
-  align-items: center;
-  letter-spacing: -0.02em;
-  margin-left: 30%;
-  margin-top: 15%;
-
-  color: #000000;
-}
-
-.text3 p {
-  font-family: "Rasa";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 34px;
-  display: flex;
-  align-items: center;
-  letter-spacing: -0.02em;
-  margin-left: 33%;
-  margin-top: 2%;
-  margin-right: 20%;
-
-  color: #000000;
-
-}
-
-.footer-2 {
-  background-color: #066338;
-  height: 400px;
-  margin-top: auto;
-}
-
-/*------------------*/
 /* Grup*/
 .bg-grup {
   background-image: url(../assets/hutahaean-group.png);
@@ -2711,6 +2174,52 @@ a.email {
 
 /*TJS 4*/
 
+
+.GG {
+  background: #C4C4C4;
+  width: fit-content;
+}
+
+.biru-muda {
+  background: #71899E;
+  padding: 9rem 3rem;
+
+  /*height: 30rem; */
+
+}
+
+.jambu {
+  background: #B69B9B;
+  padding: 9rem 3rem;
+  margin-left: -20%;
+
+  /*height: 30rem;
+  top: 5rem;
+  left: -30rem;
+  vertical-align: middle;
+  display: table-cell;
+  text-align: center;
+  width: 25rem;
+  right: 40%; */
+}
+
+.anju {
+  right: 40%;
+  left: 20%;
+}
+
+.sampah {
+  background: #C4C4C4;
+}
+
+@media screen and (max-width: 900.5 ){
+  .jambu{
+    width: 5rem !important;
+    padding: 1rem !important;
+  }
+  
+}
+/*
 .manfaat h1 {
   position: absolute;
   width: 692px;
@@ -2774,7 +2283,6 @@ a.email {
   font-weight: normal;
   font-size: 64px;
   line-height: 78px;
-  /* identical to box height */
 
   color: rgba(255, 255, 255, 0.96);
 
@@ -2799,7 +2307,6 @@ a.email {
   font-weight: normal;
   font-size: 64px;
   line-height: 78px;
-  /* identical to box height */
 
   text-align: justify;
 
@@ -2843,9 +2350,11 @@ a.email {
   font-weight: normal;
   font-size: 36px;
   line-height: 44px;
-  /* identical to box height */
+
 
 }
+*/
+/*------------------*/
 
 /* TJS-3 */
 .bg-coklat3 {
@@ -10272,6 +9781,10 @@ fieldset:disabled .btn {
 
 .start-0 {
   left: 0 !important;
+}
+
+.start-20 {
+  left: 20% !important;
 }
 
 .start-50 {
