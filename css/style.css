@@ -394,6 +394,7 @@ img {
   ;
   margin: 6px 0;
   transition: 0.4s;
+  box-shadow: 2px 2px 5px rgba(17, 17, 17, 0.884);
 }
 
 .change .bar1 {
@@ -1845,53 +1846,199 @@ a.zz:hover {
   }
 
   .pp {
-    font-size: xx-small;
+    font-size: xx-small !important;
   }
 }
 
 /* TJS-2 */
-
-.wkwk {
-  text-indent: 10%;
+.bg-coklat {
+  background-color: #876D6D;
+  width: 14rem;
+  height: 4rem;
 }
 
-@media screen and (max-width: 990px) {
-  .wkwk {
-    font-size: 15px !important;
+.bg-hth2 {
+  background-color: #25474B;
+  width: 14rem;
+  height: 4rem;
+}
+
+.ti-1 {
+  text-indent: 1rem;
+  text-align: justify;
+}
+
+.bg-abu-abu1 {
+  background-color: #C4C4C4;
+  width: 350px;
+  height: 50px;
+}
+
+.ggmbr {
+  width: 350px;
+  height: 325px;
+}
+
+.bg-abu-1 {
+  color: var(--bs-blue);
+}
+
+@media screen and (max-width: 600px) {
+  .ggmbr {
+    width: 200px;
+    height: 200px;
+    margin: 20px 35px auto;
   }
 
-  .nnn {
+  .para {
+    font-size: 8px;
+    margin: 1rem;
+  }
+
+  .FGG {
     font-size: 15px;
+    margin: 10px;
   }
 }
 
-@media screen and (max-width: 655px) {
-  .wkwk {
-    font-size: 12px !important;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .wkwk {
-    font-size: 10px !important;
-  }
-
-  .gam {
-    width: 30% !important;
-    height: auto;
+@media screen and (max-width: 400px) {
+  .ggmbr {
+    width: 150px;
+    height: 150px;
+    margin: 30px auto;
   }
 }
 
 @media screen and (max-width: 300px) {
-  .wkwk {
-    font-size: 8px !important;
+  .ggmbr {
+    width: 100px;
+    height: 100px;
+    margin: 30px auto;
   }
 
-  .gam {
-    width: 20% !important;
-    height: auto;
+  .para {
+    font-size: 6px;
+  }
+
+  @media screen and (max-width: 280px) {
+    .ggmbr {
+      width: 98px;
+      height: 98px;
+      margin: 30px auto;
+    }
   }
 }
+
+
+/* ------- */
+
+
+/* TJS-2 */
+
+@media screen and (max-width: 350px) {
+  .mama {
+    flex-direction: column;
+    margin-right: 2px;
+  }
+
+  .res-1 {
+    font-size: xx-small;
+  }
+
+  .bg-hth2 {
+    width: 7rem;
+    height: 2rem;
+  }
+
+  .bg-coklat {
+    width: 7rem;
+    height: 2rem;
+  }
+
+  .ti-1 {
+    font-size: 7px;
+  }
+
+  .ggmbr {
+    width: 110px;
+    height: 85px;
+    margin-right: 15px;
+    margin-top: 25px;
+  }
+
+  .bg-abu-abu1 {
+    width: 50px;
+    height: 20px;
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+
+  .bg-hth2 {
+    width: 8rem;
+    height: 3rem;
+  }
+
+  .bg-coklat {
+    width: 10rem;
+    height: 3rem;
+  }
+
+  .res-1 {
+    font-size: 12px;
+  }
+
+  .ti-1 {
+    font-size: 9px;
+  }
+
+  .ggmbr {
+    width: 150px;
+    height: 135px;
+    margin-right: 15px;
+    margin-top: 25px;
+  }
+
+  .bg-abu-abu1 {
+    width: 100px;
+    height: 30px;
+    font-size: 10px;
+    padding: 8px;
+  }
+}
+
+
+@media screen and (max-width: 330px) {
+
+  .ti-1 {
+    font-size: 6px;
+  }
+
+  .ggmbr {
+    width: 120px;
+    height: 85px;
+    margin-right: 15px;
+    margin-top: 25px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+
+  .ti-1 {
+    font-size: 5px;
+  }
+
+  .bg-abu-abu1 {
+    width: 80px;
+    height: 30px;
+    font-size: 10px;
+    padding: 5px;
+    margin-left: 25px;
+  }
+}
+
+/* ------- */
 
 
 /*KONTAK*/
@@ -1918,14 +2065,6 @@ a.zz:hover {
 
 
 /*------------------*/
-
-.bg-abu-abu1 {
-  width: 80px;
-  height: 30px;
-  font-size: 10px;
-  padding: 5px;
-  margin-left: 25px;
-}
 
 /*TJS 4*/
 
@@ -2091,67 +2230,6 @@ a.zz:hover {
   min-height: 100vh;
 }
 
-/*Tjs1*/
-
-.bg-tjs1 {
-  background-image: url(../assets/TJS.png);
-  background-size: cover;
-  min-height: 100vh;
-  width: 100%;
-  background-position: center center;
-}
-
-.utama {
-  background-color: whitesmoke;
-  padding-bottom: 10%;
-}
-
-.judul-TJS1 {
-  width: 304px;
-  height: 64px;
-  margin-left: 48px;
-  top: 850px;
-  background: #25474B;
-}
-
-.judul-TJS1 h2 {
-  position: relative;
-  width: 298px;
-  height: 56px;
-  margin-left: 15px;
-  top: 20px;
-  background: #876D6D;
-  font-family: "Rasa";
-  font-size: 40px;
-  color: #fff;
-  padding: 3%;
-  box-sizing: border-box;
-}
-
-.Gambar-TJS1 img {
-  margin-top: 5%;
-  width: 400px;
-  height: 500px;
-  margin-left: 5%;
-}
-
-.bagian-TJS1 {
-  background-color: #C9A7CE;
-  width: 40%;
-  height: 505px;
-  margin-top: -45%;
-  margin-left: 55%;
-  margin-bottom: 2%;
-}
-
-.bagian-TJS1 h3 {
-  font-family: "Rasa";
-  font-size: 23px;
-  margin-left: 5%;
-  margin-top: 5%;
-  margin-right: 5%;
-  margin-bottom: 5%;
-}
 
 /*BB*/
 .bgbahanbaku-main {
@@ -2189,6 +2267,14 @@ a.zz:hover {
   h5.bb {
     width: 50% !important;
   }
+}
+
+/*Right place*/
+.bg-warna{
+  background-color: #C4C4C4;
+}
+.bg-ungu{
+  background-color: #C9A7CE;
 }
 
 
@@ -10138,11 +10224,6 @@ fieldset:disabled .btn {
 
 .ms-5 {
   margin-left: 3rem !important;
-}
-
-
-.ms-8 {
-  margin-left: 5rem !important;
 }
 
 .ms-auto {
