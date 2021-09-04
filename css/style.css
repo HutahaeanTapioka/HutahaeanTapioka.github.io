@@ -470,6 +470,7 @@ img {
   background-image: url(../assets/side-img-VisiMisi.png);
   background-size: cover;
   background-position: center center;
+  /* height: 40rem !important; */
 }
 
 /* --------- Section-Grup-Home -------- */
@@ -546,16 +547,6 @@ img {
     margin-top: -1rem;
   }
 
-  .text-visihome {
-    flex-direction: column;
-  }
-
-  .text-visihome dl {
-    width: 100% !important;
-    margin: 0;
-    padding: 0;
-  }
-
   .footer h1,
   .footer p {
     font-size: small !important;
@@ -629,7 +620,8 @@ img {
 .bgvisimisi-main {
   background-image: url(./../assets/bg-vismis.jpg);
   background-size: cover;
-  min-height: 100vh;
+  background-position: center center;
+
 }
 
 .visi {
