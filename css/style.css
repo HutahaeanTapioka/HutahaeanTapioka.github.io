@@ -448,44 +448,22 @@ img {
 
 .side-img {
   background-color: rgba(3, 99, 56, 0.69);
-  height: 20rem;
-  width: 29rem;
-  margin-left: 2%;
-  margin-top: 10%;
 }
 
-.side-img img {
-  position: relative;
-  height: 20rem;
-  width: 30rem;
-  left: 5%;
-  margin-top: -5%;
+.ms-m80 {
+  margin-left: -80%;
 }
 
 /* ------- Section-ProfilPemilik-Home ------- */
 
-.judul-profil h1 {
+.judul-profil1 {
   background-color: #752D2D;
-  position: relative;
-  color: #fff;
-  bottom: 0.5rem;
-  right: 1rem;
-  z-index: 1;
 }
 
-.judul-profil {
+.judul-profil2 {
   background-color: #992727;
-}
-
-.profil img {
-  width: 25%;
-  height: 90%;
-  float: right;
-  position: relative;
-  margin-top: -10%;
-  margin-right: 15%;
-  box-sizing: border-box;
-  z-index: 1;
+  margin-left: -45%;
+  z-index: -1;
 }
 
 .bg-visi-home {
@@ -526,35 +504,12 @@ img {
 
 @media screen and (max-width: 1200px) {
 
-  .text-profil-home,
-  .profil img {
-    margin-top: -10rem;
-    top: -7rem;
-  }
-
   .bg-visi-home {
     margin-top: -6rem;
   }
 }
 
 @media screen and (max-width: 995px) {
-
-  .side-img {
-    background-color: rgba(3, 99, 56, 0.69);
-    height: 10rem;
-    width: 20rem;
-    margin-left: 2%;
-    margin-top: 30%;
-  }
-
-  .side-img img {
-    position: relative;
-    height: 10rem;
-    width: 20rem;
-    left: 5%;
-    margin-top: 15%;
-  }
-
   .navbar ul li a {
     font-size: small !important;
     ;
@@ -562,29 +517,26 @@ img {
 }
 
 @media screen and (max-width: 780px) {
-
   .sejarah-home {
-    position: relative !important;
-    z-index: 1;
-    height: 100vmin;
-  }
-
-  .text-sejh {
-    position: static ! important;
+    flex-direction: column-reverse;
   }
 
   .sider-img {
-    position: absolute !important;
-    z-index: 1;
-    margin-top: 10rem;
-    right: -4rem;
-    left: 15%;
+    width: 100% !important;
+    margin: 0 auto;
   }
 
-  .text-profil-home,
-  .profil img {
-    margin-top: -4rem;
-    top: 2rem;
+  .sejarah-home .text-sjh  {
+    width: 100% !important;
+    margin: 0 auto;
+  }
+
+  .judul-profil {
+    width: 100% !important;
+  }
+
+  h1.judul-profil1 {
+    width: 70% !important;
   }
 
   .bg-visi-home {
@@ -615,15 +567,11 @@ img {
     font-size: small;
   }
 
-  .sider-img {
-    margin-top: 15rem;
-  }
-
-  .text-profil-home,
+  /* .text-profil-home,
   .profil img {
     margin-top: -6rem;
     top: -1rem;
-  }
+  } */
 
   .bg-visi-home {
     margin-top: -2rem;
@@ -634,16 +582,11 @@ img {
   * {
     font-size: x-small;
   }
-
-  .sider-img {
-    margin-top: 7rem;
-  }
-
-  .text-profil-home,
+  /* .text-profil-home,
   .profil img {
     margin-top: -14rem;
     top: -4rem;
-  }
+  } */
 
   .bg-visi-home {
     margin-top: -2rem;
@@ -656,15 +599,11 @@ img {
 }
 
 @media screen and (max-width: 429.5px) {
-  .sider-img {
-    margin-top: 13rem;
-  }
-
-  .text-profil-home,
+  /* .text-profil-home,
   .profil img {
     margin-top: -6rem;
     top: 1rem;
-  }
+  } */
 }
 
 
@@ -672,11 +611,6 @@ img {
   * {
     font-size: xx-small;
   }
-
-  .sider-img {
-    margin-top: 14rem;
-  }
-
   .text-profil-home,
   .profil img {
     margin-top: 0rem;
@@ -689,27 +623,19 @@ img {
 }
 
 @media screen and (max-width: 327.5px) {
-  .sider-img {
-    margin-top: 17rem;
-  }
-
-  .text-profil-home,
+  /* .text-profil-home,
   .profil img {
     margin-top: -1rem;
     top: 3rem;
-  }
+  } */
 }
 
 @media screen and (max-width: 302.5px) {
-  .sider-img {
-    margin-top: 20rem;
-  }
-
-  .text-profil-home,
+  /* .text-profil-home,
   .profil img {
     margin-top: 6rem;
     top: 3rem;
-  }
+  } */
 
   .bg-visi-home {
     margin-top: 4rem;
@@ -723,15 +649,12 @@ img {
 }
 
 @media screen and (max-width: 267.5px) {
-  .sider-img {
-    margin-top: 25rem;
-  }
 
-  .text-profil-home,
+  /* .text-profil-home,
   .profil img {
     margin-top: 14rem;
     top: 7em;
-  }
+  } */
 
   .bg-visi-home {
     margin-top: 6rem;
