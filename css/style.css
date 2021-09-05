@@ -454,6 +454,10 @@ img {
   margin-left: -80%;
 }
 
+.ms-m55 {
+  margin-left: -55%;
+}
+
 /* ------- Section-ProfilPemilik-Home ------- */
 
 .judul-profil1 {
@@ -1170,6 +1174,12 @@ a.zz:hover {
   color: rgb(105, 108, 155) !important;
 }
 
+@media screen and (max-width: 768px) {
+  .xx {
+    font-size: larger;
+  }
+}
+
 @media screen and (max-width: 300px) {
   .xx {
     font-size: 10px;
@@ -1186,12 +1196,28 @@ a.zz:hover {
     font-size: xx-small !important;
   }
 }
+/* TJS-1 */
+@media screen and (max-width: 992px) {
+  .content-tjs1 {
+    flex-direction: column;
+  }
+  .d-flex .content-tjs11 {
+    width: 90% !important;
+  }
+  .d-flex .mam {
+    padding: 5% !important;
+  }
+}
 
 /* TJS-2 */
 .bg-coklat {
   background-color: #876D6D;
   width: 14rem;
   height: 4rem;
+}
+
+.bg-coklat1 {
+  background-color: #876D6D;
 }
 
 .bg-hth2 {
@@ -1209,6 +1235,10 @@ a.zz:hover {
   background-color: #C4C4C4;
   width: 350px;
   height: 50px;
+}
+
+.bg-abu-abu {
+  background-color: #C4C4C4;
 }
 
 .ggmbr {
@@ -1273,11 +1303,6 @@ a.zz:hover {
 /* TJS-2 */
 
 @media screen and (max-width: 350px) {
-  .mama {
-    flex-direction: column;
-    margin-right: 2px;
-  }
-
   .res-1 {
     font-size: xx-small;
   }
@@ -1375,6 +1400,20 @@ a.zz:hover {
   }
 }
 
+@media screen and (max-width: 550px) {
+  .mama {
+    flex-direction: column;
+  }
+  .mama .mama1 {
+    width: 90% !important;
+  }
+  .mama .mama2 {
+    width: 90% !important;
+  }
+  .mama .mam {
+    padding: 5% !important;
+  }
+} 
 /* ------- */
 
 
@@ -9641,6 +9680,10 @@ fieldset:disabled .btn {
   padding: 3rem !important;
 }
 
+.py-7 {
+  padding-top: 7% !important;
+  padding-bottom: 7% !important;
+}
 .px-0 {
   padding-right: 0 !important;
   padding-left: 0 !important;
